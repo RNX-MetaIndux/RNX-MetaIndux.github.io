@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% if page.profile_content %}
 {% capture floatcontent %}
 
 {% include portrait.html lookup=page.slug %}
@@ -49,3 +50,4 @@ layout: default
   </a>
 </p>
 -->
+{% endif %}

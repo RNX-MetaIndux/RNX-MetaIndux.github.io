@@ -1,0 +1,88 @@
+- date: 2025-06-19
+  display_date: 2025-06-19
+  type: Featured Research
+  title: "北航李伯虎院士任磊教授团队 | 工业大模型IFMsys架构，打造智能制造新范式"
+  title_en: "Academician Bohu Li and Professor Lei Ren's Team | IFMsys Architecture for a New Paradigm of Intelligent Manufacturing"
+  summary: "面向智能制造全生命周期，团队构建 IFMsys 系统架构与 MetaIndux 工业大模型原型系统。"
+  link: "https://research.buaa.edu.cn/zh/publications/industrial-foundation-model/"
+  featured: true
+  image: "/images/industrial-foundation-model-process.png"
+  image_alt: "工业大模型从数据制备到工业场景交互应用的构建流程"
+
+- date: 2023-10-23
+  display_date: 2023-10-23
+  type: Team News
+  title: "工业大模型 AIGC 引擎亮相第35届中国仿真大会"
+  title_en: "Industrial Foundation Model AIGC Engine Debuts at the 35th China Simulation Conference"
+  summary: "北航团队展示覆盖研发设计、生产制造与运维服务等典型智能制造场景的工业 AIGC 能力。"
+  paragraphs:
+    - "任磊教授在第35届中国仿真大会作大会报告《工业互联网：迈向大模型智能时代》，介绍北航团队打造的工业大模型 AIGC 引擎原型。该原型在李伯虎院士、张霖教授指导下，融合模型工程、工业人工智能、工业互联网与数字孪生等研究成果。"
+    - "该引擎覆盖工业仿真系统代码生成、数字孪生场景生成、机器操控指令生成、生产工艺生成、工业时序数据生成和工业时序预测模型生成等六类能力，服务研发设计、生产制造和运维服务等典型智能制造场景。"
+  link: "https://news.buaa.edu.cn/info/1005/60203.htm"
+  image: "/images/news-aigc.png"
+  image_alt: "任磊教授在第35届中国仿真大会介绍工业大模型 AIGC 引擎"
+
+- date: 2024-05-07
+  display_date: 2024-05-07
+  type: Project News
+  title: "国家重点研发计划智能工厂 MOM 项目启动：任磊教授担任项目首席科学家"
+  title_en: "National Key R&D Program Smart Factory MOM Project Launched with Professor Lei Ren as Chief Scientist"
+  summary: "团队牵头国家重点研发计划项目，面向离散制造智能工厂构建基于工业大模型的中枢大脑。"
+  paragraphs:
+    - "国家重点研发计划工业软件重点专项“离散制造业智能工厂制造运营管理平台”项目启动暨实施方案论证会在北京航空航天大学召开。项目由北航牵头，联合清华大学、重庆大学、北京工业大学及多家行业单位共同承担。"
+    - "项目首席科学家任磊教授汇报项目目标、任务分解与实施计划。项目面向新一代离散制造智能工厂研制制造运营管理平台（MOM），构建基于工业大模型的智能工厂“中枢大脑”，并在航空航天、汽车等高端制造领域开展应用示范。"
+  link: "https://news.buaa.edu.cn/info/1002/62120.htm"
+  image: "/images/news-mom.png"
+  image_alt: "离散制造业智能工厂制造运营管理平台项目启动暨实施方案论证会现场"
+
+- date: 2026-03-09
+  display_date: 2026-03-09
+  type: Research Highlight
+  title: "工业智能体新体系：迈向自主规划与多智能体协同"
+  title_en: "A New Architecture for Industrial Agents: Toward Autonomous Planning and Multi-Agent Collaboration"
+  summary: "团队提出工业智能体体系架构，推动工业 AI 走向自主规划、工具调用、长期记忆与多智能体协同。"
+  paragraphs:
+    - "李伯虎院士、任磊教授团队系统提出工业智能体的定义、关键特征、体系架构与关键技术，面向工业动态环境、高可靠决策、复杂长程指令和多智能体协作等现实挑战，探索新一代 Agentic AI 在工业场景中的发展路径。"
+    - "工业智能体以工业大模型和工业世界模型为认知底座，具备感知理解、知识记忆、规划决策、通信交互、自主执行和演化学习等核心能力，可服务研发设计、生产制造、试验测试、经营管理与运维服务等产品全生命周期业务。"
+  link: "https://xingongye.cn/cms/Intelligent_manufacturing/1713.html"
+  image: "/images/news-industrial-agent.png"
+  image_alt: "工业智能体从大模型、工具增强到多智能体自主协作的演化图"
+
+- date: 2025-07-01
+  display_date: 2025-07-01
+  type: Research Highlight
+  title: "数字族谱：驱动工业具身智能世界模型"
+  title_en: "Digital Genealogy: Powering World Models for Industrial Embodied Intelligence"
+  summary: "团队提出数字族谱方法，为工业具身智能世界模型生成高质量训练场景与数据。"
+  paragraphs:
+    - "面向工业具身智能训练场景构建成本高、数据获取困难等问题，李伯虎院士、任磊教授团队提出“数字族谱”概念，并设计基于数字族谱 DNA（DG-DNA）的多代演化生成机制。"
+    - "该方法能够生成从多样化零部件到多类型产品的产品数字族谱，以及覆盖不同设备和环境配置的生产空间数字族谱，为工业具身智能世界模型提供高质量训练场景与数据，增强模型的对象泛化与空间适应能力。"
+  link: "https://research.buaa.edu.cn/en/publications/%E6%95%B0%E5%AD%97%E6%97%8F%E8%B0%B1-%E9%A9%B1%E5%8A%A8%E5%B7%A5%E4%B8%9A%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B/"
+  image: "/images/news-digital-genealogy.png"
+  image_alt: "论文图 1：从数字孪生、数字表亲到数字族谱的演化关系"
+
+- date: 2025-09-01
+  display_date: 2025-09
+  type: Research Highlight
+  title: "流程工业大模型 ProcessFM：面向复杂流程智能化的新框架"
+  title_en: "ProcessFM: A New Foundation Model Framework for Intelligent Process Industries"
+  summary: "团队将工业大模型研究拓展至流程工业，系统梳理基础模型的框架、核心应用与未来挑战。"
+  paragraphs:
+    - "李伯虎院士、任磊教授团队在 Engineering 发表研究成果，面向流程工业复杂物理化学机理、严格控制要求与研发周期长等特点，提出流程工业基础模型 ProcessFM 框架。"
+    - "ProcessFM 由资源层、基座层、适配层和应用层组成，融合工业数据、机理知识与云边计算资源，形成机理认知、知识问答、仿真生成、过程控制、优化决策和科学发现等核心能力。"
+  link: "https://doi.org/10.1016/j.eng.2025.03.023"
+  image: "/images/news-processfm.png"
+  image_alt: "ProcessFM 流程工业基础模型的资源、基座、适配与应用框架"
+
+- date: 2025-02-17
+  display_date: 2025-02-17
+  type: Research Highlight
+  title: "工业大模型：体系架构、关键技术与典型应用"
+  title_en: "Industrial Foundation Models: Architecture, Key Technologies, and Representative Applications"
+  summary: "团队系统阐释工业大模型体系架构与典型应用，推动人工智能赋能新型工业化。"
+  paragraphs:
+    - "李伯虎院士、任磊教授等系统阐释工业大模型的定义、体系架构、构建方法与关键技术，指出工业大模型并不是通用大模型在工业领域的简单迁移，而是面向工业专业数据、机理知识和高可信任务形成的新型模型体系。"
+    - "该体系包含基础设施层、基座层、模型层、交互层和应用层，具备智能问答、场景认知、过程决策、终端控制、内容生成和科学发现等能力，为产品研发设计、生产制造、试验测试、经营管理和运维服务提供新的智能化路径。"
+  link: "https://finance.sina.com.cn/roll/2025-02-17/doc-inekuruf4817518.shtml"
+  image: "/images/news-industrial-model-architecture.png"
+  image_alt: "工业大模型五层体系架构图"

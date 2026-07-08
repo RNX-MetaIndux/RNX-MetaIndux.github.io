@@ -2,76 +2,41 @@
 title: Contact
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Email, address, and admissions
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+<div class="contact-page">
+  <header class="contact-heading">
+    <h1>Contact</h1>
+    <p>欢迎就科研合作、学术交流与人才培养联系我们。</p>
+  </header>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  <div class="contact-grid">
+    <section>
+      <h2>Email</h2>
+      <p><a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a></p>
+    </section>
 
-{%
-  include button.html
-  type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
+    <section>
+      <h2>Address</h2>
+      <p>{{ site.data.contact.address }}</p>
+    </section>
+  </div>
 
-{% include section.html %}
+  <section class="contact-laboratories">
+    <h2>实验室平台</h2>
+    <ul>
+      {% for laboratory in site.data.contact.laboratories %}
+      <li>{{ laboratory }}</li>
+      {% endfor %}
+    </ul>
+  </section>
 
-{% capture col1 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+  <section class="contact-admissions">
+    <span>JOIN US</span>
+    <h2>实验室招生</h2>
+    <p class="contact-admissions-lead">每年招收硕士生、直博生</p>
+    <p>{{ site.data.contact.admissions.summary }}</p>
+    <p>招生咨询：<a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a></p>
+  </section>
+</div>

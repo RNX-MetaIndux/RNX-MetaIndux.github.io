@@ -1,0 +1,53 @@
+research_staff:
+  - name: 任磊
+    slug: lei-ren
+  - name: 赖李媛君
+    slug: lai-liyuanjun
+  - name: 秦伟林
+    slug: weilin-qin
+  - name: 董家宝
+    slug: jiabao-dong
+  - name: 王海腾
+    slug: haiteng-wang
+  - name: 贾子翟
+    slug: zidi-jia
+
+phd_students:
+  - name: 王宇清
+    slug: yuqing-wang
+  - name: 张晶
+    slug: jing-zhang
+  - name: 曾宪超
+    slug: xianchao-zeng
+  - name: 李奕慷
+    slug: yikang-li
+  - name: 杨凌远
+    slug: lingyuan-yang
+  - name: 郭经伟
+    slug: jingwei-guo
+  - name: 刘帅
+    slug: shuai-liu
+  - name: 熊前锋
+    slug: qianfeng-xiong
+  - name: 晏景衡
+    slug: jingheng-yan
+  - name: 姚语霆
+    slug: yuting-yao
+  - name: 张一凡
+    slug: yifan-zhang
+  - name: 祝云飞
+    slug: yunfei-zhu
+
+master_students:
+  - name: 曹志腾
+    slug: zhiteng-cao
+  - name: 陈天宇
+    slug: tianyu-chen
+  - name: 焦璐
+    slug: lu-jiao
+  - name: 李伟浩
+    slug: weihao-li
+  - name: 倪飞阳
+    slug: feiyang-ni
+  - name: 王浩天
+    slug: haotian-wang

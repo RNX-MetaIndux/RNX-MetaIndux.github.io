@@ -1,14 +1,14 @@
 # site properties and page defaults
 title: RNX-MetaIndux
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
+description: Industrial foundation models, industrial AI, embodied intelligence, and intelligent manufacturing.
+header: images/background.png
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@RNX-MetaIndux.com
+  email: rnx_metaindux@163.com
   orcid: 0000-0001-8713-9213
   google-scholar: ETJoidYAAAAJ
   github: RNX-MetaIndux

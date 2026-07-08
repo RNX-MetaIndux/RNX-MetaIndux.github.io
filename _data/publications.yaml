@@ -1,0 +1,230 @@
+- year: 2026
+  type: Journal
+  title: "A Hierarchical Vision-Language and Reinforcement Learning Framework for Robotic Task and Motion Planning in Collaborative Manipulation"
+  authors: "Junnan Zhang, Chaoxu Mu, Xin Xu, Lei Ren"
+  venue: "IEEE Robotics and Automation Letters 11(1): 65-72"
+  link: "https://dblp.org/rec/journals/ral/ZhangMXR26"
+
+- year: 2026
+  type: Journal
+  title: "Intelligent system modeling using GenAI: A methodology for automated simulation model generation"
+  authors: "Lin Zhang, Yuteng Zhang, Dusit Niyato, Lei Ren, Pengfei Gu, Zhen Chen, Yuanjun Laili, Wentong Cai, Agostino G. Bruzzone"
+  venue: "Simulation Modelling Practice and Theory 147: 103236"
+  link: "https://dblp.org/rec/journals/simpra/ZhangZNRGCLCB26"
+
+- year: 2026
+  type: Journal
+  title: "Integrated Task and Motion Planner Using Hierarchical Reinforcement Learning for Multi-Robot Collaboration"
+  authors: "Junnan Zhang, Chaoxu Mu, Ke Wang, Lei Ren"
+  venue: "IEEE Transactions on Automation Science and Engineering 23: 743-755"
+  link: "https://dblp.org/rec/journals/tase/ZhangMWR26"
+
+- year: 2026
+  type: Journal
+  title: "Digital Genealogy: AIGC-Driven Evolution of Digital Twin for Future Smart Manufacturing"
+  authors: "Lei Ren, Jiabao Dong, Xianchao Zeng, Lingyuan Yang, Yuqing Wang"
+  venue: "IEEE Transactions on Automation Science and Engineering 23: 3525-3535"
+  link: "https://dblp.org/rec/journals/tase/RenDZYW26"
+
+- year: 2026
+  type: Journal
+  title: "IEI-TIA: Industrial Embodied Intelligence Trustworthy Interpretable Agent for Robotic Long-Horizon and Repetitive Tasks"
+  authors: "Jiabao Dong, Lingyuan Yang, Pengji Fang, Shixiang Li, Yusheng Kong, Lei Ren"
+  venue: "IEEE Transactions on Automation Science and Engineering 23: 9211-9222"
+  link: "https://dblp.org/rec/journals/tase/DongYFLKR26"
+
+- year: 2026
+  type: Journal
+  title: "CoLLM: Industrial Large-Small Model Collaboration With Fuzzy Decision-Making Agent and Self-Reflection"
+  authors: "Haiteng Wang, Lei Ren, Tuo Zhao, Lu Jiao"
+  venue: "IEEE Transactions on Fuzzy Systems 34(4): 1120-1130"
+  link: "https://dblp.org/rec/journals/tfs/WangRZJ26"
+
+- year: 2026
+  type: Journal
+  title: "AMR-Net: Adaptive Temporal-Channel Multiresolution Network for Industrial Time-Series Prediction"
+  authors: "Haiteng Wang, Lei Ren, Tuo Zhao"
+  venue: "IEEE Transactions on Industrial Informatics 22(3): 2356-2367"
+  link: "https://dblp.org/rec/journals/tii/WangRZ26"
+
+- year: 2026
+  type: Journal
+  title: "A Self-Supervised CAD Sequence Generation Framework for Modeling Process Discovery"
+  authors: "Yuqing Wang, Lei Ren, Haiteng Wang"
+  venue: "IEEE Transactions on Industrial Informatics 22(3): 2469-2480"
+  link: "https://dblp.org/rec/journals/tii/WangRW26"
+
+- year: 2026
+  type: Journal
+  title: "CoMA-IKG: LLM-Driven Multiagent Framework for Automated Construction of Industrial Knowledge Graph"
+  authors: "Jing Zhang, Haiteng Wang, Zidi Jia, Jiabao Dong, Lei Ren"
+  venue: "IEEE Transactions on Industrial Informatics 22(6): 5553-5564"
+  link: "https://dblp.org/rec/journals/tii/ZhangWJDR26"
+
+- year: 2026
+  type: Journal
+  title: "Distributed Flexible Job Shop Scheduling With Heterogeneous Transportation Resources Constraints via Deep Reinforcement Learning and Graph Neural Network"
+  authors: "Kaikai Zhu, Xiaobin Li, Pei Jiang, Min Cheng, Yuanqing Wu, Kaizhou Gao, Lei Ren"
+  venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems 56(5): 3086-3098"
+  link: "https://dblp.org/rec/journals/tsmc/ZhuLJCWGR26"
+
+- year: 2026
+  type: Preprint
+  title: "TS-MLLM: A Multi-Modal Large Language Model-based Framework for Industrial Time-Series Big Data Analysis"
+  authors: "Haiteng Wang, Yikang Li, Yunfei Zhu, Jingheng Yan, Lei Ren, Laurence T. Yang"
+  venue: "CoRR abs/2603.07572"
+  link: "https://dblp.org/rec/journals/corr/abs-2603-07572"
+
+- year: 2025
+  type: Journal
+  title: "MetaIndux-PLC: A Control Logic-Guided LLM for PLC code generation in industrial control systems"
+  authors: "Lei Ren, Haotian Wang, Jiabao Dong, Haiteng Wang, Shuai Liu, Yuanjun Laili, Lin Zhang"
+  venue: "Applied Soft Computing 184: 113673"
+  link: "https://dblp.org/rec/journals/asc/RenWDWLLZ25"
+
+- year: 2025
+  type: Journal
+  title: "Interleaving and cross-attention presents efficient knowledge graph embedding"
+  authors: "Jinwang Wu, Yuanjun Laili, Chengwen Qi, Zhuoqun Li, Lei Ren"
+  venue: "Expert Systems with Applications 274: 126930"
+  link: "https://dblp.org/rec/journals/eswa/WuLQLR25"
+
+- year: 2025
+  type: Journal
+  title: "An AIGC-Driven Score-Based Diffusion Approach for Industrial Time Series"
+  authors: "Lei Ren, Jinwang Li, Haiteng Wang"
+  venue: "IEEE Internet of Things Journal 12(10): 13132-13143"
+  link: "https://dblp.org/rec/journals/iotj/RenLW25"
+
+- year: 2025
+  type: Journal
+  title: "A triple population adaptive differential evolution"
+  authors: "Jiabei Gong, Yuanjun Laili, Jiayi Zhang, Lin Zhang, Lei Ren"
+  venue: "Information Sciences 688: 121401"
+  link: "https://dblp.org/rec/journals/isci/GongLZZR25"
+
+- year: 2025
+  type: Journal
+  title: "Collaborative task scheduling in IIoT: A comparative study of evolutionary algorithms and deep reinforcement learning"
+  authors: "Zhen Chen, Xiaohan Wang, Yuanjun Laili, Lin Zhang, Wentong Cai, Lei Ren, Zhihao Liu"
+  venue: "Journal of Industrial Information Integration 47: 100930"
+  link: "https://dblp.org/rec/journals/jiii/ChenWLZCRL25"
+
+- year: 2025
+  type: Journal
+  title: "MBSE 2.0: Toward More Integrated, Comprehensive, and Intelligent MBSE"
+  authors: "Lin Zhang, Zhen Chen, Yuanjun Laili, Lei Ren, M. Jamal Deen, Wentong Cai, Yuteng Zhang, Yuqing Zeng, Pengfei Gu"
+  venue: "Systems 13(7): 584"
+  link: "https://dblp.org/rec/journals/systems/ZhangCLRDCZZG25"
+
+- year: 2025
+  type: Journal
+  title: "Communication Intensive Task Offloading With IDMZ for Secure Industrial Edge Computing"
+  authors: "Yuanjun Laili, Jiabei Gong, Yusheng Kong, Fei Wang, Lei Ren, Lin Zhang"
+  venue: "IEEE Transactions on Cloud Computing 13(2): 560-577"
+  link: "https://dblp.org/rec/journals/tcc/LailiGKWRZ25"
+
+- year: 2025
+  type: Journal
+  title: "Industrial Foundation Model"
+  authors: "Lei Ren, Haiteng Wang, Jiabao Dong, Zidi Jia, Shixiang Li, Yuqing Wang, Yuanjun Laili, Di Huang, Lin Zhang, Bo Hu Li"
+  venue: "IEEE Transactions on Cybernetics 55(5): 2286-2301"
+  link: "https://dblp.org/rec/journals/tcyb/RenWDJLWLHZL25"
+
+- year: 2025
+  type: Journal
+  title: "A Two-Stage Privacy-Preserving Domain Adaptation for Industrial Time-Series Prediction"
+  authors: "Zidi Jia, Lei Ren, Haiteng Wang, Yuanjun Laili"
+  venue: "IEEE Transactions on Emerging Topics in Computational Intelligence 9(4): 2846-2857"
+  link: "https://dblp.org/rec/journals/tetci/JiaRWL25"
+
+- year: 2025
+  type: Journal
+  title: "FDformer: A Fuzzy Dynamic Transformer-Based Network for Efficient Industrial Time Series Prediction"
+  authors: "Lei Ren, Tuo Zhao, Haiteng Wang"
+  venue: "IEEE Transactions on Fuzzy Systems 33(7): 2038-2049"
+  link: "https://dblp.org/rec/journals/tfs/RenZW25"
+
+- year: 2025
+  type: Journal
+  title: "Efficient 3-D Model Machining Strategy Prediction With Topology-Spanning Aggregation and GMU Data Augmentation"
+  authors: "Lei Ren, Yuqing Wang, Wei Chen, Haiteng Wang"
+  venue: "IEEE Transactions on Industrial Informatics 21(4): 3127-3136"
+  link: "https://dblp.org/rec/journals/tii/RenWCW25"
+
+- year: 2025
+  type: Journal
+  title: "A Contrastive Representation Domain Adaptation Method for Industrial Time-Series Cross-Domain Prediction"
+  authors: "Zidi Jia, Lei Ren, Yang Tang"
+  venue: "IEEE Transactions on Industrial Informatics 21(4): 3236-3245"
+  link: "https://dblp.org/rec/journals/tii/JiaRT25"
+
+- year: 2025
+  type: Journal
+  title: "DADN: A Dynamic Anomaly Detection Network for Multivariate Time Series Data of the Industrial Internet of Things"
+  authors: "Yusheng Kong, Jingwei Guo, Lei Ren, Guoliang Kang, Yazhe Wang, Jinhu Lu"
+  venue: "IEEE Transactions on Industrial Informatics 21(8): 6294-6304"
+  link: "https://dblp.org/rec/journals/tii/KongGRKWL25"
+
+- year: 2025
+  type: Journal
+  title: "TKDA: A Tensor-Based Knowledge Distillation Approach of Anomaly Detection for Industrial Cyber-Physical Intelligence"
+  authors: "Xiaokang Wang, Weiping Fang, Songhe Yuan, Lei Ren, Laurence T. Yang, M. Jamal Deen"
+  venue: "IEEE Transactions on Industrial Informatics 21(11): 8442-8452"
+  link: "https://dblp.org/rec/journals/tii/WangFYRYD25"
+
+- year: 2025
+  type: Journal
+  title: "A Lightweight Group Transformer-Based Time Series Reduction Network for Edge Intelligence and Its Application in Industrial RUL Prediction"
+  authors: "Lei Ren, Haiteng Wang, Tingyu Mo, Laurence T. Yang"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems 36(2): 3720-3729"
+  link: "https://dblp.org/rec/journals/tnn/RenWMY25"
+
+- year: 2025
+  type: Journal
+  title: "Tensor-Representation-Based Multiview Attributed Graph Clustering With Smooth Structure"
+  authors: "Yuan Gao, Qian Zhao, Laurence T. Yang, Jing Yang, Lei Ren"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems 36(6): 11562-11574"
+  link: "https://dblp.org/rec/journals/tnn/GaoZYYR25"
+
+- year: 2025
+  type: Journal
+  title: "ABNN: Adaptive-Gating Binary Neural Network With Dynamic Activation Quantization for Industrial Health Status Prediction"
+  authors: "Lei Ren, Shixiang Li, Haiteng Wang, Yuanjun Laili"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems 36(10): 17978-17989"
+  link: "https://dblp.org/rec/journals/tnn/RenLWL25"
+
+- year: 2025
+  type: Journal
+  title: "MetaIndux-TS: Frequency-Aware AIGC Foundation Model for Industrial Time Series"
+  authors: "Haiteng Wang, Lei Ren, Yikang Li, Yuqing Wang"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems 36(10): 18062-18074"
+  link: "https://dblp.org/rec/journals/tnn/WangRLW25"
+
+- year: 2025
+  type: Journal
+  title: "AIGC for Industrial Time Series: From Deep-Generative Models to Large-Generative Models"
+  authors: "Lei Ren, Haiteng Wang, Jinwang Li, Yang Tang, Chunhua Yang"
+  venue: "IEEE Transactions on Systems, Man, and Cybernetics: Systems 55(11): 7774-7791"
+  link: "https://dblp.org/rec/journals/tsmc/RenWLTY25"
+
+- year: 2025
+  type: Conference
+  title: "BGRN: A Binarized Multimodal Fusion Grasp Prediction Network with Information Recovery Connection"
+  authors: "Shixiang Li, Jiabao Dong, Yusheng Kong, Haiteng Wang, Zidi Jia, Lei Ren"
+  venue: "IEEE International Conference on Industrial Informatics (INDIN): 1-7"
+  link: "https://dblp.org/rec/conf/indin/LiDKWJR25"
+
+- year: 2025
+  type: Conference
+  title: "GL-MHSA: A Demand Forecasting Method for Related Products in Parts Supply Chain System"
+  authors: "Jing Zhang, Lei Ren, Jin Cui, Jiajie Wu, Yuqing Wang, Haiteng Wang, Zuo-Jun Max Shen"
+  venue: "IEEE International Conference on Industrial Informatics (INDIN): 1-6"
+  link: "https://dblp.org/rec/conf/indin/ZhangRCWWWS25"
+
+- year: 2025
+  type: Preprint
+  title: "GenAI for Simulation Model in Model-Based Systems Engineering"
+  authors: "Lin Zhang, Yuteng Zhang, Dusit Niyato, Lei Ren, Pengfei Gu, Zhen Chen, Yuanjun Laili, Wentong Cai, Agostino G. Bruzzone"
+  venue: "CoRR abs/2503.06422"
+  link: "https://dblp.org/rec/journals/corr/abs-2503-06422"

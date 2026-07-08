@@ -1,0 +1,116 @@
+---
+---
+
+.contact-page {
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-heading {
+  margin-bottom: 42px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.contact-heading h1 {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.contact-heading p {
+  margin: 0;
+  color: var(--gray);
+  font-size: 1.08rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.4fr);
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.contact-page section h2 {
+  margin: 0 0 16px;
+  font-size: 1.35rem;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.contact-page section p {
+  line-height: 1.7;
+  text-align: left;
+}
+
+.contact-laboratories {
+  padding: 38px 0;
+  border-top: 1px solid var(--light-gray);
+}
+
+.contact-laboratories ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 40px;
+  margin: 0;
+  padding-left: 1.3rem;
+}
+
+.contact-laboratories li {
+  line-height: 1.55;
+}
+
+.contact-admissions {
+  margin-top: 12px;
+  padding: 40px 44px;
+  border-top: 6px solid #37c8ff;
+  background: #083b6f;
+  color: #ffffff;
+}
+
+.contact-admissions > span {
+  display: block;
+  margin-bottom: 8px;
+  color: #77d9ff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.contact-page .contact-admissions h2,
+.contact-page .contact-admissions p,
+.contact-page .contact-admissions a {
+  color: #ffffff;
+}
+
+.contact-page .contact-admissions .contact-admissions-lead {
+  margin: 0 0 8px;
+  font-family: var(--heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.contact-page .contact-admissions p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-page .contact-admissions a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .contact-grid,
+  .contact-laboratories ul {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    gap: 26px;
+  }
+
+  .contact-admissions {
+    padding: 30px 24px;
+  }
+}

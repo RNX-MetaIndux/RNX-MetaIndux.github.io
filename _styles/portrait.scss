@@ -61,9 +61,25 @@
   box-shadow: var(--shadow);
 }
 
+.portrait-placeholder {
+  display: grid;
+  place-items: center;
+  background: var(--background-alt);
+  color: var(--primary);
+  border: 1px solid var(--light-gray);
+  font-family: var(--heading);
+  font-size: 3.4rem;
+  font-weight: var(--bold);
+  line-height: 1;
+}
+
 .portrait[data-style="tiny"] .portrait-image {
   width: 50px;
   margin: 0;
+}
+
+.portrait[data-style="tiny"] .portrait-placeholder {
+  font-size: 1.2rem;
 }
 
 .portrait-name {
