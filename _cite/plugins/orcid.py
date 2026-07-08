@@ -88,52 +88,37 @@ def main(entry):
         # if not id_type or not id_value:
         #     continue
 
-        # create source
+        summaries = get_safe(work, "work-summary", [])
+
+        def first(get_func):
+            return next((value for value in map(get_func, summaries) if value), None)
+
+        title = first(lambda s: get_safe(s, "title.title.value", ""))
+        publisher = first(lambda s: get_safe(s, "journal-title.value", ""))
+        link = first(lambda s: get_safe(s, "url.value", ""))
+
+        year = first(lambda s: get_safe(s, "publication-date.year.value", ""))
+        month = first(lambda s: get_safe(s, "publication-date.month.value", "")) or "1"
+        day = first(lambda s: get_safe(s, "publication-date.day.value", "")) or "1"
+        publication_date = format_date(f"{year}-{month}-{day}") if year else ""
+
         source = {}
+        if title:
+            source["title"] = title
+        if publisher:
+            source["publisher"] = publisher
+        if publication_date:
+            source["date"] = publication_date
+            source["year"] = int(year) if str(year).isdigit() else year
+        if id_type and id_value:
+            source[id_type] = id_value
+            if id_type == "doi" and not link:
+                link = f"https://doi.org/{id_value}"
+        if link:
+            source["link"] = link
 
-        # if id citable by manubot
-        if id_type and id_value and id_type in manubot_citable:
-            # id to cite with manubot
-            source = {"id": f"{id_type}:{id_value}"}
-
-        # if not citable by manubot, keep citation details from orcid
-        else:
-            # get summaries
-            summaries = get_safe(work, "work-summary", [])
-
-            # get first summary with defined sub-value
-            def first(get_func):
-                return next(
-                    (value for value in map(get_func, summaries) if value), None
-                )
-
-            # get title
-            title = first(lambda s: get_safe(s, "title.title.value", ""))
-
-            # get publisher
-            publisher = first(lambda s: get_safe(s, "journal-title.value", ""))
-
-            # get date
-            date = (
-                get_safe(work, "last-modified-date.value")
-                or first(lambda s: get_safe(s, "last-modified-date.value"))
-                or get_safe(work, "created-date.value")
-                or first(lambda s: get_safe(s, "created-date.value"))
-                or 0
-            )
-
-            # get link
-            link = first(lambda s: get_safe(s, "url.value", ""))
-
-            # keep available details
-            if title:
-                source["title"] = title
-            if publisher:
-                source["publisher"] = publisher
-            if date:
-                source["date"] = format_date(date)
-            if link:
-                source["link"] = link
+        if not title and not id_value:
+            continue
 
         # copy fields from entry to source
         source.update(entry)

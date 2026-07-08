@@ -3,6 +3,7 @@ cite process to convert sources and metasources into full citations
 """
 
 import traceback
+import re
 from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
@@ -29,7 +30,7 @@ log("Compiling sources")
 sources = []
 
 # in-order list of plugins to run
-plugins = ["google-scholar", "pubmed", "orcid", "sources"]
+plugins = ["dblp", "google-scholar", "pubmed", "orcid", "sources"]
 
 # loop through plugins
 for plugin in plugins:
@@ -170,6 +171,167 @@ for index, source in enumerate(sources):
     # add new citation to list
     citations.append(citation)
 
+
+log()
+
+log("Merging duplicate citations and assigning tags")
+
+
+def normalized_title(citation):
+    title = str(get_safe(citation, "title", "")).lower()
+    return re.sub(r"[^a-z0-9]+", "", title)
+
+
+def merge_values(target, incoming):
+    for key, value in incoming.items():
+        if value in [None, "", [], {}]:
+            continue
+        if key == "citation_count":
+            target[key] = max(int(target.get(key, 0) or 0), int(value or 0))
+        elif key == "authors" and target.get(key):
+            continue
+        elif not target.get(key):
+            target[key] = value
+
+
+deduplicated = []
+by_doi = {}
+by_title = {}
+for citation in citations:
+    doi_key = str(get_safe(citation, "doi", "")).strip().lower()
+    title_key = normalized_title(citation)
+    existing = by_doi.get(doi_key) if doi_key else None
+    existing = existing or (by_title.get(title_key) if title_key else None)
+    if existing:
+        merge_values(existing, citation)
+        continue
+    deduplicated.append(citation)
+    if doi_key:
+        by_doi[doi_key] = citation
+    if title_key:
+        by_title[title_key] = citation
+
+
+tag_rules = {
+    "Foundation Models": [
+        "foundation model",
+        "large language model",
+        "llm",
+        "aigc",
+        "genai",
+        "generative model",
+        "large-small model",
+    ],
+    "Industrial Agents": [
+        "agent",
+        "embodied",
+        "robot",
+        "grasp",
+        "manipulation",
+        "task and motion",
+    ],
+    "Industrial Time Series": [
+        "time series",
+        "time-series",
+        "anomaly",
+        "remaining useful life",
+        "rul",
+        "fault",
+        "health status",
+        "temporal",
+    ],
+    "Digital Twins & Design": [
+        "digital twin",
+        "digital genealogy",
+        "cad",
+        "mbse",
+        "simulation model",
+    ],
+    "Industrial Internet & Edge": [
+        "industrial internet",
+        "iiot",
+        "edge computing",
+        "cloud computing",
+        "offloading",
+        "cyber-physical",
+    ],
+    "Industrial Software & Control": [
+        "industrial software",
+        "plc",
+        "control logic",
+        "process control",
+        "automation",
+    ],
+    "Knowledge & Decision Intelligence": [
+        "knowledge graph",
+        "domain adaptation",
+        "graph clustering",
+        "fuzzy",
+        "optimization",
+        "scheduling",
+        "differential evolution",
+        "reinforcement learning",
+    ],
+    "Smart Manufacturing": [
+        "manufactur",
+        "shopfloor",
+        "job shop",
+        "production",
+        "machining",
+        "supply chain",
+    ],
+}
+
+
+for citation in deduplicated:
+    date = str(get_safe(citation, "date", ""))
+    year = str(get_safe(citation, "year", "")) or date[:4]
+    citation["year"] = int(year) if year.isdigit() else year
+
+    publication_type = str(get_safe(citation, "type", "")).strip()
+    searchable = " ".join(
+        [
+            str(get_safe(citation, "title", "")),
+            str(get_safe(citation, "publisher", "")),
+        ]
+    ).lower()
+    if not publication_type:
+        if "arxiv" in searchable or "corr" in searchable or "preprint" in searchable:
+            publication_type = "Preprint"
+        elif "conference" in searchable or "proceedings" in searchable:
+            publication_type = "Conference"
+        else:
+            publication_type = "Journal"
+    citation["type"] = publication_type
+
+    tags = list(get_safe(citation, "tags", []) or [])
+    if publication_type not in tags:
+        tags.append(publication_type)
+    for tag, keywords in tag_rules.items():
+        if any(keyword in searchable for keyword in keywords) and tag not in tags:
+            tags.append(tag)
+    if len(tags) == 1:
+        tags.append("Industrial AI")
+    citation["tags"] = tags
+
+    if not get_safe(citation, "link", ""):
+        citation["link"] = get_safe(citation, "dblp", "") or get_safe(
+            citation, "scholar_link", ""
+        )
+
+
+citations = sorted(
+    deduplicated,
+    key=lambda citation: (
+        int(get_safe(citation, "year", 0) or 0)
+        if str(get_safe(citation, "year", "")).isdigit()
+        else 0,
+        str(get_safe(citation, "title", "")).lower(),
+    ),
+    reverse=True,
+)
+
+log(f"{len(citations)} unique citation(s)", indent=1)
 
 log()
 

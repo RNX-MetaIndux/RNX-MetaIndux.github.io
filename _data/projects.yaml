@@ -1,47 +1,239 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+- title: "国家重点研发计划工业软件重点专项：离散制造业智能工厂制造运营管理平台"
+  year: "2023/2024"
+  category: "国家重点研发计划"
+  subtype: "工业软件重点专项"
+  section: national
+  priority: S
+  role: "任磊教授任项目首席科学家，北京航空航天大学牵头"
+  summary: "研制新一代离散制造业智能工厂制造运营管理平台（MOM），构建基于工业大模型的智能工厂“中枢大脑”。"
+  source: "https://news.buaa.edu.cn/info/1002/62120.htm"
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+- title: "国家自然科学基金“未来工业互联网基础理论与关键技术”重大研究计划集成项目"
+  year: "2026"
+  category: "国家自然科学基金"
+  subtype: "重大研究计划集成项目"
+  section: nsfc
+  priority: S
+  role: "承担重大研究计划集成项目；项目编号与具体分工未公开"
+  summary: "面向工业互联网国家重大战略需求，围绕未来工业互联网基础理论与关键技术开展系统研究。"
+  source: "https://teacher.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/7349.htm"
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+- title: "国家杰出青年科学基金"
+  year: "2022"
+  category: "国家自然科学基金"
+  subtype: "杰出青年科学基金"
+  section: nsfc
+  priority: S
+  role: "任磊教授为项目获得者"
+  summary: "任磊教授为工业互联网领域首位国家杰出青年科学基金获得者。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/4994.htm"
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: "国家863云制造重大主题项目"
+  year: "863时期"
+  category: "国家863计划"
+  subtype: "云制造重大主题项目"
+  section: national
+  priority: S
+  role: "任磊教授曾任总体办主任、首席科学家助理"
+  summary: "参与形成云制造理论技术体系、原型系统与国家标准。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/more/10281/jsjjgd/index.htm"
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: "国家重大科技专项任务"
+  year: "2024"
+  category: "国家重大科技专项"
+  subtype: "专项任务"
+  section: national
+  priority: S
+  role: "承担国家重大科技专项任务；具体任务名称与分工未公开"
+  summary: "围绕智能制造、工业互联网、工业软件与工业大模型等国家重大需求开展关键技术攻关。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/6538.htm"
+
+- title: "国家***工业大模型专项"
+  year: "2024"
+  category: "国家专项"
+  subtype: "工业大模型专项"
+  section: national
+  priority: S
+  role: "承担国家级工业大模型专项；完整名称与具体分工未公开"
+  summary: "围绕工业大模型理论体系、关键技术与典型应用开展研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/6537.htm"
+
+- title: "国家自然科学基金“未来工业互联网基础理论与关键技术”重大研究计划"
+  year: "2021"
+  category: "国家自然科学基金"
+  subtype: "重大研究计划"
+  section: nsfc
+  priority: A
+  role: "承担重大研究计划项目；项目编号与具体分工未公开"
+  summary: "围绕全要素互联、柔性制造流程及产业链价值链网络化调控等重大科学问题开展研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/4357.htm"
+
+- title: "国家自然科学基金面上项目"
+  year: "2021"
+  category: "国家自然科学基金"
+  subtype: "面上项目"
+  section: nsfc
+  priority: A
+  role: "承担国家自然科学基金面上项目；具体题名与项目编号未公开"
+  summary: "开展工业互联网、工业人工智能与智能制造基础研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/4359.htm"
+
+- title: "国家自然科学基金重点项目课题"
+  year: "2018"
+  category: "国家自然科学基金"
+  subtype: "重点项目课题"
+  section: nsfc
+  priority: A
+  role: "承担国家自然科学基金重点项目课题；具体题名与项目编号未公开"
+  summary: "面向工业互联网与智能制造领域关键基础问题开展研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/2245.htm"
+
+- title: "国家自然科学基金青年学生基础研究项目（博士研究生）"
+  year: "2025"
+  category: "国家自然科学基金"
+  subtype: "青年学生基础研究项目"
+  section: nsfc
+  priority: A
+  role: "团队博士生董家宝主持，师从任磊教授"
+  summary: "支持团队在工业具身智能方向开展青年学生基础研究。"
+  source: "https://news.buaa.edu.cn/info/1002/67460.htm"
+
+- title: "工信部2021国家制造业高质量发展专项"
+  year: "2021"
+  category: "工信部专项"
+  subtype: "制造业高质量发展专项"
+  section: miit
+  priority: A
+  role: "承担国家制造业高质量发展专项；具体项目编号与分工未公开"
+  summary: "面向工业互联网与智能制造应用开展关键技术研发和示范。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/4358.htm"
+
+- title: "工信部-2020工业软件专项"
+  year: "2020/2021"
+  category: "工信部专项"
+  subtype: "工业软件专项"
+  section: miit
+  priority: A
+  role: "承担工业软件专项；具体题名、项目编号与分工未公开"
+  summary: "围绕核心工业软件、工业互联网平台与智能制造系统开展研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/3885.htm"
+
+- title: "工信部-2020工业互联网创新发展工程项目"
+  year: "2020/2021"
+  category: "工信部专项"
+  subtype: "工业互联网创新发展工程"
+  section: miit
+  priority: A
+  role: "承担工业互联网创新发展工程项目；具体题名与分工未公开"
+  summary: "支撑工业互联网平台、工业软件与智能制造应用创新。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/3884.htm"
+
+- title: "工信部-2019工业互联网创新发展工程项目"
+  year: "2019/2021"
+  category: "工信部专项"
+  subtype: "工业互联网创新发展工程"
+  section: miit
+  priority: A
+  role: "承担工业互联网创新发展工程项目；具体题名与分工未公开"
+  summary: "推进工业互联网关键技术研发和应用示范。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/3883.htm"
+
+- title: "工信部-2018工业互联网创新发展工程项目"
+  year: "2018"
+  category: "工信部专项"
+  subtype: "工业互联网创新发展工程"
+  section: miit
+  priority: A
+  role: "承担工业互联网创新发展工程项目；具体题名与分工未公开"
+  summary: "推动工业互联网平台关键技术和智能制造应用落地。"
+  source: "https://teacher.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/2248.htm"
+
+- title: "国家重点研发计划网络协同制造和智能工厂重点专项课题"
+  year: "2019"
+  category: "国家重点研发计划"
+  subtype: "网络协同制造和智能工厂"
+  section: national
+  priority: A
+  role: "承担重点专项课题；具体课题题名、编号与分工未公开"
+  summary: "开展云制造、网络协同制造和智能工厂关键技术研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/2645.htm"
+
+- title: "国家重点研发计划云计算大数据重点专项课题"
+  year: "2018"
+  category: "国家重点研发计划"
+  subtype: "云计算大数据重点专项"
+  section: national
+  priority: A
+  role: "承担重点专项课题；具体课题题名、编号与分工未公开"
+  summary: "开展工业大数据、云制造和工业互联网平台关键技术研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/2246.htm"
+
+- title: "科技创新2030—新一代人工智能重大项目子课题"
+  year: "2021"
+  category: "科技创新2030"
+  subtype: "新一代人工智能重大项目子课题"
+  section: national
+  priority: A
+  role: "承担重大项目子课题；具体题名、项目编号与分工未公开"
+  summary: "面向工业人工智能和智能制造开展前沿研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/3886.htm"
+
+- title: "中国工程院重大战略咨询项目“中国人工智能2.0发展战略研究”"
+  year: "2018"
+  category: "中国工程院"
+  subtype: "重大战略咨询项目"
+  section: national
+  priority: A
+  role: "参与重大战略咨询项目；具体分工未公开"
+  summary: "服务我国人工智能发展战略和人工智能赋能新型工业化研究。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/2247.htm"
+
+- title: "国家工业互联网重大专项课题"
+  year: "未公开"
+  category: "国家工业互联网专项"
+  subtype: "重大专项课题"
+  section: national
+  priority: A
+  role: "任磊教授作为负责人主持；具体题名、项目编号与起止时间未公开"
+  summary: "围绕工业互联网关键理论、技术与应用开展研究。"
+  source: "https://www.ccf.org.cn/Media_list/cncc/2021-09-28/744697.shtml"
+
+- title: "首批面向工业互联网课程体系建设的教育部项目"
+  year: "未公开"
+  category: "教育部"
+  subtype: "课程体系建设"
+  section: education
+  priority: A
+  role: "任磊教授牵头；具体项目名称、编号与起止时间未公开"
+  summary: "建设面向工业互联网与工业大模型的新型交叉人才培养体系。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/more/10281/jsjjgd/index.htm"
+
+- title: "北航博士生卓越学术基金"
+  year: "2025"
+  category: "北京航空航天大学"
+  subtype: "博士生基金"
+  section: education
+  priority: A
+  role: "团队博士生董家宝主持"
+  summary: "支持博士研究生围绕工业具身智能开展创新研究。"
+  source: "https://news.buaa.edu.cn/info/1002/67460.htm"
+
+- title: "中国科协青年人才托举计划博士生计划"
+  year: "未公开"
+  category: "中国科协"
+  subtype: "青年人才项目"
+  section: education
+  priority: A
+  role: "任磊教授指导团队研究生入选首批计划；入选人员信息未公开"
+  summary: "支持博士研究生提升科研创新能力。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/more/10281/jsjjgd/index.htm"
+
+- title: "国家级大学生创新创业训练计划与北京市创业类支持项目"
+  year: "长期"
+  category: "学生创新创业项目"
+  subtype: "本科生科研与创业实践"
+  section: education
+  priority: A
+  role: "任磊教授指导本科生承担10余项；具体项目名单未公开"
+  summary: "支持本科生参与工业互联网、工业人工智能与智能制造科研创新。"
+  source: "https://shi.buaa.edu.cn/renlei/zh_CN/more/10281/jsjjgd/index.htm"

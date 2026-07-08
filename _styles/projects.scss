@@ -1,0 +1,257 @@
+---
+---
+
+.projects-page {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  color: var(--text);
+  text-align: left;
+}
+
+.projects-heading {
+  margin-bottom: 34px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.projects-heading h1 {
+  margin: 0 0 14px;
+  text-align: left;
+}
+
+.projects-heading h1 span,
+.projects-section > h2 span,
+.project-group > h3 span {
+  display: block;
+  margin-top: 5px;
+  color: var(--gray);
+  font-size: 0.68em;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.projects-heading p {
+  max-width: 900px;
+  margin: 0;
+  font-size: 1.04rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.project-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0 0 58px;
+  padding: 24px 0;
+  border-top: 1px solid var(--light-gray);
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.project-metrics > div {
+  min-width: 0;
+  padding: 0 24px;
+  border-right: 1px solid var(--light-gray);
+}
+
+.project-metrics > div:first-child {
+  padding-left: 0;
+}
+
+.project-metrics > div:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+
+.project-metrics strong,
+.project-metrics span {
+  display: block;
+}
+
+.project-metrics strong {
+  margin-bottom: 6px;
+  color: var(--primary);
+  font-family: var(--heading);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.project-metrics span {
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+.projects-section {
+  margin: 0 0 64px;
+}
+
+.projects-section > h2 {
+  margin: 0 0 28px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--light-gray);
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.featured-projects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.featured-project {
+  min-width: 0;
+  padding: 28px;
+  border-top: 5px solid var(--primary);
+  border-radius: 4px;
+  background: var(--secondary);
+}
+
+.featured-project h3,
+.project-row h4 {
+  margin: 12px 0 12px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  text-align: left;
+  text-transform: none;
+}
+
+.featured-project h3 {
+  font-size: 1.15rem;
+}
+
+.featured-project p,
+.project-row p {
+  margin: 0 0 14px;
+  line-height: 1.65;
+  text-align: left;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 14px;
+  color: var(--gray);
+  font-family: var(--code);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.project-role {
+  color: var(--gray);
+  font-size: 0.84rem;
+}
+
+.project-role strong {
+  margin-right: 9px;
+  color: var(--text);
+}
+
+.project-source {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.project-group {
+  margin: 0 0 54px;
+}
+
+.project-group > h3 {
+  margin: 0;
+  padding: 0 0 18px;
+  font-size: 1.2rem;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.project-row {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 24px;
+  padding: 26px 0;
+  border-top: 1px solid var(--light-gray);
+}
+
+.project-row:last-child {
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.project-year {
+  color: var(--primary);
+  font-family: var(--heading);
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.project-row h4 {
+  font-size: 1.02rem;
+}
+
+.projects-note {
+  margin-top: 8px;
+  padding: 24px 28px;
+  border-left: 5px solid var(--primary);
+  background: var(--secondary);
+}
+
+.projects-note strong {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.projects-note p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  .project-metrics,
+  .featured-projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-metrics > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .project-metrics > div:nth-child(n + 3) {
+    margin-top: 22px;
+    padding-top: 22px;
+    border-top: 1px solid var(--light-gray);
+  }
+}
+
+@media (max-width: 560px) {
+  .project-metrics,
+  .featured-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .project-metrics > div,
+  .project-metrics > div:first-child,
+  .project-metrics > div:last-child {
+    margin: 0;
+    padding: 18px 0;
+    border-top: 1px solid var(--light-gray);
+    border-right: 0;
+  }
+
+  .project-metrics > div:first-child {
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .project-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .featured-project {
+    padding: 24px 20px;
+  }
+}

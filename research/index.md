@@ -1,49 +1,103 @@
 ---
 title: Research
+description: Publications by the RNX-MetaIndux team, synchronized from public scholarly indexes.
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Publications and research topics
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+<div class="research-page">
+  <div class="research-heading page-heading">
+    <h1>研究成果 <span lang="en">Research & Publications</span></h1>
+    <p>研究方向涵盖工业大模型与工业智能体、工业互联网与工业软件、工业时序智能、数字孪生、具身智能及智能制造。</p>
+    <p class="page-intro-en" lang="en">Our research spans industrial foundation models and agents, industrial Internet and software, industrial time-series intelligence, digital twins, embodied intelligence, and intelligent manufacturing.</p>
 
-Our research focuses on industrial foundation models, embodied intelligence, digital twins, industrial time-series learning, and intelligent manufacturing systems.
-
-<div class="publication-sources">
-  <a href="https://scholar.google.com/citations?hl=en&user=BcSIgFEAAAAJ">
-    {% include icon.html icon="fa-brands fa-google-scholar" %} Google Scholar
-  </a>
-  <a href="https://dblp.org/pid/01/1313-1.html">
-    {% include icon.html icon="fa-solid fa-database" %} DBLP
-  </a>
-  <a href="https://orcid.org/0000-0001-6346-6930">
-    {% include icon.html icon="fa-brands fa-orcid" %} ORCID
-  </a>
-</div>
-
-{% assign publications_by_year = site.data.publications | group_by: "year" %}
-
-{% for year in publications_by_year %}
-## {{ year.name }}
-
-<div class="publication-list">
-  {% for publication in year.items %}
-  <article class="publication-item">
-    <div class="publication-meta">
-      <span>{{ publication.type }}</span>
-      <span>{{ publication.year }}</span>
+    <div class="publication-sources" aria-label="学术主页">
+      <a href="https://scholar.google.com/citations?hl=en&user={{ site.links.google-scholar }}">
+        {% include icon.html icon="fa-brands fa-google-scholar" %} Google Scholar
+      </a>
+      <a href="https://dblp.org/pid/01/1313-1.html">
+        {% include icon.html icon="fa-solid fa-database" %} DBLP
+      </a>
+      <a href="https://orcid.org/{{ site.links.orcid }}">
+        {% include icon.html icon="fa-brands fa-orcid" %} ORCID
+      </a>
     </div>
-    <h3>
-      <a href="{{ publication.link }}">{{ publication.title }}</a>
-    </h3>
-    <p class="publication-authors">{{ publication.authors }}</p>
-    <p class="publication-venue">{{ publication.venue }}</p>
-    <a class="publication-record" href="{{ publication.link }}">
-      DBLP {% include icon.html icon="fa-solid fa-arrow-up-right-from-square" %}
-    </a>
-  </article>
-  {% endfor %}
-</div>
-{% endfor %}
+  </div>
 
-<p class="publication-note">Publication metadata verified against DBLP on 8 July 2026.</p>
+  <section class="publication-tools" aria-label="论文筛选">
+    {% include search-box.html %}
+    <div class="publication-filter-tags">
+      {% assign filters = "Journal,Conference,Preprint,Foundation Models,Industrial Agents,Industrial Time Series,Digital Twins & Design,Industrial Internet & Edge,Industrial Software & Control,Knowledge & Decision Intelligence,Smart Manufacturing" | split: "," %}
+      {% for filter in filters %}
+      <a href="{{ page.dir | relative_url }}?search=&quot;tag: {{ filter }}&quot;" class="tag">{{ filter }}</a>
+      {% endfor %}
+    </div>
+    {% include search-info.html %}
+  </section>
+
+  {% assign publications = site.data.citations %}
+  {% if publications == empty %}
+    {% assign publications = site.data.publications %}
+  {% endif %}
+  {% assign publications_by_year = publications | group_by: "year" %}
+
+  <div class="publication-results" data-pagination="research-publications" data-page-size="10">
+    {% for year in publications_by_year %}
+    <section class="publication-year" data-pagination-group>
+      <h2>{{ year.name }} <span>{{ year.items.size }} publications</span></h2>
+
+      <div class="publication-list">
+        {% for publication in year.items %}
+        <article class="publication-item" data-pagination-item data-search="{{ publication.title | xml_escape }} {{ publication.publisher | xml_escape }} {{ publication.venue | xml_escape }}">
+          <div class="publication-meta">
+            <span>{{ publication.type }}</span>
+            <span>{{ publication.year }}</span>
+            {% if publication.citation_count %}
+              <span>{{ publication.citation_count }} citations</span>
+            {% endif %}
+          </div>
+
+          <h3><a href="{{ publication.link }}">{{ publication.title }}</a></h3>
+
+          {% if publication.authors.first %}
+            <p class="publication-authors">{{ publication.authors | join: ", " }}</p>
+          {% else %}
+            <p class="publication-authors">{{ publication.authors }}</p>
+          {% endif %}
+
+          <p class="publication-venue">{{ publication.publisher | default: publication.venue }}</p>
+
+          {% if publication.tags %}
+          <div class="publication-tags tags">
+            {% for tag in publication.tags %}
+            <a href="{{ page.dir | relative_url }}?search=&quot;tag: {{ tag }}&quot;" class="tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          <div class="publication-records">
+            {% if publication.doi %}
+            <a href="https://doi.org/{{ publication.doi }}">DOI</a>
+            {% endif %}
+            {% if publication.dblp %}
+            <a href="{{ publication.dblp }}">DBLP</a>
+            {% endif %}
+            {% if publication.scholar_link %}
+            <a href="{{ publication.scholar_link }}">Scholar</a>
+            {% endif %}
+            {% unless publication.doi or publication.dblp or publication.scholar_link %}
+            <a href="{{ publication.link }}">Record</a>
+            {% endunless %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+
+  <div class="pagination" data-pagination-controls="research-publications" aria-label="Research pagination"></div>
+
+  <p class="publication-note">Publication metadata is synchronized from DBLP, Google Scholar and ORCID. Topic labels are assigned automatically from publication metadata and can be refined manually.</p>
+</div>

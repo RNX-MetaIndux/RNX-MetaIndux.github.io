@@ -18,6 +18,10 @@ assistant-researcher:
   icon: fa-solid fa-flask
   description: Assistant Researcher
 
+assistant-professor:
+  icon: fa-solid fa-chalkboard-user
+  description: Assistant Professor
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher

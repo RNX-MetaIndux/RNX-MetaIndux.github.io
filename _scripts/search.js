@@ -5,7 +5,7 @@
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = ".card, .citation, .post-excerpt, .publication-item";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
@@ -84,9 +84,13 @@
     // filter elements
     for (const element of elements) {
       if (elementMatches(element, parts)) {
-        element.style.display = "";
+        element.dataset.searchMatch = "true";
+        element.hidden = false;
         x++;
-      } else element.style.display = "none";
+      } else {
+        element.dataset.searchMatch = "false";
+        element.hidden = true;
+      }
     }
 
     return [x, n, tags];
@@ -161,13 +165,16 @@
   };
 
   // run search with query
-  const runSearch = (query = "") => {
+  const runSearch = (query = "", preservePage = false) => {
     const parts = splitQuery(query);
     const [x, n] = filterElements(parts);
     updateSearchBox(query);
     updateInfoBox(query, x, n);
     updateTags(query);
     highlightMatches(parts);
+    window.dispatchEvent(
+      new CustomEvent("searchupdated", { detail: { query, preservePage } })
+    );
   };
 
   // update url based on query
@@ -183,7 +190,7 @@
   const searchFromUrl = () => {
     const query =
       new URLSearchParams(window.location.search).get("search") || "";
-    runSearch(query);
+    runSearch(query, true);
   };
 
   // return func that runs after delay

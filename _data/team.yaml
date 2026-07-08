@@ -1,8 +1,6 @@
 research_staff:
   - name: 任磊
     slug: lei-ren
-  - name: 赖李媛君
-    slug: lai-liyuanjun
   - name: 秦伟林
     slug: weilin-qin
   - name: 董家宝
@@ -11,6 +9,8 @@ research_staff:
     slug: haiteng-wang
   - name: 贾子翟
     slug: zidi-jia
+  - name: 李世祥
+    slug: shixiang-li
 
 phd_students:
   - name: 王宇清
@@ -37,6 +37,14 @@ phd_students:
     slug: yifan-zhang
   - name: 祝云飞
     slug: yunfei-zhu
+  - name: 孔宇升
+    slug: yusheng-kong
+  - name: 成学军
+    slug: xuejun-cheng
+  - name: 曾宇帆
+    slug: yufan-zeng
+  - name: 陈寒
+    slug: han-chen
 
 master_students:
   - name: 曹志腾
@@ -51,3 +59,9 @@ master_students:
     slug: feiyang-ni
   - name: 王浩天
     slug: haotian-wang
+  - name: 方芃吉
+    slug: pengji-fang
+  - name: 李昊泽
+    slug: haoze-li
+  - name: 赵拓
+    slug: tuo-zhao

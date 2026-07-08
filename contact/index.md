@@ -6,10 +6,11 @@ nav:
 ---
 
 <div class="contact-page">
-  <header class="contact-heading">
-    <h1>Contact</h1>
+  <div class="contact-heading page-heading">
+    <h1>联系我们 <span lang="en">Contact</span></h1>
     <p>欢迎就科研合作、学术交流与人才培养联系我们。</p>
-  </header>
+    <p class="page-intro-en" lang="en">Contact us to discuss research collaboration, academic exchange, and talent development.</p>
+  </div>
 
   <div class="contact-grid">
     <section>

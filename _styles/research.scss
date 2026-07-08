@@ -1,11 +1,46 @@
 ---
 ---
 
+.research-page {
+  width: min(100%, 1100px);
+  margin: 0 auto;
+  color: var(--text);
+  text-align: left;
+}
+
+.research-heading {
+  margin-bottom: 32px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.research-heading h1 {
+  margin: 0 0 14px;
+  text-align: left;
+}
+
+.research-heading h1 span {
+  display: block;
+  margin-top: 5px;
+  color: var(--gray);
+  font-size: 0.68em;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.research-heading > p {
+  max-width: 900px;
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
 .publication-sources {
   display: flex;
   flex-wrap: wrap;
   gap: 22px;
-  margin: 22px 0 42px;
+  margin: 24px 0 0;
 }
 
 .publication-sources a {
@@ -17,25 +52,84 @@
   text-decoration: none;
 }
 
+.publication-tools {
+  margin-bottom: 52px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.publication-tools .search-box {
+  width: min(100%, 620px);
+  margin: 0 0 20px;
+}
+
+.publication-filter-tags,
+.publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.publication-tools .publication-filter-tags {
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.publication-filter-tags .tag,
+.publication-tags .tag {
+  margin: 0;
+  border-radius: 3px;
+}
+
+.publication-tools .search-info {
+  margin: 18px 0 0;
+  text-align: left;
+}
+
+.publication-year {
+  margin-bottom: 58px;
+}
+
+.publication-year > h2 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid var(--text);
+  font-size: 1.55rem;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.publication-year > h2 span {
+  color: var(--gray);
+  font-family: var(--code);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
 .publication-list {
-  margin: 0 0 52px;
-  border-top: 1px solid var(--light-gray);
+  margin: 0;
 }
 
 .publication-item {
   position: relative;
-  padding: 26px 120px 26px 0;
+  padding: 26px 145px 26px 0;
   border-bottom: 1px solid var(--light-gray);
   text-align: left;
 }
 
 .publication-meta {
   display: flex;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 8px 14px;
   margin-bottom: 8px;
   color: var(--gray);
   font-family: var(--code);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: var(--bold);
   text-transform: uppercase;
 }
@@ -44,7 +138,7 @@
   margin: 0 0 9px;
   font-size: 1.08rem;
   letter-spacing: 0;
-  line-height: 1.35;
+  line-height: 1.4;
   text-align: left;
   text-transform: none;
 }
@@ -55,7 +149,7 @@
 }
 
 .publication-item h3 a:hover,
-.publication-record:hover {
+.publication-records a:hover {
   color: var(--primary);
 }
 
@@ -63,8 +157,8 @@
 .publication-venue {
   margin: 0;
   color: var(--dark-gray);
-  font-size: 0.92rem;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  line-height: 1.55;
   text-align: left;
 }
 
@@ -73,37 +167,62 @@
   font-style: italic;
 }
 
-.publication-record {
+.publication-item .publication-tags {
+  justify-content: flex-end;
+  margin: 14px 0 0;
+}
+
+.publication-tags .tag {
+  font-size: 0.68rem;
+}
+
+.publication-records {
   position: absolute;
-  top: 50%;
+  top: 27px;
   right: 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 7px 12px;
+  width: 125px;
+}
+
+.publication-records a {
   color: var(--primary);
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   font-weight: var(--bold);
   text-decoration: none;
-  transform: translateY(-50%);
 }
 
 .publication-note {
   color: var(--gray);
   font-size: 0.82rem;
+  line-height: 1.6;
   text-align: left;
 }
 
 @media (max-width: 700px) {
   .publication-item {
     padding-right: 0;
-    padding-bottom: 54px;
+    padding-bottom: 62px;
   }
 
-  .publication-record {
+  .publication-records {
     top: auto;
     right: auto;
     bottom: 24px;
     left: 0;
-    transform: none;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .publication-year > h2 {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .publication-item .publication-tags {
+    justify-content: flex-start;
   }
 }

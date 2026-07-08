@@ -1,282 +1,2480 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1016/j.patter.2026.101514
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+---
+- title: 'TS-MLLM: A Multi-Modal Large Language Model-based Framework for Industrial
+    Time-Series Big Data Analysis'
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Patterns
-  date: '2026-05-01'
-  link: https://doi.org/hbvg3p
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
-  authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: openRxiv
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
-  authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: openRxiv
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: openRxiv
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+  - Haiteng Wang
+  - Yikang Li
+  - Yunfei Zhu
+  - Jingheng Yan
+  - Lei Ren
+  - Laurence T. Yang
+  publisher: CoRR
+  date: '2026-01-01'
+  year: 2026
+  type: Preprint
+  link: https://doi.org/10.48550/arXiv.2603.07572
+  dblp: https://dblp.org/rec/journals/corr/abs-2603-07572
+  dblp_key: journals/corr/abs-2603-07572
+  pid: 01/1313-1
+  doi: 10.48550/arXiv.2603.07572
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - Preprint
+  - Foundation Models
+  - Industrial Time Series
+- title: 'Intelligent system modeling using GenAI: A methodology for automated simulation
+    model generation'
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: openRxiv
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+  - Lin Zhang
+  - Yuteng Zhang
+  - Dusit Niyato
+  - Lei Ren
+  - Pengfei Gu
+  - Zhen Chen
+  - Yuanjun Laili
+  - Wentong Cai
+  - Agostino G. Bruzzone
+  publisher: Simul. Model. Pract. Theory
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1016/j.simpat.2025.103236
+  dblp: https://dblp.org/rec/journals/simpra/ZhangZNRGCLCB26
+  dblp_key: journals/simpra/ZhangZNRGCLCB26
+  pid: 01/1313-1
+  doi: 10.1016/j.simpat.2025.103236
+  tags:
+  - Journal
+  - Foundation Models
+  - Digital Twins & Design
+- title: Integrated Task and Motion Planner Using Hierarchical Reinforcement Learning
+    for Multi-Robot Collaboration
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
+  - Junnan Zhang
+  - Chaoxu Mu
+  - Ke Wang
+  - Lei Ren
+  publisher: IEEE Trans Autom. Sci. Eng
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/TASE.2025.3641025
+  dblp: https://dblp.org/rec/journals/tase/ZhangMWR26
+  dblp_key: journals/tase/ZhangMWR26
+  pid: 01/1313-1
+  doi: 10.1109/TASE.2025.3641025
+  tags:
+  - Journal
+  - Industrial Agents
+  - Knowledge & Decision Intelligence
+- title: 'IEI-TIA: Industrial Embodied Intelligence Trustworthy Interpretable Agent
+    for Robotic Long-Horizon and Repetitive Tasks'
+  authors:
+  - Jiabao Dong
+  - Lingyuan Yang
+  - Pengji Fang
+  - Shixiang Li
+  - Yusheng Kong
+  - Lei Ren
+  publisher: IEEE Trans Autom. Sci. Eng
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/TASE.2026.3687369
+  dblp: https://dblp.org/rec/journals/tase/DongYFLKR26
+  dblp_key: journals/tase/DongYFLKR26
+  pid: 01/1313-1
+  doi: 10.1109/TASE.2026.3687369
+  tags:
+  - Journal
+  - Industrial Agents
+- title: Distributed Flexible Job Shop Scheduling With Heterogeneous Transportation
+    Resources Constraints via Deep Reinforcement Learning and Graph Neural Network
+  authors:
+  - Kaikai Zhu
+  - Xiaobin Li
+  - Pei Jiang
+  - Min Cheng
+  - Yuanqing Wu
+  - Kaizhou Gao
+  - Lei Ren
+  publisher: IEEE Trans. Syst. Man Cybern. Syst
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/TSMC.2026.3656196
+  dblp: https://dblp.org/rec/journals/tsmc/ZhuLJCWGR26
+  dblp_key: journals/tsmc/ZhuLJCWGR26
+  pid: 01/1313-1
+  doi: 10.1109/TSMC.2026.3656196
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+  - Smart Manufacturing
+- title: 'Digital Genealogy: AIGC-Driven Evolution of Digital Twin for Future Smart
+    Manufacturing'
+  authors:
+  - Lei Ren
+  - Jiabao Dong
+  - Xianchao Zeng
+  - Lingyuan Yang
+  - Yuqing Wang
+  publisher: IEEE Trans Autom. Sci. Eng
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/TASE.2025.3579689
+  dblp: https://dblp.org/rec/journals/tase/RenDZYW26
+  dblp_key: journals/tase/RenDZYW26
+  pid: 01/1313-1
+  doi: 10.1109/TASE.2025.3579689
+  tags:
+  - Journal
+  - Foundation Models
+  - Digital Twins & Design
+  - Smart Manufacturing
+- title: 'CoMA-IKG: LLM-Driven Multiagent Framework for Automated Construction of
+    Industrial Knowledge Graph'
+  authors:
+  - Jing Zhang
+  - Haiteng Wang
+  - Zidi Jia
+  - Jiabao Dong
+  - Lei Ren
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/TII.2026.3660116
+  dblp: https://dblp.org/rec/journals/tii/ZhangWJDR26
+  dblp_key: journals/tii/ZhangWJDR26
+  pid: 01/1313-1
+  doi: 10.1109/TII.2026.3660116
+  tags:
+  - Journal
+  - Foundation Models
+  - Industrial Agents
+  - Knowledge & Decision Intelligence
+- title: 'CoLLM: Industrial Large-Small Model Collaboration With Fuzzy Decision-Making
+    Agent and Self-Reflection'
+  authors:
+  - Haiteng Wang
+  - Lei Ren
+  - Tuo Zhao
+  - Lu Jiao
+  publisher: IEEE Trans. Fuzzy Syst
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/TFUZZ.2025.3594229
+  dblp: https://dblp.org/rec/journals/tfs/WangRZJ26
+  dblp_key: journals/tfs/WangRZJ26
+  pid: 01/1313-1
+  doi: 10.1109/TFUZZ.2025.3594229
+  tags:
+  - Journal
+  - Foundation Models
+  - Industrial Agents
+  - Knowledge & Decision Intelligence
+- title: 'AMR-Net: Adaptive Temporal-Channel Multiresolution Network for Industrial
+    Time-Series Prediction'
+  authors:
+  - Haiteng Wang
+  - Lei Ren
+  - Tuo Zhao
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/TII.2025.3639733
+  dblp: https://dblp.org/rec/journals/tii/WangRZ26
+  dblp_key: journals/tii/WangRZ26
+  pid: 01/1313-1
+  doi: 10.1109/TII.2025.3639733
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: A Self-Supervised CAD Sequence Generation Framework for Modeling Process
+    Discovery
+  authors:
+  - Yuqing Wang
+  - Lei Ren
+  - Haiteng Wang
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/TII.2025.3640846
+  dblp: https://dblp.org/rec/journals/tii/WangRW26
+  dblp_key: journals/tii/WangRW26
+  pid: 01/1313-1
+  doi: 10.1109/TII.2025.3640846
+  tags:
+  - Journal
+  - Digital Twins & Design
+- title: A Hierarchical Vision-Language and Reinforcement Learning Framework for Robotic
+    Task and Motion Planning in Collaborative Manipulation
+  authors:
+  - Junnan Zhang
+  - Chaoxu Mu
+  - Xin Xu
+  - Lei Ren
+  publisher: IEEE Robotics Autom. Lett
+  date: '2026-01-01'
+  year: 2026
+  type: Journal
+  link: https://doi.org/10.1109/LRA.2025.3629984
+  dblp: https://dblp.org/rec/journals/ral/ZhangMXR26
+  dblp_key: journals/ral/ZhangMXR26
+  pid: 01/1313-1
+  doi: 10.1109/LRA.2025.3629984
+  tags:
+  - Journal
+  - Industrial Agents
+  - Knowledge & Decision Intelligence
+- title: 'TKDA: A Tensor-Based Knowledge Distillation Approach of Anomaly Detection
+    for Industrial Cyber-Physical Intelligence'
+  authors:
+  - Xiaokang Wang
+  - Weiping Fang
+  - Songhe Yuan
+  - Lei Ren
+  - Laurence T. Yang
+  - M. Jamal Deen
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TII.2025.3582372
+  dblp: https://dblp.org/rec/journals/tii/WangFYRYD25
+  dblp_key: journals/tii/WangFYRYD25
+  pid: 01/1313-1
+  doi: 10.1109/TII.2025.3582372
+  tags:
+  - Journal
+  - Industrial Time Series
+  - Industrial Internet & Edge
+- title: Tensor-Representation-Based Multiview Attributed Graph Clustering With Smooth
+    Structure
+  authors:
+  - Yuan Gao
+  - Qian Zhao
+  - Laurence T. Yang
+  - Jing Yang
+  - Lei Ren
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2025.3526590
+  dblp: https://dblp.org/rec/journals/tnn/GaoZYYR25
+  dblp_key: journals/tnn/GaoZYYR25
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2025.3526590
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+- title: 'MetaIndux-TS: Frequency-Aware AIGC Foundation Model for Industrial Time
+    Series'
+  authors:
+  - Haiteng Wang
+  - Lei Ren
+  - Yikang Li
+  - Yuqing Wang
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2025.3577203
+  dblp: https://dblp.org/rec/journals/tnn/WangRLW25
+  dblp_key: journals/tnn/WangRLW25
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2025.3577203
+  tags:
+  - Journal
+  - Foundation Models
+  - Industrial Time Series
+- title: 'MetaIndux-PLC: A Control Logic-Guided LLM for PLC code generation in industrial
+    control systems'
+  authors:
+  - Lei Ren
+  - Haotian Wang
+  - Jiabao Dong
+  - Haiteng Wang
+  - Shuai Liu
+  - Yuanjun Laili
+  - Lin Zhang
+  publisher: Appl. Soft Comput
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1016/j.asoc.2025.113673
+  dblp: https://dblp.org/rec/journals/asc/RenWDWLLZ25
+  dblp_key: journals/asc/RenWDWLLZ25
+  pid: 01/1313-1
+  doi: 10.1016/j.asoc.2025.113673
+  tags:
+  - Journal
+  - Foundation Models
+  - Industrial Software & Control
+- title: 'MBSE 2.0: Toward More Integrated, Comprehensive, and Intelligent MBSE'
+  authors:
+  - Lin Zhang
+  - Zhen Chen
+  - Yuanjun Laili
+  - Lei Ren
+  - M. Jamal Deen
+  - Wentong Cai
+  - Yuteng Zhang
+  - Yuqing Zeng
+  - Pengfei Gu
+  publisher: Syst
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.3390/systems13070584
+  dblp: https://dblp.org/rec/journals/systems/ZhangCLRDCZZG25
+  dblp_key: journals/systems/ZhangCLRDCZZG25
+  pid: 01/1313-1
+  doi: 10.3390/systems13070584
+  tags:
+  - Journal
+  - Digital Twins & Design
+- title: Interleaving and cross-attention presents efficient knowledge graph embedding
+  authors:
+  - Jinwang Wu
+  - Yuanjun Laili
+  - Chengwen Qi
+  - Zhuoqun Li
+  - Lei Ren
+  publisher: Expert Syst. Appl
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1016/j.eswa.2025.126930
+  dblp: https://dblp.org/rec/journals/eswa/WuLQLR25
+  dblp_key: journals/eswa/WuLQLR25
+  pid: 01/1313-1
+  doi: 10.1016/j.eswa.2025.126930
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+- title: Industrial Foundation Model
+  authors:
+  - Lei Ren
+  - Haiteng Wang
+  - Jiabao Dong
+  - Zidi Jia
+  - Shixiang Li
+  - Yuqing Wang
+  - Yuanjun Laili
+  - Di Huang
+  - Lin Zhang
+  - Bo Hu Li
+  publisher: IEEE Trans. Cybern
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TCYB.2025.3527632
+  dblp: https://dblp.org/rec/journals/tcyb/RenWDJLWLHZL25
+  dblp_key: journals/tcyb/RenWDJLWLHZL25
+  pid: 01/1313-1
+  doi: 10.1109/TCYB.2025.3527632
+  tags:
+  - Journal
+  - Foundation Models
+- title: GL-MHSA:A Demand Forecasting Method for Related Products in Parts Supply
+    Chain System
+  authors:
+  - Jing Zhang
+  - Lei Ren
+  - Jin Cui
+  - Jiajie Wu
+  - Yuqing Wang
+  - Haiteng Wang
+  - Zuo-Jun Max Shen
+  publisher: INDIN
+  date: '2025-01-01'
+  year: 2025
+  type: Conference
+  link: https://doi.org/10.1109/INDIN64977.2025.11279159
+  dblp: https://dblp.org/rec/conf/indin/ZhangRCWWWS25
+  dblp_key: conf/indin/ZhangRCWWWS25
+  pid: 01/1313-1
+  doi: 10.1109/INDIN64977.2025.11279159
+  tags:
+  - Conference
+  - Smart Manufacturing
+- title: GenAI for Simulation Model in Model-Based Systems Engineering
+  authors:
+  - Lin Zhang
+  - Yuteng Zhang
+  - Dusit Niyato
+  - Lei Ren
+  - Pengfei Gu
+  - Zhen Chen
+  - Yuanjun Laili
+  - Wentong Cai
+  - Agostino G. Bruzzone
+  publisher: CoRR
+  date: '2025-01-01'
+  year: 2025
+  type: Preprint
+  link: https://doi.org/10.48550/arXiv.2503.06422
+  dblp: https://dblp.org/rec/journals/corr/abs-2503-06422
+  dblp_key: journals/corr/abs-2503-06422
+  pid: 01/1313-1
+  doi: 10.48550/arXiv.2503.06422
+  tags:
+  - Preprint
+  - Foundation Models
+  - Digital Twins & Design
+- title: 'FDformer: A Fuzzy Dynamic Transformer-Based Network for Efficient Industrial
+    Time Series Prediction'
+  authors:
+  - Lei Ren
+  - Tuo Zhao
+  - Haiteng Wang
+  publisher: IEEE Trans. Fuzzy Syst
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TFUZZ.2025.3549920
+  dblp: https://dblp.org/rec/journals/tfs/RenZW25
+  dblp_key: journals/tfs/RenZW25
+  pid: 01/1313-1
+  doi: 10.1109/TFUZZ.2025.3549920
+  tags:
+  - Journal
+  - Industrial Time Series
+  - Knowledge & Decision Intelligence
+- title: Efficient 3-D Model Machining Strategy Prediction With Topology-Spanning
+    Aggregation and GMU Data Augmentation
+  authors:
+  - Lei Ren
+  - Yuqing Wang
+  - Wei Chen
+  - Haiteng Wang
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TII.2024.3523552
+  dblp: https://dblp.org/rec/journals/tii/RenWCW25
+  dblp_key: journals/tii/RenWCW25
+  pid: 01/1313-1
+  doi: 10.1109/TII.2024.3523552
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: 'DADN: A Dynamic Anomaly Detection Network for Multivariate Time Series Data
+    of the Industrial Internet of Things'
+  authors:
+  - Yusheng Kong
+  - Jingwei Guo
+  - Lei Ren
+  - Guoliang Kang
+  - Yazhe Wang
+  - Jinhu Lü
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TII.2025.3563540
+  dblp: https://dblp.org/rec/journals/tii/KongGRKWL25
+  dblp_key: journals/tii/KongGRKWL25
+  pid: 01/1313-1
+  doi: 10.1109/TII.2025.3563540
+  tags:
+  - Journal
+  - Industrial Time Series
+  - Industrial Internet & Edge
+- title: Communication Intensive Task Offloading With IDMZ for Secure Industrial Edge
+    Computing
+  authors:
+  - Yuanjun Laili
+  - Jiabei Gong
+  - Yusheng Kong
+  - Fei Wang
+  - Lei Ren
+  - Lin Zhang
+  publisher: IEEE Trans. Cloud Comput
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TCC.2025.3548043
+  dblp: https://dblp.org/rec/journals/tcc/LailiGKWRZ25
+  dblp_key: journals/tcc/LailiGKWRZ25
+  pid: 01/1313-1
+  doi: 10.1109/TCC.2025.3548043
+  tags:
+  - Journal
+  - Industrial Internet & Edge
+- title: 'Collaborative task scheduling in IIoT: A comparative study of evolutionary
+    algorithms and deep reinforcement learning'
+  authors:
+  - Zhen Chen
+  - Xiaohan Wang
+  - Yuanjun Laili
+  - Lin Zhang
+  - Wentong Cai
+  - Lei Ren
+  - Zhihao Liu
+  publisher: J. Ind. Inf. Integr
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1016/j.jii.2025.100930
+  dblp: https://dblp.org/rec/journals/jiii/ChenWLZCRL25
+  dblp_key: journals/jiii/ChenWLZCRL25
+  pid: 01/1313-1
+  doi: 10.1016/j.jii.2025.100930
+  tags:
+  - Journal
+  - Industrial Internet & Edge
+  - Knowledge & Decision Intelligence
+- title: 'BGRN: A Binarized Multimodal Fusion Grasp Prediction Network with Information
+    Recovery Connection'
+  authors:
+  - Shixiang Li
+  - Jiabao Dong
+  - Yusheng Kong
+  - Haiteng Wang
+  - Zidi Jia
+  - Lei Ren
+  publisher: INDIN
+  date: '2025-01-01'
+  year: 2025
+  type: Conference
+  link: https://doi.org/10.1109/INDIN64977.2025.11279214
+  dblp: https://dblp.org/rec/conf/indin/LiDKWJR25
+  dblp_key: conf/indin/LiDKWJR25
+  pid: 01/1313-1
+  doi: 10.1109/INDIN64977.2025.11279214
+  tags:
+  - Conference
+  - Industrial Agents
+- title: An AIGC-Driven Score-Based Diffusion Approach for Industrial Time Series
+  authors:
+  - Lei Ren
+  - Jinwang Li
+  - Haiteng Wang
+  publisher: IEEE Internet Things J
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/JIOT.2024.3509029
+  dblp: https://dblp.org/rec/journals/iotj/RenLW25
+  dblp_key: journals/iotj/RenLW25
+  pid: 01/1313-1
+  doi: 10.1109/JIOT.2024.3509029
+  tags:
+  - Journal
+  - Foundation Models
+  - Industrial Time Series
+- title: 'AIGC for Industrial Time Series: From Deep-Generative Models to Large-Generative
+    Models'
+  authors:
+  - Lei Ren
+  - Haiteng Wang
+  - Jinwang Li
+  - Yang Tang
+  - Chunhua Yang
+  publisher: IEEE Trans. Syst. Man Cybern. Syst
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TSMC.2025.3598252
+  dblp: https://dblp.org/rec/journals/tsmc/RenWLTY25
+  dblp_key: journals/tsmc/RenWLTY25
+  pid: 01/1313-1
+  doi: 10.1109/TSMC.2025.3598252
+  tags:
+  - Journal
+  - Foundation Models
+  - Industrial Time Series
+- title: 'ABNN: Adaptive-Gating Binary Neural Network With Dynamic Activation Quantization
+    for Industrial Health Status Prediction'
+  authors:
+  - Lei Ren
+  - Shixiang Li
+  - Haiteng Wang
+  - Yuanjun Laili
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2025.3577620
+  dblp: https://dblp.org/rec/journals/tnn/RenLWL25
+  dblp_key: journals/tnn/RenLWL25
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2025.3577620
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: A Two-Stage Privacy-Preserving Domain Adaptation for Industrial Time-Series
+    Prediction
+  authors:
+  - Zidi Jia
+  - Lei Ren
+  - Haiteng Wang
+  - Yuanjun Laili
+  publisher: IEEE Trans. Emerg. Top. Comput. Intell
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TETCI.2024.3502418
+  dblp: https://dblp.org/rec/journals/tetci/JiaRWL25
+  dblp_key: journals/tetci/JiaRWL25
+  pid: 01/1313-1
+  doi: 10.1109/TETCI.2024.3502418
+  tags:
+  - Journal
+  - Industrial Time Series
+  - Knowledge & Decision Intelligence
+- title: A triple population adaptive differential evolution
+  authors:
+  - Jiabei Gong
+  - Yuanjun Laili
+  - Jiayi Zhang
+  - Lin Zhang
+  - Lei Ren
+  publisher: Inf. Sci
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1016/j.ins.2024.121401
+  dblp: https://dblp.org/rec/journals/isci/GongLZZR25
+  dblp_key: journals/isci/GongLZZR25
+  pid: 01/1313-1
+  doi: 10.1016/j.ins.2024.121401
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+- title: A Lightweight Group Transformer-Based Time Series Reduction Network for Edge
+    Intelligence and Its Application in Industrial RUL Prediction
+  authors:
+  - Lei Ren
+  - Haiteng Wang
+  - Tingyu Mo
+  - Laurence T. Yang
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2023.3347227
+  dblp: https://dblp.org/rec/journals/tnn/RenWMY25
+  dblp_key: journals/tnn/RenWMY25
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2023.3347227
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: A Contrastive Representation Domain Adaptation Method for Industrial Time-Series
+    Cross-Domain Prediction
+  authors:
+  - Zidi Jia
+  - Lei Ren
+  - Yang Tang
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2025-01-01'
+  year: 2025
+  type: Journal
+  link: https://doi.org/10.1109/TII.2024.3523572
+  dblp: https://dblp.org/rec/journals/tii/JiaRT25
+  dblp_key: journals/tii/JiaRT25
+  pid: 01/1313-1
+  doi: 10.1109/TII.2024.3523572
+  tags:
+  - Journal
+  - Industrial Time Series
+  - Knowledge & Decision Intelligence
+- title: Temporal-Frequency Attention Focusing for Time Series Extrinsic Regression
+    via Auxiliary Task
+  authors:
+  - Lei Ren
+  - Tingyu Mo
+  - Xuejun Cheng
+  - Xi Li
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2023.3287318
+  dblp: https://dblp.org/rec/journals/tnn/RenMCL24
+  dblp_key: journals/tnn/RenMCL24
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2023.3287318
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: Single/Multi-Source Black-Box Domain Adaption for Sensor Time Series Data
+  authors:
+  - Lei Ren
+  - Xuejun Cheng
+  publisher: IEEE Trans. Cybern
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TCYB.2023.3300832
+  dblp: https://dblp.org/rec/journals/tcyb/RenC24
+  dblp_key: journals/tcyb/RenC24
+  pid: 01/1313-1
+  doi: 10.1109/TCYB.2023.3300832
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: Meta-learning Based Domain Generalization Framework for Fault Diagnosis With
+    Gradient Aligning and Semantic Matching
+  authors:
+  - Lei Ren
+  - Tingyu Mo
+  - Xuejun Cheng
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TII.2023.3264111
+  dblp: https://dblp.org/rec/journals/tii/RenMC24
+  dblp_key: journals/tii/RenMC24
+  pid: 01/1313-1
+  doi: 10.1109/TII.2023.3264111
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: 'Industrial Metaverse for Smart Manufacturing: Model, Architecture, and Applications'
+  authors:
+  - Lei Ren
+  - Jiabao Dong
+  - Lin Zhang
+  - Yuanjun Laili
+  - Xiaokang Wang
+  - Yue Qi
+  - Bo Hu Li
+  - Lihui Wang
+  - Laurence T. Yang
+  - M. Jamal Deen
+  publisher: IEEE Trans. Cybern
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TCYB.2024.3372591
+  dblp: https://dblp.org/rec/journals/tcyb/RenDZLWQLWYD24
+  dblp_key: journals/tcyb/RenDZLWQLWYD24
+  pid: 01/1313-1
+  doi: 10.1109/TCYB.2024.3372591
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: DSAC-Configured Differential Evolution for Cloud-Edge-Device Collaborative
+    Task Scheduling
+  authors:
+  - Yuanjun Laili
+  - Xiaohan Wang
+  - Lin Zhang
+  - Lei Ren
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TII.2023.3281661
+  dblp: https://dblp.org/rec/journals/tii/LailiWZR24
+  dblp_key: journals/tii/LailiWZR24
+  pid: 01/1313-1
+  doi: 10.1109/TII.2023.3281661
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+- title: 'DLformer: A Dynamic Length Transformer-Based Network for Efficient Feature
+    Representation in Remaining Useful Life Prediction'
+  authors:
+  - Lei Ren
+  - Haiteng Wang
+  - Gao Huang
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2023.3257038
+  dblp: https://dblp.org/rec/journals/tnn/RenWH24
+  dblp_key: journals/tnn/RenWH24
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2023.3257038
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: Digital Twin Robotic System With Continuous Learning for Grasp Detection
+    in Variable Scenes
+  authors:
+  - Lei Ren
+  - Jiabao Dong
+  - Di Huang
+  - Jinhu Lü
+  publisher: IEEE Trans. Ind. Electron
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TIE.2023.3299049
+  dblp: https://dblp.org/rec/journals/tie/0001D0L24
+  dblp_key: journals/tie/0001D0L24
+  pid: 01/1313-1
+  doi: 10.1109/TIE.2023.3299049
+  tags:
+  - Journal
+  - Industrial Agents
+  - Digital Twins & Design
+- title: 'Diff-MTS: Temporal-Augmented Conditional Diffusion-based AIGC for Industrial
+    Time Series Towards the Large Model Era'
+  authors:
+  - Lei Ren
+  - Haiteng Wang
+  - Yuanjun Laili
+  publisher: CoRR
+  date: '2024-01-01'
+  year: 2024
+  type: Preprint
+  link: https://doi.org/10.48550/arXiv.2407.11501
+  dblp: https://dblp.org/rec/journals/corr/abs-2407-11501
+  dblp_key: journals/corr/abs-2407-11501
+  pid: 01/1313-1
+  doi: 10.48550/arXiv.2407.11501
+  tags:
+  - Preprint
+  - Foundation Models
+  - Industrial Time Series
+- title: 'Diff-MTS: Temporal-Augmented Conditional Diffusion-Based AIGC for Industrial
+    Time Series Toward the Large Model Era'
+  authors:
+  - Lei Ren
+  - Haiteng Wang
+  - Yuanjun Laili
+  publisher: IEEE Trans. Cybern
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TCYB.2024.3462500
+  dblp: https://dblp.org/rec/journals/tcyb/RenWL24
+  dblp_key: journals/tcyb/RenWL24
+  pid: 01/1313-1
+  doi: 10.1109/TCYB.2024.3462500
+  tags:
+  - Journal
+  - Foundation Models
+  - Industrial Time Series
+- title: 'Deep Learning for Time-Series Prediction in IIoT: Progress, Challenges,
+    and Prospects'
+  authors:
+  - Lei Ren
+  - Zidi Jia
+  - Yuanjun Laili
+  - Di Huang
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2023.3291371
+  dblp: https://dblp.org/rec/journals/tnn/RenJLH24
+  dblp_key: journals/tnn/RenJLH24
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2023.3291371
+  tags:
+  - Journal
+  - Industrial Time Series
+  - Industrial Internet & Edge
+- title: Data-Driven Design of Distributed Monitoring and Optimization System for
+    Manufacturing Systems
+  authors:
+  - Hao Wang
+  - Hao Luo
+  - Lei Ren
+  - Mingyi Huo
+  - Yuchen Jiang
+  - Okyay Kaynak
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/tii.2024.3383491
+  dblp: https://dblp.org/rec/journals/tii/WangLRHJK24
+  dblp_key: journals/tii/WangLRHJK24
+  pid: 01/1313-1
+  doi: 10.1109/tii.2024.3383491
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+  - Smart Manufacturing
+- title: 'BTFormer: A BNN-Based Trend-Aware Time-Series Prediction Model for Industrial
+    Intelligence'
+  authors:
+  - Lei Ren
+  - Shixiang Li
+  - Xiaokang Wang
+  - Haiteng Wang
+  - Yuanjun Laili
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TII.2024.3452181
+  dblp: https://dblp.org/rec/journals/tii/RenLWWL24
+  dblp_key: journals/tii/RenLWWL24
+  pid: 01/1313-1
+  doi: 10.1109/TII.2024.3452181
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: 'BTCAN: A Binary Trend-Aware Network for Industrial Edge Intelligence and
+    Application in Aero-Engine RUL Prediction'
+  authors:
+  - Lei Ren
+  - Shixiang Li
+  - Yuanjun Laili
+  - Lin Zhang
+  publisher: IEEE Trans. Instrum. Meas
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/TIM.2024.3428643
+  dblp: https://dblp.org/rec/journals/tim/RenLLZ24
+  dblp_key: journals/tim/RenLLZ24
+  pid: 01/1313-1
+  doi: 10.1109/TIM.2024.3428643
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: 'AIGC for Industrial Time Series: From Deep Generative Models to Large Generative
+    Models'
+  authors:
+  - Lei Ren
+  - Haiteng Wang
+  - Yang Tang
+  - Chunhua Yang
+  publisher: CoRR
+  date: '2024-01-01'
+  year: 2024
+  type: Preprint
+  link: https://doi.org/10.48550/arXiv.2407.11480
+  dblp: https://dblp.org/rec/journals/corr/abs-2407-11480
+  dblp_key: journals/corr/abs-2407-11480
+  pid: 01/1313-1
+  doi: 10.48550/arXiv.2407.11480
+  tags:
+  - Preprint
+  - Foundation Models
+  - Industrial Time Series
+- title: A Tensor-Train-Based P2 Blockchain for Internet of Things Services
+  authors:
+  - Xiaokang Wang
+  - Laurence T. Yang
+  - Dongdong Huo
+  - Lei Ren
+  - M. Jamal Deen
+  publisher: IEEE Internet Things J
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1109/JIOT.2024.3364528
+  dblp: https://dblp.org/rec/journals/iotj/WangYHRD24
+  dblp_key: journals/iotj/WangYHRD24
+  pid: 01/1313-1
+  doi: 10.1109/JIOT.2024.3364528
+  tags:
+  - Journal
+  - Industrial AI
+- title: A template augmented distant supervision framework for Chinese named entity
+    recognition
+  authors:
+  - Chengwen Qi
+  - Yuanjun Laili
+  - Lei Ren
+  - Lin Zhang
+  - Bowen Li
+  publisher: Int. J. Model. Simul. Sci. Comput
+  date: '2024-01-01'
+  year: 2024
+  type: Journal
+  link: https://doi.org/10.1142/S1793962324500181
+  dblp: https://dblp.org/rec/journals/ijmssc/QiLRZL24
+  dblp_key: journals/ijmssc/QiLRZL24
+  pid: 01/1313-1
+  doi: 10.1142/S1793962324500181
+  tags:
+  - Journal
+  - Industrial AI
+- title: A hardware acceleration Framework of Reconfigurable Edge Modules for Convolutional
+    Neural Networks
+  authors:
+  - Yiming Qiao
+  - Zidi Jia
+  - Shixiang Li
+  - Lei Ren
+  publisher: IECON
+  date: '2024-01-01'
+  year: 2024
+  type: Conference
+  link: https://doi.org/10.1109/IECON55916.2024.10905517
+  dblp: https://dblp.org/rec/conf/iecon/QiaoJL024
+  dblp_key: conf/iecon/QiaoJL024
+  pid: 01/1313-1
+  doi: 10.1109/IECON55916.2024.10905517
+  tags:
+  - Conference
+  - Industrial AI
+- title: A Digital Twin Modeling Code Generation Framework based on Large Language
+    Model
+  authors:
+  - Jiabao Dong
+  - Lei Ren
+  publisher: IECON
+  date: '2024-01-01'
+  year: 2024
+  type: Conference
+  link: https://doi.org/10.1109/IECON55916.2024.10905976
+  dblp: https://dblp.org/rec/conf/iecon/Dong024
+  dblp_key: conf/iecon/Dong024
+  pid: 01/1313-1
+  doi: 10.1109/IECON55916.2024.10905976
+  tags:
+  - Conference
+  - Foundation Models
+  - Digital Twins & Design
+- title: A Cloud-Edge Intelligent Collaborative Framework and Its Applications in
+    AIGC and Digital Twins
+  authors:
+  - Haiteng Wang
+  - Lu Jiao
+  - Tuo Zhao
+  - Lei Ren
+  publisher: IECON
+  date: '2024-01-01'
+  year: 2024
+  type: Conference
+  link: https://doi.org/10.1109/IECON55916.2024.10905560
+  dblp: https://dblp.org/rec/conf/iecon/WangJZ024
+  dblp_key: conf/iecon/WangJZ024
+  pid: 01/1313-1
+  doi: 10.1109/IECON55916.2024.10905560
+  tags:
+  - Conference
+  - Foundation Models
+  - Digital Twins & Design
+- title: A Cloud-Edge Adaptive Framework for Equipment Predictive Maintenance in IIoT
+  authors:
+  - Zidi Jia
+  - Lei Ren
+  publisher: IECON
+  date: '2024-01-01'
+  year: 2024
+  type: Conference
+  link: https://doi.org/10.1109/IECON55916.2024.10905820
+  dblp: https://dblp.org/rec/conf/iecon/Jia024
+  dblp_key: conf/iecon/Jia024
+  pid: 01/1313-1
+  doi: 10.1109/IECON55916.2024.10905820
+  tags:
+  - Conference
+  - Industrial Internet & Edge
+- title: A Binary Grasp Pose Discriminator with Attention-Bridging Based on Local
+    Grasp Units
+  authors:
+  - Yuqing Wang
+  - Jiabao Dong
+  - Jing Zhang
+  - Lei Ren
+  publisher: IECON
+  date: '2024-01-01'
+  year: 2024
+  type: Conference
+  link: https://doi.org/10.1109/IECON55916.2024.10905582
+  dblp: https://dblp.org/rec/conf/iecon/WangDZR24
+  dblp_key: conf/iecon/WangDZR24
+  pid: 01/1313-1
+  doi: 10.1109/IECON55916.2024.10905582
+  tags:
+  - Conference
+  - Industrial Agents
+- title: Time-Varying Gaussian Encoder-Based Adaptive Sensor-Weighted Method for Turbofan
+    Engine Remaining Useful Life Prediction
+  authors:
+  - Lei Ren
+  - Haiteng Wang
+  - Zidi Jia
+  - Yuanjun Laili
+  - Lin Zhang
+  publisher: IEEE Trans. Instrum. Meas
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1109/TIM.2023.3291733
+  dblp: https://dblp.org/rec/journals/tim/RenWJLZ23
+  dblp_key: journals/tim/RenWJLZ23
+  pid: 01/1313-1
+  doi: 10.1109/TIM.2023.3291733
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: 'SuperMini-seg: An ultra lightweight network for COVID-19 lung infection
+    segmentation from CT images'
+  authors:
+  - Yuan Yang
+  - Lin Zhang
+  - Lei Ren
+  - Longfei Zhou
+  - Xiaohan Wang
+  publisher: Biomed. Signal Process. Control
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1016/j.bspc.2023.104896
+  dblp: https://dblp.org/rec/journals/bspc/YangZRZW23
+  dblp_key: journals/bspc/YangZRZW23
+  pid: 01/1313-1
+  doi: 10.1016/j.bspc.2023.104896
+  tags:
+  - Journal
+  - Industrial AI
+- title: 'QTT-DLSTM: A Cloud-Edge-Aided Distributed LSTM for Cyber-Physical-Social
+    Big Data'
+  authors:
+  - Xiaokang Wang
+  - Lei Ren
+  - Ruixue Yuan
+  - Laurence T. Yang
+  - M. Jamal Deen
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2022.3140238
+  dblp: https://dblp.org/rec/journals/tnn/WangRYYD23
+  dblp_key: journals/tnn/WangRYYD23
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2022.3140238
+  tags:
+  - Journal
+  - Industrial Internet & Edge
+- title: Parallel Scheduling of Large-Scale Tasks for Industrial Cloud-Edge Collaboration
+  authors:
+  - Yuanjun Laili
+  - Fuqiang Guo
+  - Lei Ren
+  - Xiang Li
+  - Yulin Li
+  - Lin Zhang
+  publisher: IEEE Internet Things J
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1109/JIOT.2021.3139689
+  dblp: https://dblp.org/rec/journals/iotj/LailiGRLLZ23
+  dblp_key: journals/iotj/LailiGRLLZ23
+  pid: 01/1313-1
+  doi: 10.1109/JIOT.2021.3139689
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+- title: 'MMViT-Seg: A lightweight transformer and CNN fusion network for COVID-19
+    segmentation'
+  authors:
+  - Yuan Yang
+  - Lin Zhang
+  - Lei Ren
+  - Xiaohan Wang
+  publisher: Comput. Methods Programs Biomed
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1016/j.cmpb.2023.107348
+  dblp: https://dblp.org/rec/journals/cmpb/YangZRW23
+  dblp_key: journals/cmpb/YangZRW23
+  pid: 01/1313-1
+  doi: 10.1016/j.cmpb.2023.107348
+  tags:
+  - Journal
+  - Industrial AI
+- title: 'MCTAN: A Novel Multichannel Temporal Attention-Based Network for Industrial
+    Health Indicator Prediction'
+  authors:
+  - Lei Ren
+  - Yuxin Liu
+  - Di Huang
+  - Keke Huang
+  - Chunhua Yang
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2021.3136768
+  dblp: https://dblp.org/rec/journals/tnn/RenLHHY23
+  dblp_key: journals/tnn/RenLHHY23
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2021.3136768
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: Distributed autoencoder classifier network for small-scale and scattered
+    COVID-19 dataset classification
+  authors:
+  - Yuan Yang
+  - Lin Zhang
+  - Lei Ren
+  - Xiaohan Wang
+  publisher: Int. J. Imaging Syst. Technol
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1002/ima.22972
+  dblp: https://dblp.org/rec/journals/imst/YangZRW23
+  dblp_key: journals/imst/YangZRW23
+  pid: 01/1313-1
+  doi: 10.1002/ima.22972
+  tags:
+  - Journal
+  - Industrial AI
+- title: 'Custom Grasping: A Region-Based Robotic Grasping Detection Method in Industrial
+    Cyber-Physical Systems'
+  authors:
+  - Yuanjun Laili
+  - Zelin Chen
+  - Lei Ren
+  - Xiaokang Wang
+  - M. Jamal Deen
+  publisher: IEEE Trans Autom. Sci. Eng
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1109/TASE.2021.3139610
+  dblp: https://dblp.org/rec/journals/tase/LailiCRWD23
+  dblp_key: journals/tase/LailiCRWD23
+  pid: 01/1313-1
+  doi: 10.1109/TASE.2021.3139610
+  tags:
+  - Journal
+  - Industrial Agents
+  - Industrial Internet & Edge
+- title: An ABGE-aided manufacturing knowledge graph construction approach for heterogeneous
+    IIoT data integration
+  authors:
+  - Lei Ren
+  - Yingjie Li
+  - Xiaokang Wang
+  - Jin Cui
+  - Lin Zhang
+  publisher: Int. J. Prod. Res
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1080/00207543.2022.2042416
+  dblp: https://dblp.org/rec/journals/ijpr/0001L0C023
+  dblp_key: journals/ijpr/0001L0C023
+  pid: 01/1313-1
+  doi: 10.1080/00207543.2022.2042416
+  tags:
+  - Journal
+  - Industrial Internet & Edge
+  - Knowledge & Decision Intelligence
+  - Smart Manufacturing
+- title: A Lightweight and Adaptive Knowledge Distillation Framework for Remaining
+    Useful Life Prediction
+  authors:
+  - Lei Ren
+  - Tao Wang
+  - Zidi Jia
+  - Fangyu Li
+  - Honggui Han
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1109/TII.2022.3224969
+  dblp: https://dblp.org/rec/journals/tii/RenWJLH23
+  dblp_key: journals/tii/RenWJLH23
+  pid: 01/1313-1
+  doi: 10.1109/TII.2022.3224969
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: 'A Binocular Vision Application in IoT: Realtime Trustworthy Road Condition
+    Detection System in Passable Area'
+  authors:
+  - Qiwei Xie
+  - Xiyuan Hu
+  - Lei Ren
+  - Lianyong Qi
+  - Zhao Sun
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2023-01-01'
+  year: 2023
+  type: Journal
+  link: https://doi.org/10.1109/TII.2022.3145858
+  dblp: https://dblp.org/rec/journals/tii/XieHRQS23
+  dblp_key: journals/tii/XieHRQS23
+  pid: 01/1313-1
+  doi: 10.1109/TII.2022.3145858
+  tags:
+  - Journal
+  - Industrial AI
+- title: Structured Graded Lung Rehabilitation for Children with Mechanical Ventilation
+  authors:
+  - Lei Ren
+  - Jing Hu
+  - Mei Li
+  - Ling Zhang
+  - Jinyue Xia
+  publisher: Comput. Syst. Sci. Eng
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.32604/csse.2022.018640
+  dblp: https://dblp.org/rec/journals/csse/RenHLZX22
+  dblp_key: journals/csse/RenHLZX22
+  pid: 01/1313-1
+  doi: 10.32604/csse.2022.018640
+  tags:
+  - Journal
+  - Industrial AI
+- title: Robotic Disassembly Sequence Planning With Backup Actions
+  authors:
+  - Yuanjun Laili
+  - Xiang Li
+  - Yongjing Wang
+  - Lei Ren
+  - Xiaokang Wang
+  publisher: IEEE Trans Autom. Sci. Eng
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1109/TASE.2021.3072663
+  dblp: https://dblp.org/rec/journals/tase/LailiLW0W22
+  dblp_key: journals/tase/LailiLW0W22
+  pid: 01/1313-1
+  doi: 10.1109/TASE.2021.3072663
+  tags:
+  - Journal
+  - Industrial Agents
+- title: 'LM-CNN: A Cloud-Edge Collaborative Method for Adaptive Fault Diagnosis With
+    Label Sampling Space Enlarging'
+  authors:
+  - Lei Ren
+  - Zidi Jia
+  - Tao Wang
+  - Yehan Ma
+  - Li-Hui Wang
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1109/TII.2022.3180389
+  dblp: https://dblp.org/rec/journals/tii/RenJWMW22
+  dblp_key: journals/tii/RenJWMW22
+  pid: 01/1313-1
+  doi: 10.1109/TII.2022.3180389
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: Evaluating performance variations cross cloud data centres using multiview
+    comparative workload traces analysis
+  authors:
+  - Li Ruan
+  - Xiangrong Xu
+  - Limin Xiao
+  - Lei Ren
+  - Nasro Min-Allah
+  - Yunzhi Xue
+  publisher: Connect. Sci
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1080/09540091.2021.2015289
+  dblp: https://dblp.org/rec/journals/connection/RuanXXRMX22
+  dblp_key: journals/connection/RuanXXRMX22
+  pid: 01/1313-1
+  doi: 10.1080/09540091.2021.2015289
+  tags:
+  - Journal
+  - Industrial AI
+- title: 'DIMA: Distributed cooperative microservice caching for internet of things
+    in edge computing by deep reinforcement learning'
+  authors:
+  - Hao Tian
+  - Xiaolong Xu
+  - Tingyu Lin
+  - Yong Cheng
+  - Cheng Qian
+  - Lei Ren
+  - Muhammad Bilal
+  publisher: World Wide Web
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1007/s11280-021-00939-7
+  dblp: https://dblp.org/rec/journals/www/TianXLCQRB22
+  dblp_key: journals/www/TianXLCQRB22
+  pid: 01/1313-1
+  doi: 10.1007/s11280-021-00939-7
+  tags:
+  - Journal
+  - Industrial Internet & Edge
+  - Knowledge & Decision Intelligence
+- title: Diagnosing Evolution of Cloud Cluster via Spatio-temporal Trace Analysis
+  authors:
+  - Li Ruan
+  - Yunpeng Jiao
+  - Tingyu Lin
+  - Limin Xiao
+  - Nasro Min-Allah
+  - Lei Ren
+  publisher: J. Circuits Syst. Comput
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1142/S0218126622500694
+  dblp: https://dblp.org/rec/journals/jcsc/RuanJLXMR22
+  dblp_key: journals/jcsc/RuanJLXMR22
+  pid: 01/1313-1
+  doi: 10.1142/S0218126622500694
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: A Tensor-Based Computing and Optimization Model for Intelligent Edge Services
+  authors:
+  - Xiaokang Wang
+  - Laurence T. Yang
+  - Lei Ren
+  - Yihao Wang
+  - M. Jamal Deen
+  publisher: IEEE Netw
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1109/MNET.011.1800508
+  dblp: https://dblp.org/rec/journals/network/WangYRWD22
+  dblp_key: journals/network/WangYRWD22
+  pid: 01/1313-1
+  doi: 10.1109/MNET.011.1800508
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+- title: A novel Alzheimer's disease detection approach using GAN-based brain slice
+    image enhancement
+  authors:
+  - Tian Bai
+  - Mingyu Du
+  - Lin Zhang
+  - Lei Ren
+  - Li Ruan
+  - Yuan Yang
+  - Guanghao Qian
+  - Zihao Meng
+  - Li Zhao
+  - M. Jamal Deen
+  publisher: Neurocomputing
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1016/j.neucom.2022.04.012
+  dblp: https://dblp.org/rec/journals/ijon/BaiDZRRYQMZD22
+  dblp_key: journals/ijon/BaiDZRRYQMZD22
+  pid: 01/1313-1
+  doi: 10.1016/j.neucom.2022.04.012
+  tags:
+  - Journal
+  - Industrial AI
+- title: A Multi-Agent Reinforcement Learning Method With Route Recorders for Vehicle
+    Routing in Supply Chain Management
+  authors:
+  - Lei Ren
+  - Xiaoyang Fan
+  - Jin Cui
+  - Zhen Shen
+  - Yisheng Lv
+  - Gang Xiong
+  publisher: IEEE Trans. Intell. Transp. Syst
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1109/TITS.2022.3150151
+  dblp: https://dblp.org/rec/journals/tits/RenFCSLX22
+  dblp_key: journals/tits/RenFCSLX22
+  pid: 01/1313-1
+  doi: 10.1109/TITS.2022.3150151
+  tags:
+  - Journal
+  - Industrial Agents
+  - Knowledge & Decision Intelligence
+  - Smart Manufacturing
+- title: A Data-Driven Self-Supervised LSTM-DeepFM Model for Industrial Soft Sensor
+  authors:
+  - Lei Ren
+  - Tao Wang
+  - Yuanjun Laili
+  - Lin Zhang
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1109/TII.2021.3131471
+  dblp: https://dblp.org/rec/journals/tii/RenWLZ22
+  dblp_key: journals/tii/RenWLZ22
+  pid: 01/1313-1
+  doi: 10.1109/TII.2021.3131471
+  tags:
+  - Journal
+  - Industrial AI
+- title: A Cloud-Edge Collaborative Security Architecture for Industrial Digital Twin
+    Systems
+  authors:
+  - Kong Yusheng
+  - Yazhe Wang
+  - Lei Ren
+  publisher: SmartWorld/UIC/ScalCom/DigitalTwin/PriComp/Meta
+  date: '2022-01-01'
+  year: 2022
+  type: Conference
+  link: https://doi.org/10.1109/SmartWorld-UIC-ATC-ScalCom-DigitalTwin-PriComp-Metaverse56740.2022.00319
+  dblp: https://dblp.org/rec/conf/uic/YushengWL22
+  dblp_key: conf/uic/YushengWL22
+  pid: 01/1313-1
+  doi: 10.1109/SmartWorld-UIC-ATC-ScalCom-DigitalTwin-PriComp-Metaverse56740.2022.00319
+  tags:
+  - Conference
+  - Digital Twins & Design
+- title: A $T^{2}$-Tensor-Aided Multiscale Transformer for Remaining Useful Life Prediction
+    in IIoT
+  authors:
+  - Lei Ren
+  - Zidi Jia
+  - Xiaokang Wang
+  - Jiabao Dong
+  - Wei Wang
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1109/TII.2022.3166790
+  dblp: https://dblp.org/rec/journals/tii/RenJWDW22
+  dblp_key: journals/tii/RenJWDW22
+  pid: 01/1313-1
+  doi: 10.1109/TII.2022.3166790
+  tags:
+  - Journal
+  - Industrial Time Series
+  - Industrial Internet & Edge
+- title: 3D Printing in the Context of Cloud Manufacturing
+  authors:
+  - Jin Cui
+  - Lei Ren
+  - Jingeng Mai
+  - Pai Zheng
+  - Lin Zhang
+  publisher: Robotics Comput. Integr. Manuf
+  date: '2022-01-01'
+  year: 2022
+  type: Journal
+  link: https://doi.org/10.1016/j.rcim.2021.102256
+  dblp: https://dblp.org/rec/journals/rcim/CuiRMZZ22
+  dblp_key: journals/rcim/CuiRMZZ22
+  pid: 01/1313-1
+  doi: 10.1016/j.rcim.2021.102256
+  tags:
+  - Journal
+  - Industrial Agents
+  - Smart Manufacturing
+- title: Cloud-Edge-Based Lightweight Temporal Convolutional Networks for Remaining
+    Useful Life Prediction in IIoT
+  authors:
+  - Lei Ren
+  - Yuxin Liu
+  - Xiaokang Wang
+  - Jinhu Lü
+  - M. Jamal Deen
+  publisher: IEEE Internet Things J
+  date: '2021-01-01'
+  year: 2021
+  type: Journal
+  link: https://doi.org/10.1109/JIOT.2020.3008170
+  dblp: https://dblp.org/rec/journals/iotj/RenLWLD21
+  dblp_key: journals/iotj/RenLWLD21
+  pid: 01/1313-1
+  doi: 10.1109/JIOT.2020.3008170
+  tags:
+  - Journal
+  - Industrial Time Series
+  - Industrial Internet & Edge
+- title: 'ADTT: A Highly Efficient Distributed Tensor-Train Decomposition Method for
+    IIoT Big Data'
+  authors:
+  - Xiaokang Wang
+  - Laurence T. Yang
+  - Yihao Wang
+  - Lei Ren
+  - M. Jamal Deen
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2021-01-01'
+  year: 2021
+  type: Journal
+  link: https://doi.org/10.1109/TII.2020.2967768
+  dblp: https://dblp.org/rec/journals/tii/WangYWRD21
+  dblp_key: journals/tii/WangYWRD21
+  pid: 01/1313-1
+  doi: 10.1109/TII.2020.2967768
+  tags:
+  - Journal
+  - Industrial Internet & Edge
+- title: A Tensor-Based Multiattributes Visual Feature Recognition Method for Industrial
+    Intelligence
+  authors:
+  - Xiaokang Wang
+  - Laurence Tianruo Yang
+  - Liwen Song
+  - Huihui Wang
+  - Lei Ren
+  - M. Jamal Deen
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2021-01-01'
+  year: 2021
+  type: Journal
+  link: https://doi.org/10.1109/TII.2020.2999901
+  dblp: https://dblp.org/rec/journals/tii/WangYSWRD21
+  dblp_key: journals/tii/WangYSWRD21
+  pid: 01/1313-1
+  doi: 10.1109/TII.2020.2999901
+  tags:
+  - Journal
+  - Industrial AI
+- title: A Data-Driven Auto-CNN-LSTM Prediction Model for Lithium-Ion Battery Remaining
+    Useful Life
+  authors:
+  - Lei Ren
+  - Jiabao Dong
+  - Xiaokang Wang
+  - Zihao Meng
+  - Li Zhao
+  - M. Jamal Deen
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2021-01-01'
+  year: 2021
+  type: Journal
+  link: https://doi.org/10.1109/TII.2020.3008223
+  dblp: https://dblp.org/rec/journals/tii/RenDWMZD21
+  dblp_key: journals/tii/RenDWMZD21
+  pid: 01/1313-1
+  doi: 10.1109/TII.2020.3008223
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: A Data-Driven Approach of Product Quality Prediction for Complex Production
+    Systems
+  authors:
+  - Lei Ren
+  - Zihao Meng
+  - Xiaokang Wang
+  - Lin Zhang
+  - Laurence T. Yang
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2021-01-01'
+  year: 2021
+  type: Journal
+  link: https://doi.org/10.1109/TII.2020.3001054
+  dblp: https://dblp.org/rec/journals/tii/RenMWZY21
+  dblp_key: journals/tii/RenMWZY21
+  pid: 01/1313-1
+  doi: 10.1109/TII.2020.3001054
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: A comparative analysis of eleven neural networks architectures for small
+    datasets of lung images of COVID-19 patients toward improved clinical decisions
+  authors:
+  - Yuan Yang
+  - Lin Zhang
+  - Mingyu Du
+  - Jingyu Bo
+  - Haolei Liu
+  - Lei Ren
+  - Xiaohe Li
+  - M. Jamal Deen
+  publisher: Comput. Biol. Medicine
+  date: '2021-01-01'
+  year: 2021
+  type: Journal
+  link: https://doi.org/10.1016/j.compbiomed.2021.104887
+  dblp: https://dblp.org/rec/journals/cbm/YangZDBLRLD21
+  dblp_key: journals/cbm/YangZDBLRLD21
+  pid: 01/1313-1
+  doi: 10.1016/j.compbiomed.2021.104887
+  tags:
+  - Journal
+  - Industrial AI
+- title: 'Master data management for manufacturing big data: a method of evaluation
+    for data network'
+  authors:
+  - Chun Zhao
+  - Lei Ren
+  - Ziqiao Zhang
+  - Zihao Meng
+  publisher: World Wide Web
   date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  year: 2020
+  type: Journal
+  link: https://doi.org/10.1007/s11280-019-00707-8
+  dblp: https://dblp.org/rec/journals/www/ZhaoRZM20
+  dblp_key: journals/www/ZhaoRZM20
+  pid: 01/1313-1
+  doi: 10.1007/s11280-019-00707-8
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: Coding-Based Large-Scale Task Assignment for Industrial Edge Intelligence
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Lei Ren
+  - Yuanjun Laili
+  - Xiang Li
+  - Xiaokang Wang
+  publisher: IEEE Trans. Netw. Sci. Eng
+  date: '2020-01-01'
+  year: 2020
+  type: Journal
+  link: https://doi.org/10.1109/TNSE.2019.2942042
+  dblp: https://dblp.org/rec/journals/tnse/RenLLW20
+  dblp_key: journals/tnse/RenLLW20
+  pid: 01/1313-1
+  doi: 10.1109/TNSE.2019.2942042
+  tags:
+  - Journal
+  - Industrial AI
+- title: Cloud based 3D printing service platform for personalized manufacturing
+  authors:
+  - Lin Zhang
+  - Xiao Luo
+  - Lei Ren
+  - Jingeng Mai
+  - Fan Pan
+  - Zhen Zhao
+  - Bing Li
+  publisher: Sci. China Inf. Sci
+  date: '2020-01-01'
+  year: 2020
+  type: Journal
+  link: https://doi.org/10.1007/s11432-018-9942-y
+  dblp: https://dblp.org/rec/journals/chinaf/ZhangLRMPZL20
+  dblp_key: journals/chinaf/ZhangLRMPZL20
+  pid: 01/1313-1
+  doi: 10.1007/s11432-018-9942-y
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: A Wide-Deep-Sequence Model-Based Quality Prediction Method in Industrial
+    Process Analysis
+  authors:
+  - Lei Ren
+  - Zihao Meng
+  - Xiaokang Wang
+  - Renquan Lu
+  - Laurence T. Yang
+  publisher: IEEE Trans. Neural Networks Learn. Syst
+  date: '2020-01-01'
+  year: 2020
+  type: Journal
+  link: https://doi.org/10.1109/TNNLS.2020.3001602
+  dblp: https://dblp.org/rec/journals/tnn/RenMWLY20
+  dblp_key: journals/tnn/RenMWLY20
+  pid: 01/1313-1
+  doi: 10.1109/TNNLS.2020.3001602
+  tags:
+  - Journal
+  - Industrial AI
+- title: A Multiobjective multifactorial optimization algorithm based on decomposition
+    and dynamic resource allocation strategy
+  authors:
+  - Shuangshuang Yao
+  - Zhiming Dong
+  - Xianpeng Wang
+  - Lei Ren
+  publisher: Inf. Sci
+  date: '2020-01-01'
+  year: 2020
+  type: Journal
+  link: https://doi.org/10.1016/j.ins.2019.09.058
+  dblp: https://dblp.org/rec/journals/isci/YaoDWR20
+  dblp_key: journals/isci/YaoDWR20
+  pid: 01/1313-1
+  doi: 10.1016/j.ins.2019.09.058
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+- title: A dynamic and static data based matching method for cloud 3D printing
+  authors:
+  - Xiao Luo
+  - Lin Zhang
+  - Lei Ren
+  - Yuanjun Lali
+  publisher: Robotics Comput. Integr. Manuf
+  date: '2020-01-01'
+  year: 2020
+  type: Journal
+  link: https://doi.org/10.1016/j.rcim.2019.101858
+  dblp: https://dblp.org/rec/journals/rcim/LuoZRL20
+  dblp_key: journals/rcim/LuoZRL20
+  pid: 01/1313-1
+  doi: 10.1016/j.rcim.2019.101858
+  tags:
+  - Journal
+  - Industrial Agents
+- title: Study of 3D Printing Model Aggregation and Retrieval Mechanism in Cloud Manufacturing
+  authors:
+  - Xiao Luo
+  - Fan Pan
+  - Lin Zhang
+  - Lei Ren
+  - Guoqiang Shi
+  - Liqin Guo
+  - Tingyu Lin
+  publisher: INDIN
+  date: '2019-01-01'
+  year: 2019
+  type: Conference
+  link: https://doi.org/10.1109/INDIN41052.2019.8972274
+  dblp: https://dblp.org/rec/conf/indin/LuoPZ0SGL19
+  dblp_key: conf/indin/LuoPZ0SGL19
+  pid: 01/1313-1
+  doi: 10.1109/INDIN41052.2019.8972274
+  tags:
+  - Conference
+  - Smart Manufacturing
+- title: Real-Time Scheduling of Cloud Manufacturing Services Based on Dynamic Data-Driven
+    Simulation
+  authors:
+  - Longfei Zhou
+  - Lin Zhang
+  - Lei Ren
+  - Jian Wang
+  publisher: IEEE Trans. Ind. Informatics
+  date: '2019-01-01'
+  year: 2019
+  type: Journal
+  link: https://doi.org/10.1109/TII.2019.2894111
+  dblp: https://dblp.org/rec/journals/tii/ZhouZRW19
+  dblp_key: journals/tii/ZhouZRW19
+  pid: 01/1313-1
+  doi: 10.1109/TII.2019.2894111
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+  - Smart Manufacturing
+- title: Pairwise comparison learning based bearing health quantitative modeling and
+    its application in service life prediction
+  authors:
+  - Jin Cui
+  - Lei Ren
+  - Xiaokang Wang
+  - Lin Zhang
+  publisher: Future Gener. Comput. Syst
+  date: '2019-01-01'
+  year: 2019
+  type: Journal
+  link: https://doi.org/10.1016/j.future.2019.03.026
+  dblp: https://dblp.org/rec/journals/fgcs/CuiRWZ19
+  dblp_key: journals/fgcs/CuiRWZ19
+  pid: 01/1313-1
+  doi: 10.1016/j.future.2019.03.026
+  tags:
+  - Journal
+  - Industrial AI
+- title: Multi-scale Dense Gate Recurrent Unit Networks for bearing remaining useful
+    life prediction
+  authors:
+  - Lei Ren
+  - Xuejun Cheng
+  - Xiaokang Wang
+  - Jin Cui
+  - Lin Zhang
+  publisher: Future Gener. Comput. Syst
+  date: '2019-01-01'
+  year: 2019
+  type: Journal
+  link: https://doi.org/10.1016/j.future.2018.12.009
+  dblp: https://dblp.org/rec/journals/fgcs/RenCWCZ19
+  dblp_key: journals/fgcs/RenCWCZ19
+  pid: 01/1313-1
+  doi: 10.1016/j.future.2018.12.009
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: Modeling and simulation in intelligent manufacturing
+  authors:
+  - Lin Zhang
+  - Longfei Zhou
+  - Lei Ren
+  - Yuanjun Laili
+  publisher: Comput. Ind
+  date: '2019-01-01'
+  year: 2019
+  type: Journal
+  link: https://doi.org/10.1016/j.compind.2019.08.004
+  dblp: https://dblp.org/rec/journals/cii/ZhangZRL19
+  dblp_key: journals/cii/ZhangZRL19
+  pid: 01/1313-1
+  doi: 10.1016/j.compind.2019.08.004
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: A Visual Analysis Approach for Understanding Durability Test Data of Automotive
+    Products
+  authors:
+  - Ying Zhao
+  - Lei Wang
+  - Shijie Li
+  - Fangfang Zhou
+  - Xiaoru Lin
+  - Qiang Lu
+  - Lei Ren
+  publisher: ACM Trans. Intell. Syst. Technol
+  date: '2019-01-01'
+  year: 2019
+  type: Journal
+  link: https://doi.org/10.1145/3345640
+  dblp: https://dblp.org/rec/journals/tist/ZhaoWLZLLR19
+  dblp_key: journals/tist/ZhaoWLZLLR19
+  pid: 01/1313-1
+  doi: 10.1145/3345640
+  tags:
+  - Journal
+  - Industrial AI
+- title: A survey of visualization for smart manufacturing
+  authors:
+  - Fangfang Zhou
+  - Xiaoru Lin
+  - Chang Liu
+  - Ying Zhao
+  - Panpan Xu
+  - Liu Ren
+  - Tingmin Xue
+  - Lei Ren
+  publisher: J. Vis
+  date: '2019-01-01'
+  year: 2019
+  type: Journal
+  link: https://doi.org/10.1007/s12650-018-0530-2
+  dblp: https://dblp.org/rec/journals/jvis/ZhouLLZXRXR19
+  dblp_key: journals/jvis/ZhouLLZXRXR19
+  pid: 01/1313-1
+  doi: 10.1007/s12650-018-0530-2
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: A Novel Cloud-Based Framework for the Elderly Healthcare Services Using Digital
+    Twin
+  authors:
+  - Ying Liu
+  - Lin Zhang
+  - Yuan Yang
+  - Longfei Zhou
+  - Lei Ren
+  - Fei Wang
+  - Rong Liu
+  - Zhibo Pang
+  - M. Jamal Deen
+  publisher: IEEE Access
+  date: '2019-01-01'
+  year: 2019
+  type: Journal
+  link: https://doi.org/10.1109/ACCESS.2019.2909828
+  dblp: https://dblp.org/rec/journals/access/LiuZYZRWLPD19
+  dblp_key: journals/access/LiuZYZRWLPD19
+  pid: 01/1313-1
+  doi: 10.1109/ACCESS.2019.2909828
+  tags:
+  - Journal
+  - Digital Twins & Design
+- title: Simulation of Production Modes for Cloud Manufacturing Enterprises
+  authors:
+  - Longfei Zhou
+  - Lin Zhang
+  - Lei Ren
+  publisher: UV
+  date: '2018-01-01'
+  year: 2018
+  type: Conference
+  link: https://doi.org/10.1109/UV.2018.8642129
+  dblp: https://dblp.org/rec/conf/uv/ZhouZ018
+  dblp_key: conf/uv/ZhouZ018
+  pid: 01/1313-1
+  doi: 10.1109/UV.2018.8642129
+  tags:
+  - Conference
+  - Smart Manufacturing
+- title: Simulation Model of Dynamic Service Scheduling in Cloud Manufacturing
+  authors:
+  - Longfei Zhou
+  - Lin Zhang
+  - Lei Ren
+  publisher: IECON
+  date: '2018-01-01'
+  year: 2018
+  type: Conference
+  link: https://doi.org/10.1109/IECON.2018.8592864
+  dblp: https://dblp.org/rec/conf/iecon/ZhouZ018
+  dblp_key: conf/iecon/ZhouZ018
+  pid: 01/1313-1
+  doi: 10.1109/IECON.2018.8592864
+  tags:
+  - Conference
+  - Digital Twins & Design
+  - Knowledge & Decision Intelligence
+  - Smart Manufacturing
+- title: 'Remaining Useful Life Prediction for Lithium-Ion Battery: A Deep Learning
+    Approach'
+  authors:
+  - Lei Ren
+  - Li Zhao
+  - Sheng Hong
+  - Shiqiang Zhao
+  - Hao Wang
+  - Lin Zhang
+  publisher: IEEE Access
+  date: '2018-01-01'
+  year: 2018
+  type: Journal
+  link: https://doi.org/10.1109/ACCESS.2018.2858856
+  dblp: https://dblp.org/rec/journals/access/RenZHZWZ18
+  dblp_key: journals/access/RenZHZWZ18
+  pid: 01/1313-1
+  doi: 10.1109/ACCESS.2018.2858856
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: Prediction of Bearing Remaining Useful Life With Deep Convolution Neural
+    Network
+  authors:
+  - Lei Ren
+  - Yaqiang Sun
+  - Hao Wang
+  - Lin Zhang
+  publisher: IEEE Access
+  date: '2018-01-01'
+  year: 2018
+  type: Journal
+  link: https://doi.org/10.1109/ACCESS.2018.2804930
+  dblp: https://dblp.org/rec/journals/access/RenSWZ18
+  dblp_key: journals/access/RenSWZ18
+  pid: 01/1313-1
+  doi: 10.1109/ACCESS.2018.2804930
+  tags:
+  - Journal
+  - Industrial Time Series
+- title: Banded choropleth map
+  authors:
+  - Yi Du
+  - Lei Ren
+  - Yuanchun Zhou
+  - Jianhui Li
+  - Feng Tian
+  - Guozhong Dai
+  publisher: Pers. Ubiquitous Comput
+  date: '2018-01-01'
+  year: 2018
+  type: Journal
+  link: https://doi.org/10.1007/s00779-018-1120-y
+  dblp: https://dblp.org/rec/journals/puc/DuRZLTD18
+  dblp_key: journals/puc/DuRZLTD18
+  pid: 01/1313-1
+  doi: 10.1007/s00779-018-1120-y
+  tags:
+  - Journal
+  - Industrial AI
+- title: An event-triggered dynamic scheduling method for randomly arriving tasks
+    in cloud manufacturing
+  authors:
+  - Longfei Zhou
+  - Lin Zhang
+  - Bhaba R. Sarker
+  - Yuanjun Laili
+  - Lei Ren
+  publisher: Int. J. Comput. Integr. Manuf
+  date: '2018-01-01'
+  year: 2018
+  type: Journal
+  link: https://doi.org/10.1080/0951192X.2017.1413252
+  dblp: https://dblp.org/rec/journals/ijcim/ZhouZSLR18
+  dblp_key: journals/ijcim/ZhouZSLR18
+  pid: 01/1313-1
+  doi: 10.1080/0951192X.2017.1413252
+  tags:
+  - Journal
+  - Knowledge & Decision Intelligence
+  - Smart Manufacturing
+- title: An Architecture of Knowledge Cloud Based on Manufacturing Big Data
+  authors:
+  - Chun Zhao
+  - Lei Ren
+  - Yuanjun Laili
+  - Liyuanjun Lai
+  publisher: IECON
+  date: '2018-01-01'
+  year: 2018
+  type: Conference
+  link: https://doi.org/10.1109/IECON.2018.8591529
+  dblp: https://dblp.org/rec/conf/iecon/Zhao0LL18
+  dblp_key: conf/iecon/Zhao0LL18
+  pid: 01/1313-1
+  doi: 10.1109/IECON.2018.8591529
+  tags:
+  - Conference
+  - Smart Manufacturing
+- title: A Blockchain Model for Industrial Internet
+  authors:
+  - Lei Ren
+  - Sanbao Zheng
+  - Lin Zhang
+  publisher: iThings/GreenCom/CPSCom/SmartData
+  date: '2018-01-01'
+  year: 2018
+  type: Conference
+  link: https://doi.org/10.1109/Cybermatics_2018.2018.00155
+  dblp: https://dblp.org/rec/conf/ithings/0001ZZ18
+  dblp_key: conf/ithings/0001ZZ18
+  pid: 01/1313-1
+  doi: 10.1109/Cybermatics_2018.2018.00155
+  tags:
+  - Conference
+  - Industrial Internet & Edge
+- title: Matching and selection of distributed 3D printing services in cloud manufacturing
+  authors:
+  - Longfei Zhou
+  - Lin Zhang
+  - Lei Ren
+  - Yuanjun Laili
+  publisher: IECON
+  date: '2017-01-01'
+  year: 2017
+  type: Conference
+  link: https://doi.org/10.1109/IECON.2017.8216815
+  dblp: https://dblp.org/rec/conf/iecon/ZhouZ0L17
+  dblp_key: conf/iecon/ZhouZ0L17
+  pid: 01/1313-1
+  doi: 10.1109/IECON.2017.8216815
+  tags:
+  - Conference
+  - Smart Manufacturing
+- title: 'Cloud manufacturing: key characteristics and applications'
+  authors:
+  - Lei Ren
+  - Lin Zhang
+  - Lihui Wang
+  - Fei Tao
+  - Xudong Chai
+  publisher: Int. J. Comput. Integr. Manuf
+  date: '2017-01-01'
+  year: 2017
+  type: Journal
+  link: https://doi.org/10.1080/0951192X.2014.902105
+  dblp: https://dblp.org/rec/journals/ijcim/RenZWTC17
+  dblp_key: journals/ijcim/RenZWTC17
+  pid: 01/1313-1
+  doi: 10.1080/0951192X.2014.902105
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: Challenges and Opportunity with Big Data - 19th Monterey Workshop 2016, Beijing,
+    China, October 8-11, 2016, Revised Selected Papers
+  authors: []
+  publisher: Monterey Workshop
+  date: '2017-01-01'
+  year: 2017
+  type: Publication
+  link: https://doi.org/10.1007/978-3-319-61994-1
+  dblp: https://dblp.org/rec/conf/monterey/2016
+  dblp_key: conf/monterey/2016
+  pid: 01/1313-1
+  doi: 10.1007/978-3-319-61994-1
+  tags:
+  - Publication
+  - Industrial AI
+- title: A Production-Based Scheduling Model for Complex Products in Cloud Environment
+  authors:
+  - Feng Li
+  - Lin Zhang
+  - Lei Ren
+  publisher: ES
+  date: '2017-01-01'
+  year: 2017
+  type: Conference
+  link: https://doi.org/10.1109/ES.2017.25
+  dblp: https://dblp.org/rec/conf/es/LiZR17
+  dblp_key: conf/es/LiZR17
+  pid: 01/1313-1
+  doi: 10.1109/ES.2017.25
+  tags:
+  - Conference
+  - Knowledge & Decision Intelligence
+  - Smart Manufacturing
+- title: Traffic Flow Prediction with Improved SOPIO-SVR Algorithm
+  authors:
+  - Xuejun Cheng
+  - Lei Ren
+  - Jin Cui
+  - Zhiqiang Zhang
+  publisher: Monterey Workshop
+  date: '2016-01-01'
+  year: 2016
+  type: Conference
+  link: https://doi.org/10.1007/978-3-319-61994-1_17
+  dblp: https://dblp.org/rec/conf/monterey/ChengRCZ16
+  dblp_key: conf/monterey/ChengRCZ16
+  pid: 01/1313-1
+  doi: 10.1007/978-3-319-61994-1_17
+  tags:
+  - Conference
+  - Industrial AI
+- title: An Optimization Method for User Interface Components Based on Big Data
+  authors:
+  - Fei Lyu
+  - Lei Ren
+  - Yi Du
+  publisher: Monterey Workshop
+  date: '2016-01-01'
+  year: 2016
+  type: Conference
+  link: https://doi.org/10.1007/978-3-319-61994-1_4
+  dblp: https://dblp.org/rec/conf/monterey/LyuRD16
+  dblp_key: conf/monterey/LyuRD16
+  pid: 01/1313-1
+  doi: 10.1007/978-3-319-61994-1_4
+  tags:
+  - Conference
+  - Knowledge & Decision Intelligence
+- title: A Model-Driven Visualization System Based on DVDL
+  authors:
+  - Yi Du
+  - Lei Ren
+  - Yuanchun Zhou
+  - Jianhui Li
+  publisher: Monterey Workshop
+  date: '2016-01-01'
+  year: 2016
+  type: Conference
+  link: https://doi.org/10.1007/978-3-319-61994-1_2
+  dblp: https://dblp.org/rec/conf/monterey/DuRZL16
+  dblp_key: conf/monterey/DuRZL16
+  pid: 01/1313-1
+  doi: 10.1007/978-3-319-61994-1_2
+  tags:
+  - Conference
+  - Industrial AI
+- title: 'Cloud manufacturing: from concept to practice'
+  authors:
+  - Lei Ren
+  - Lin Zhang
+  - Fei Tao
+  - Chun Zhao
+  - Xudong Chai
+  - Xinpei Zhao
+  publisher: Enterp. Inf. Syst
+  date: '2015-01-01'
+  year: 2015
+  type: Journal
+  link: https://doi.org/10.1080/17517575.2013.839055
+  dblp: https://dblp.org/rec/journals/eis/RenZTZCZ15
+  dblp_key: journals/eis/RenZTZCZ15
+  pid: 01/1313-1
+  doi: 10.1080/17517575.2013.839055
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: 'Cloud manufacturing: a new manufacturing paradigm'
+  authors:
+  - Lin Zhang
+  - Yongliang Luo
+  - Fei Tao
+  - Bo Hu Li
+  - Lei Ren
+  - Xuesong Zhang
+  - Hua Guo
+  - Ying Cheng
+  - Anrui Hu
+  - Yongkui Liu
+  publisher: Enterp. Inf. Syst
+  date: '2014-01-01'
+  year: 2014
+  type: Journal
+  link: https://doi.org/10.1080/17517575.2012.683812
+  dblp: https://dblp.org/rec/journals/eis/ZhangLTLRZGCHL14
+  dblp_key: journals/eis/ZhangLTLRZGCHL14
+  pid: 01/1313-1
+  doi: 10.1080/17517575.2012.683812
+  tags:
+  - Journal
+  - Smart Manufacturing
+- title: A sketch+fisheye interface for visual analytics of large time-series
+  authors:
+  - Lei Ren
+  - Yi Du
+  publisher: IEEE VAST
+  date: '2014-01-01'
+  year: 2014
+  type: Conference
+  link: https://doi.org/10.1109/VAST.2014.7042522
+  dblp: https://dblp.org/rec/conf/ieeevast/RenD14
+  dblp_key: conf/ieeevast/RenD14
+  pid: 01/1313-1
+  doi: 10.1109/VAST.2014.7042522
+  tags:
+  - Conference
+  - Industrial Time Series
+- title: Multilevel interaction model for hierarchical tasks in information visualization
+  authors:
+  - Lei Ren
+  - Jin Cui
+  - Yi Du
+  - Guozhong Dai
+  publisher: VINCI
+  date: '2013-01-01'
+  year: 2013
+  type: Conference
+  link: https://doi.org/10.1145/2493102.2493104
+  dblp: https://dblp.org/rec/conf/vinci/RenCDD13
+  dblp_key: conf/vinci/RenCDD13
+  pid: 01/1313-1
+  doi: 10.1145/2493102.2493104
+  tags:
+  - Conference
+  - Industrial AI
+- title: Massive sensor data management framework in Cloud manufacturing based on
+    Hadoop
+  authors:
+  - Yuan Bao
+  - Lei Ren
+  - Lin Zhang
+  - Xuesong Zhang
+  - Yongliang Luo
+  publisher: INDIN
+  date: '2012-01-01'
+  year: 2012
+  type: Conference
+  link: https://doi.org/10.1109/INDIN.2012.6301192
+  dblp: https://dblp.org/rec/conf/indin/BaoRZZL12
+  dblp_key: conf/indin/BaoRZZL12
+  pid: 01/1313-1
+  doi: 10.1109/INDIN.2012.6301192
+  tags:
+  - Conference
+  - Smart Manufacturing
+- title: A virtual machine deployment approach using knowledge curves in Cloud Simulation
+  authors:
+  - Zhiyun Ren
+  - Xiao Song
+  - Lei Ren
+  - Lin Zhang
+  - Shaoyun Zhang
+  publisher: INDIN
+  date: '2012-01-01'
+  year: 2012
+  type: Conference
+  link: https://doi.org/10.1109/INDIN.2012.6301193
+  dblp: https://dblp.org/rec/conf/indin/RenSRZZ12
+  dblp_key: conf/indin/RenSRZZ12
+  pid: 01/1313-1
+  doi: 10.1109/INDIN.2012.6301193
+  tags:
+  - Conference
+  - Industrial AI
+- title: A methodology towards virtualisation-based high performance simulation platform
+    supporting multidisciplinary design of complex products
+  authors:
+  - Lei Ren
+  - Lin Zhang
+  - Fei Tao
+  - Xiaolong (Luke) Zhang
+  - Yongliang Luo
+  - Yabin Zhang
+  publisher: Enterp. Inf. Syst
+  date: '2012-01-01'
+  year: 2012
+  type: Journal
+  link: https://doi.org/10.1080/17517575.2011.592598
+  dblp: https://dblp.org/rec/journals/eis/RenZTZLZ12
+  dblp_key: journals/eis/RenZTZLZ12
+  pid: 01/1313-1
+  doi: 10.1080/17517575.2011.592598
+  tags:
+  - Journal
+  - Industrial AI
+- title: The optimal allocation model of computing resources in cloud manufacturing
+    system
+  authors:
+  - Yuanjun Laili
+  - Fei Tao
+  - Lin Zhang
+  - Lei Ren
+  publisher: ICNC
+  date: '2011-01-01'
+  year: 2011
+  type: Conference
+  link: https://doi.org/10.1109/ICNC.2011.6022564
+  dblp: https://dblp.org/rec/conf/icnc/LailiTZR11
+  dblp_key: conf/icnc/LailiTZR11
+  pid: 01/1313-1
+  doi: 10.1109/ICNC.2011.6022564
+  tags:
+  - Conference
+  - Smart Manufacturing
+- title: 'DaisyViz: A model-based user interface toolkit for interactive information
+    visualization systems'
+  authors:
+  - Lei Ren
+  - Feng Tian
+  - Xiaolong Zhang
+  - Lin Zhang
+  publisher: J. Vis. Lang. Comput
+  date: '2010-01-01'
+  year: 2010
+  type: Journal
+  link: https://doi.org/10.1016/j.jvlc.2010.05.003
+  dblp: https://dblp.org/rec/journals/vlc/RenTZZ10
+  dblp_key: journals/vlc/RenTZZ10
+  pid: 01/1313-1
+  doi: 10.1016/j.jvlc.2010.05.003
+  tags:
+  - Journal
+  - Industrial AI
+- title: 'DOI-Wave: A Focus+Context Interaction Technique for Networks Based on Attention-Reactive
+    Interface'
+  authors:
+  - Lei Ren
+  - Lin Zhang
+  - Dongxing Teng
+  - Guozhong Dai
+  - Qian Li
+  publisher: VINCI
+  date: '2009-01-01'
+  year: 2009
+  type: Conference
+  link: https://doi.org/10.1007/978-1-4419-0312-9_5
+  dblp: https://dblp.org/rec/conf/vinci/RenZTDL09
+  dblp_key: conf/vinci/RenZTDL09
+  pid: 01/1313-1
+  doi: 10.1007/978-1-4419-0312-9_5
+  tags:
+  - Conference
+  - Industrial AI
+- title: 'DaisyViz: A Model-based User Interfaces Toolkit for Development of Interactive
+    Information Visualization'
+  authors:
+  - Lei Ren
+  - Feng Tian
+  - Lin Zhang
+  - Guozhong Dai
+  publisher: VINCI
+  date: '2009-01-01'
+  year: 2009
+  type: Conference
+  link: https://doi.org/10.1007/978-1-4419-0312-9_14
+  dblp: https://dblp.org/rec/conf/vinci/RenTZD09
+  dblp_key: conf/vinci/RenTZD09
+  pid: 01/1313-1
+  doi: 10.1007/978-1-4419-0312-9_14
+  tags:
+  - Conference
+  - Industrial AI

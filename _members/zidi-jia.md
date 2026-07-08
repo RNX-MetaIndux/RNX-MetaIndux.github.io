@@ -1,11 +1,11 @@
 ---
 name: 贾子翟
-role: assistant-researcher
+role: assistant-professor
 group: researcher
 order: 6
-description: 助理研究员
+description: 助理教授
 affiliation: Beihang University
-image: /images/people/贾子翟助理研究员.png
+image: /images/people/贾子翟助理教授.png
 aliases:
   - Zidi Jia
 links:
