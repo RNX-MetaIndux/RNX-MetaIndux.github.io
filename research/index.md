@@ -1,6 +1,6 @@
 ---
 title: Research
-description: Publications by the RNX-MetaIndux team, synchronized from public scholarly indexes.
+description: Publications by the RNX-MetaIndux team, maintained in the committed citation dataset.
 nav:
   order: 1
   tooltip: Publications and research topics
@@ -99,5 +99,5 @@ nav:
 
   <div class="pagination" data-pagination-controls="research-publications" aria-label="Research pagination"></div>
 
-  <p class="publication-note">Publication metadata is synchronized from DBLP, Google Scholar and ORCID. Topic labels are assigned automatically from publication metadata and can be refined manually.</p>
+  <p class="publication-note">Publication metadata is maintained in the committed citation dataset. Topic labels are assigned from publication metadata and can be refined manually.</p>
 </div>

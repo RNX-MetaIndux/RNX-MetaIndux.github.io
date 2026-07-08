@@ -12,6 +12,10 @@ from rich import print
 from diskcache import Cache
 
 
+class TransientCitationSourceError(Exception):
+    """Raised when an external citation provider is temporarily unavailable."""
+
+
 # cache for time-consuming network requests
 cache = Cache("./_cite/.cache")
 

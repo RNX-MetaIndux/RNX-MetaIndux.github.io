@@ -1,5 +1,7 @@
 import re
 import xml.etree.ElementTree as ET
+from time import sleep
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 from util import *
@@ -18,6 +20,8 @@ def main(entry):
     if not pid:
         raise Exception('No "pid" key')
 
+    transient_status_codes = {408, 425, 429, 500, 502, 503, 504}
+
     @log_cache
     @cache.memoize(name=__file__, expire=1 * (60 * 60 * 24))
     def query(person_id):
@@ -28,7 +32,24 @@ def main(entry):
                 "User-Agent": "RNX-MetaIndux publication sync (rnx_metaindux@163.com)"
             },
         )
-        return urlopen(request, timeout=90).read()
+
+        last_error = None
+        for attempt in range(3):
+            try:
+                return urlopen(request, timeout=90).read()
+            except HTTPError as error:
+                if error.code not in transient_status_codes:
+                    raise
+                last_error = error
+            except (TimeoutError, URLError) as error:
+                last_error = error
+
+            if attempt < 2:
+                sleep(2 * (attempt + 1))
+
+        raise TransientCitationSourceError(
+            f'DBLP is temporarily unavailable for pid "{person_id}": {last_error}'
+        )
 
     root = ET.fromstring(query(pid))
     sources = []

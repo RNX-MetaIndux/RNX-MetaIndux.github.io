@@ -14,10 +14,8 @@ permissions:
   pull-requests: write
 
 jobs:
-  update-citations:
-    # only run on user instance of template, not template itself
-    if: github.repository != 'greenelab/lab-website-template'
-    uses: ./.github/workflows/update-citations.yaml
-    secrets: inherit
-    with:
-      open-pr: true
+  citations-disabled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Citation auto-sync disabled
+        run: echo "Remote citation auto-sync is disabled; using committed _data/citations.yaml."

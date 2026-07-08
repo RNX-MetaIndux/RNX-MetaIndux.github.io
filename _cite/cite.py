@@ -17,6 +17,7 @@ load_dotenv()
 # save errors/warnings for reporting at end
 errors = []
 warnings = []
+source_unavailable = False
 
 # output citations file
 output_file = "_data/citations.yaml"
@@ -72,6 +73,12 @@ for plugin in plugins:
                     raise Exception(f"{plugin.stem} plugin didn't return list of dicts")
             # catch any plugin error
             except Exception as e:
+                if isinstance(e, TransientCitationSourceError):
+                    source_unavailable = True
+                    log(e, indent=3, level="WARNING")
+                    warnings.append(str(e))
+                    continue
+
                 # log detailed pre-formatted/colored trace
                 print(traceback.format_exc())
                 # log high-level error
@@ -339,11 +346,26 @@ log("Saving updated citations")
 
 
 # save new citations
-try:
-    save_data(output_file, citations)
-except Exception as e:
-    log(e, level="ERROR")
-    errors.append(e)
+if not citations and Path(output_file).exists():
+    message = (
+        "Skipping citation file update because no citation sources were found. "
+        f"Existing {output_file} remains unchanged."
+    )
+    log(message, level="WARNING")
+    warnings.append(message)
+elif source_unavailable and Path(output_file).exists():
+    message = (
+        "Skipping citation file update because an external citation source was "
+        f"temporarily unavailable. Existing {output_file} remains unchanged."
+    )
+    log(message, level="WARNING")
+    warnings.append(message)
+else:
+    try:
+        save_data(output_file, citations)
+    except Exception as e:
+        log(e, level="ERROR")
+        errors.append(e)
 
 
 log()
