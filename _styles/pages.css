@@ -1,0 +1,102 @@
+.content-page,
+.research-page,
+.projects-page {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  color: var(--text);
+  text-align: left;
+}
+
+.page-heading {
+  margin-bottom: 34px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.page-heading h1,
+.content-page .page-heading h1 {
+  margin: 0 0 14px;
+  font-size: 1.6rem;
+  font-weight: var(--regular);
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.page-heading h1 span {
+  display: block;
+  margin-top: 5px;
+  color: var(--gray);
+  font-size: 0.68em;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.page-heading > p {
+  max-width: 900px;
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.page-heading > .page-intro-en {
+  margin-top: 8px;
+  color: var(--gray);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.research-page section,
+.projects-page section {
+  padding: 0;
+}
+
+.blog-tools {
+  margin-bottom: 42px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.blog-tools .search-box {
+  width: min(100%, 620px);
+  margin-bottom: 16px;
+}
+
+.blog-tools .tags {
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.blog-tools .search-info {
+  margin: 18px 0 0;
+  text-align: left;
+}
+
+.blog-list .post-excerpt {
+  margin: 0;
+  border-bottom: 1px solid var(--light-gray);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.blog-list .post-excerpt-container:first-child .post-excerpt {
+  border-top: 1px solid var(--light-gray);
+}
+
+.blog-list .post-excerpt-text {
+  padding: 24px 28px;
+}
+
+@media (max-width: 600px) {
+  .page-heading {
+    margin-bottom: 26px;
+    padding-bottom: 22px;
+  }
+  .blog-list .post-excerpt-text {
+    padding: 20px 0;
+  }
+}
+
+/*# sourceMappingURL=pages.css.map */

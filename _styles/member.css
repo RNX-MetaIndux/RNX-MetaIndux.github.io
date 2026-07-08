@@ -1,0 +1,39 @@
+.member-profile {
+  color: var(--text);
+  line-height: 1.8;
+  text-align: left;
+}
+
+.member-profile h2 {
+  margin: 34px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--light-gray);
+  font-size: 1.35rem;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.member-profile h2:first-child {
+  margin-top: 0;
+}
+
+.member-profile p,
+.member-profile li {
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.member-profile ul {
+  padding-left: 1.25rem;
+}
+
+@media (max-width: 700px) {
+  .member-profile p,
+  .member-profile li {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=member.css.map */

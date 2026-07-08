@@ -1,7 +1,11 @@
 .team-portrait-group {
-  margin: 46px 0 62px;
+  margin: 0 0 62px;
   padding: 0;
   background: transparent !important;
+}
+
+.team-portrait-group + .team-portrait-group {
+  margin-top: 46px;
 }
 
 .team-portrait-group > h2 {
