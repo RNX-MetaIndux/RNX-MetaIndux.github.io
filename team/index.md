@@ -8,8 +8,8 @@ nav:
 <div class="content-page team-page">
   <div class="page-heading">
     <h1>团队成员 <span lang="en">Team</span></h1>
-    <p>团队围绕工业人工智能、工业大模型、具身智能、数字孪生与智能制造系统开展研究。</p>
-    <p class="page-intro-en" lang="en">Our team studies industrial AI, industrial foundation models, embodied intelligence, digital twins, and intelligent manufacturing systems.</p>
+    <p>团队围绕工业人工智能、工业大模型、工业智能体、具身智能开展研究。</p>
+    <p class="page-intro-en" lang="en">Our team studies industrial AI, industrial foundation models, industrial agents, and embodied intelligence.</p>
   </div>
 
 {% assign team_groups = "researcher,phd,master" | split: "," %}
