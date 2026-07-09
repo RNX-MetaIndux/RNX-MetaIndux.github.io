@@ -1,11 +1,11 @@
 ---
 name: 王海腾
-role: assistant-professor
+role: assistant-researcher
 group: researcher
 order: 5
-description: 助理教授
+description: 助理研究员
 affiliation: Beihang University
-image: /images/people/王海腾助理教授.jpg
+image: /images/people/王海腾助理研究员.jpg
 aliases:
   - Haiteng Wang
 links:

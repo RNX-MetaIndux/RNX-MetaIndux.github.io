@@ -25,6 +25,54 @@ nav:
     </div>
   </div>
 
+  {% assign featured_publications = site.data.featured_publications %}
+  {% if featured_publications and featured_publications.size > 0 %}
+  <section class="featured-publications" aria-label="Featured publications">
+    <div class="featured-publications-heading">
+      <h2>置顶论文 <span lang="en">Featured Publications</span></h2>
+    </div>
+
+    <div class="featured-publication-list">
+      {% for publication in featured_publications %}
+      <article class="publication-item featured-publication">
+        <div class="publication-meta">
+          <span>{{ publication.type }}</span>
+          <span>{{ publication.year }}</span>
+        </div>
+
+        <h3><a href="{{ publication.link }}">{{ publication.title }}</a></h3>
+        {% if publication.title_en %}
+        <p class="publication-title-en">{{ publication.title_en }}</p>
+        {% endif %}
+
+        {% if publication.authors.first %}
+          <p class="publication-authors">{{ publication.authors | join: ", " }}</p>
+        {% else %}
+          <p class="publication-authors">{{ publication.authors }}</p>
+        {% endif %}
+
+        <p class="publication-venue">{{ publication.venue | default: publication.publisher }}</p>
+
+        {% if publication.tags %}
+        <div class="publication-tags tags">
+          {% for tag in publication.tags %}
+          <a href="{{ page.dir | relative_url }}?search=&quot;tag: {{ tag }}&quot;" class="tag">{{ tag }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="publication-records">
+          {% if publication.doi %}
+          <a href="https://doi.org/{{ publication.doi }}">DOI</a>
+          {% endif %}
+          <a href="{{ publication.link }}">Record</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
   <section class="publication-tools" aria-label="论文筛选">
     {% include search-box.html %}
     <div class="publication-filter-tags">

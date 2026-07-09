@@ -1,0 +1,82 @@
+- year: 2025
+  type: Journal
+  title: "Industrial Foundation Model"
+  authors:
+    - "Lei Ren"
+    - "Haiteng Wang"
+    - "Jiabao Dong"
+    - "Zidi Jia"
+    - "Shixiang Li"
+    - "Yuqing Wang"
+    - "Yuanjun Laili"
+    - "Di Huang"
+    - "Lin Zhang"
+    - "Bohu Li"
+  venue: "IEEE Transactions on Cybernetics, 55(5): 2286-2301"
+  doi: "10.1109/TCYB.2025.3527632"
+  link: "https://doi.org/10.1109/TCYB.2025.3527632"
+  tags:
+    - "Industrial Foundation Models"
+    - "Industrial Agents"
+    - "MetaIndux"
+
+- year: 2025
+  type: Journal
+  title: "Foundation Models for the Process Industry: Challenges and Opportunities"
+  authors:
+    - "Lei Ren"
+    - "Haiteng Wang"
+    - "Yuqing Wang"
+    - "Keke Huang"
+    - "Lihui Wang"
+    - "Bohu Li"
+  venue: "Engineering, Article ENG1861"
+  doi: "10.1016/j.eng.2025.03.023"
+  link: "https://doi.org/10.1016/j.eng.2025.03.023"
+  tags:
+    - "Foundation Models"
+    - "Process Industry"
+    - "Industrial AI"
+
+- year: 2025
+  type: Journal
+  title: "数字族谱：驱动工业具身智能世界模型"
+  title_en: "Digital Genealogy: Empowering Industrial Embodied Intelligence World Model"
+  authors:
+    - "Lei Ren"
+    - "Jiabao Dong"
+    - "Xianchao Zeng"
+    - "Lingyuan Yang"
+    - "Yuqing Wang"
+    - "Bohu Li"
+    - "et al."
+  venue: "中国科学：信息科学, 2025"
+  link: "https://research.buaa.edu.cn/en/publications/%E6%95%B0%E5%AD%97%E6%97%8F%E8%B0%B1-%E9%A9%B1%E5%8A%A8%E5%B7%A5%E4%B8%9A%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B/"
+  tags:
+    - "Digital Genealogy"
+    - "Embodied Intelligence"
+    - "World Models"
+
+- year: 2026
+  type: Article
+  title: "工业智能体：体系架构、关键技术与未来展望"
+  title_en: "Industrial Agents: Architecture, Key Technologies, and Future Prospects"
+  authors:
+    - "Lei Ren"
+    - "Haiteng Wang"
+    - "Jiabao Dong"
+    - "Jing Zhang"
+    - "Jingheng Yan"
+    - "Zhiteng Cao"
+    - "Shixiang Li"
+    - "Yuanjun Laili"
+    - "Lin Zhang"
+    - "Bohu Li"
+    - "et al."
+  venue: "中国科学杂志社"
+  date: "2026-03-03"
+  link: "https://xingongye.cn/cms/Intelligent_manufacturing/1713.html"
+  tags:
+    - "Industrial Agents"
+    - "Agentic AI"
+    - "Multi-Agent Collaboration"
