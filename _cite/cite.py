@@ -247,13 +247,6 @@ tag_rules = {
         "health status",
         "temporal",
     ],
-    "Digital Twins & Design": [
-        "digital twin",
-        "digital genealogy",
-        "cad",
-        "mbse",
-        "simulation model",
-    ],
     "Industrial Internet & Edge": [
         "industrial internet",
         "iiot",

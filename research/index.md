@@ -9,8 +9,8 @@ nav:
 <div class="research-page">
   <div class="research-heading page-heading">
     <h1>研究成果 <span lang="en">Research & Publications</span></h1>
-    <p>研究方向涵盖工业大模型与工业智能体、工业互联网与工业软件、工业时序智能、数字孪生、具身智能及智能制造。</p>
-    <p class="page-intro-en" lang="en">Our research spans industrial foundation models and agents, industrial Internet and software, industrial time-series intelligence, digital twins, embodied intelligence, and intelligent manufacturing.</p>
+    <p>研究方向涵盖工业大模型与工业智能体、工业互联网与工业软件、工业时序智能、具身智能。</p>
+    <p class="page-intro-en" lang="en">Our research spans industrial foundation models and agents, industrial Internet and software, industrial time-series intelligence, and embodied intelligence.</p>
 
     <div class="publication-sources" aria-label="学术主页">
       <a href="https://scholar.google.com/citations?hl=en&user={{ site.links.google-scholar }}">
@@ -76,7 +76,7 @@ nav:
   <section class="publication-tools" aria-label="论文筛选">
     {% include search-box.html %}
     <div class="publication-filter-tags">
-      {% assign filters = "Journal,Conference,Preprint,Foundation Models,Industrial Agents,Industrial Time Series,Digital Twins & Design,Industrial Internet & Edge,Industrial Software & Control,Knowledge & Decision Intelligence,Smart Manufacturing" | split: "," %}
+      {% assign filters = "Journal,Conference,Preprint,Foundation Models,Industrial Agents,Industrial Time Series,Industrial Internet & Edge,Industrial Software & Control,Knowledge & Decision Intelligence,Smart Manufacturing" | split: "," %}
       {% for filter in filters %}
       <a href="{{ page.dir | relative_url }}?search=&quot;tag: {{ filter }}&quot;" class="tag">{{ filter }}</a>
       {% endfor %}

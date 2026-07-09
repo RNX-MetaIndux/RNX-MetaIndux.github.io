@@ -47,7 +47,6 @@
   tags:
   - Journal
   - Foundation Models
-  - Digital Twins & Design
 - title: Integrated Task and Motion Planner Using Hierarchical Reinforcement Learning
     for Multi-Robot Collaboration
   authors:
@@ -132,7 +131,6 @@
   tags:
   - Journal
   - Foundation Models
-  - Digital Twins & Design
   - Smart Manufacturing
 - title: 'CoMA-IKG: LLM-Driven Multiagent Framework for Automated Construction of
     Industrial Knowledge Graph'
@@ -212,7 +210,6 @@
   doi: 10.1109/TII.2025.3640846
   tags:
   - Journal
-  - Digital Twins & Design
 - title: A Hierarchical Vision-Language and Reinforcement Learning Framework for Robotic
     Task and Motion Planning in Collaborative Manipulation
   authors:
@@ -340,7 +337,6 @@
   doi: 10.3390/systems13070584
   tags:
   - Journal
-  - Digital Twins & Design
 - title: Interleaving and cross-attention presents efficient knowledge graph embedding
   authors:
   - Jinwang Wu
@@ -429,7 +425,6 @@
   tags:
   - Preprint
   - Foundation Models
-  - Digital Twins & Design
 - title: 'FDformer: A Fuzzy Dynamic Transformer-Based Network for Efficient Industrial
     Time Series Prediction'
   authors:
@@ -823,7 +818,6 @@
   tags:
   - Journal
   - Industrial Agents
-  - Digital Twins & Design
 - title: 'Diff-MTS: Temporal-Augmented Conditional Diffusion-based AIGC for Industrial
     Time Series Towards the Large Model Era'
   authors:
@@ -1038,7 +1032,6 @@
   tags:
   - Conference
   - Foundation Models
-  - Digital Twins & Design
 - title: A Cloud-Edge Intelligent Collaborative Framework and Its Applications in
     AIGC and Digital Twins
   authors:
@@ -1058,7 +1051,6 @@
   tags:
   - Conference
   - Foundation Models
-  - Digital Twins & Design
 - title: A Cloud-Edge Adaptive Framework for Equipment Predictive Maintenance in IIoT
   authors:
   - Zidi Jia
@@ -1539,7 +1531,6 @@
   doi: 10.1109/SmartWorld-UIC-ATC-ScalCom-DigitalTwin-PriComp-Metaverse56740.2022.00319
   tags:
   - Conference
-  - Digital Twins & Design
 - title: A $T^{2}$-Tensor-Aided Multiscale Transformer for Remaining Useful Life Prediction
     in IIoT
   authors:
@@ -1987,7 +1978,6 @@
   doi: 10.1109/ACCESS.2019.2909828
   tags:
   - Journal
-  - Digital Twins & Design
 - title: Simulation of Production Modes for Cloud Manufacturing Enterprises
   authors:
   - Longfei Zhou
@@ -2021,7 +2011,6 @@
   doi: 10.1109/IECON.2018.8592864
   tags:
   - Conference
-  - Digital Twins & Design
   - Knowledge & Decision Intelligence
   - Smart Manufacturing
 - title: 'Remaining Useful Life Prediction for Lithium-Ion Battery: A Deep Learning
