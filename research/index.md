@@ -25,6 +25,17 @@ nav:
     </div>
   </div>
 
+  <section class="publication-tools" aria-label="论文筛选">
+    {% include search-box.html %}
+    <div class="publication-filter-tags">
+      {% assign filters = "Journal,Conference,Preprint,Foundation Models,Industrial Agents,Industrial Time Series,Industrial Internet & Edge,Industrial Software & Control,Knowledge & Decision Intelligence,Smart Manufacturing" | split: "," %}
+      {% for filter in filters %}
+      <a href="{{ page.dir | relative_url }}?search=&quot;tag: {{ filter }}&quot;" class="tag">{{ filter }}</a>
+      {% endfor %}
+    </div>
+    {% include search-info.html %}
+  </section>
+
   {% assign featured_publications = site.data.featured_publications %}
   {% if featured_publications and featured_publications.size > 0 %}
   <section class="featured-publications" aria-label="Featured publications">
@@ -72,17 +83,6 @@ nav:
     </div>
   </section>
   {% endif %}
-
-  <section class="publication-tools" aria-label="论文筛选">
-    {% include search-box.html %}
-    <div class="publication-filter-tags">
-      {% assign filters = "Journal,Conference,Preprint,Foundation Models,Industrial Agents,Industrial Time Series,Industrial Internet & Edge,Industrial Software & Control,Knowledge & Decision Intelligence,Smart Manufacturing" | split: "," %}
-      {% for filter in filters %}
-      <a href="{{ page.dir | relative_url }}?search=&quot;tag: {{ filter }}&quot;" class="tag">{{ filter }}</a>
-      {% endfor %}
-    </div>
-    {% include search-info.html %}
-  </section>
 
   {% assign publications = site.data.citations %}
   {% if publications == empty %}
