@@ -9,7 +9,7 @@ nav:
 <div class="projects-page">
   <div class="projects-heading page-heading">
     <h1>科研项目与基金 <span lang="en">Projects & Funding</span></h1>
-    <p>团队长期承担国家级和省部级重大重点项目，围绕工业互联网、工业软件、工业大模型、工业智能体与智能制造开展基础研究、关键技术攻关和产业应用。</p>
+    <p>团队长期承担国家级和省部级重大重点项目，围绕工业互联网、工业软件、工业大模型与工业智能体开展基础研究、关键技术攻关和产业应用。</p>
     <p class="page-intro-en" lang="en">The team undertakes major national and ministerial projects spanning fundamental research, key technologies, and industrial applications in the industrial Internet, industrial software, foundation models, agents, and intelligent manufacturing.</p>
   </div>
 

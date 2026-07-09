@@ -45,7 +45,7 @@
   section: national
   priority: S
   role: "承担国家重大科技专项任务；具体任务名称与分工未公开"
-  summary: "围绕智能制造、工业互联网、工业软件与工业大模型等国家重大需求开展关键技术攻关。"
+  summary: "围绕工业互联网、工业软件与工业大模型等国家重大需求开展关键技术攻关。"
   source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/6538.htm"
 
 - title: "国家***工业大模型专项"
@@ -75,7 +75,7 @@
   section: nsfc
   priority: A
   role: "承担国家自然科学基金面上项目；具体题名与项目编号未公开"
-  summary: "开展工业互联网、工业人工智能与智能制造基础研究。"
+  summary: "开展工业互联网与工业人工智能基础研究。"
   source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/4359.htm"
 
 - title: "国家自然科学基金重点项目课题"
@@ -85,7 +85,7 @@
   section: nsfc
   priority: A
   role: "承担国家自然科学基金重点项目课题；具体题名与项目编号未公开"
-  summary: "面向工业互联网与智能制造领域关键基础问题开展研究。"
+  summary: "面向工业互联网领域关键基础问题开展研究。"
   source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/2245.htm"
 
 - title: "国家自然科学基金青年学生基础研究项目（博士研究生）"
@@ -105,7 +105,7 @@
   section: miit
   priority: A
   role: "承担国家制造业高质量发展专项；具体项目编号与分工未公开"
-  summary: "面向工业互联网与智能制造应用开展关键技术研发和示范。"
+  summary: "面向工业互联网应用开展关键技术研发和示范。"
   source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/4358.htm"
 
 - title: "工信部-2020工业软件专项"
@@ -125,7 +125,7 @@
   section: miit
   priority: A
   role: "承担工业互联网创新发展工程项目；具体题名与分工未公开"
-  summary: "支撑工业互联网平台、工业软件与智能制造应用创新。"
+  summary: "支撑工业互联网平台与工业软件应用创新。"
   source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/3884.htm"
 
 - title: "工信部-2019工业互联网创新发展工程项目"
@@ -145,7 +145,7 @@
   section: miit
   priority: A
   role: "承担工业互联网创新发展工程项目；具体题名与分工未公开"
-  summary: "推动工业互联网平台关键技术和智能制造应用落地。"
+  summary: "推动工业互联网平台关键技术和应用落地。"
   source: "https://teacher.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/2248.htm"
 
 - title: "国家重点研发计划网络协同制造和智能工厂重点专项课题"
@@ -175,7 +175,7 @@
   section: national
   priority: A
   role: "承担重大项目子课题；具体题名、项目编号与分工未公开"
-  summary: "面向工业人工智能和智能制造开展前沿研究。"
+  summary: "面向工业人工智能开展前沿研究。"
   source: "https://shi.buaa.edu.cn/renlei/zh_CN/kyxm/10284/content/3886.htm"
 
 - title: "中国工程院重大战略咨询项目“中国人工智能2.0发展战略研究”"
@@ -235,5 +235,5 @@
   section: education
   priority: A
   role: "任磊教授指导本科生承担10余项；具体项目名单未公开"
-  summary: "支持本科生参与工业互联网、工业人工智能与智能制造科研创新。"
+  summary: "支持本科生参与工业互联网与工业人工智能科研创新。"
   source: "https://shi.buaa.edu.cn/renlei/zh_CN/more/10281/jsjjgd/index.htm"
