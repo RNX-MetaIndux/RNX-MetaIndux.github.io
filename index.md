@@ -5,7 +5,7 @@ description: RNX-MetaIndux research group homepage
 
 <div class="home-shell">
   <figure class="home-hero">
-    <img src="{{ "/images/home-hero-cncc.png" | relative_url }}" alt="CNCC 2025 工业大模型产业应用研讨会现场 / CNCC 2025 Industrial Foundation Model Industry Application Symposium">
+    <img src="{{ "/images/home-hero-cncc.jpg" | relative_url }}" alt="CNCC 2025 工业大模型产业应用研讨会现场 / CNCC 2025 Industrial Foundation Model Industry Application Symposium">
     <figcaption>Industrial Foundation Model | MetaIndux</figcaption>
   </figure>
 

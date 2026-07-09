@@ -19,7 +19,7 @@
     - "任磊教授在第35届中国仿真大会作大会报告《工业互联网：迈向大模型智能时代》，介绍北航团队打造的工业大模型 AIGC 引擎原型。该原型在李伯虎院士、张霖教授指导下，融合模型工程、工业人工智能、工业互联网等研究成果。"
     - "该引擎覆盖工业仿真系统代码生成、机器操控指令生成、生产工艺生成、工业时序数据生成和工业时序预测模型生成等能力，服务研发设计、生产制造和运维服务等典型智能制造场景。"
   link: "https://news.buaa.edu.cn/info/1005/60203.htm"
-  image: "/images/news-aigc.png"
+  image: "/images/news-aigc.jpg"
   image_alt: "任磊教授在第35届中国仿真大会介绍工业大模型 AIGC 引擎"
 
 - date: 2024-05-07
@@ -45,7 +45,7 @@
     - "李伯虎院士、任磊教授团队系统提出工业智能体的定义、关键特征、体系架构与关键技术，面向工业动态环境、高可靠决策、复杂长程指令和多智能体协作等现实挑战，探索新一代 Agentic AI 在工业场景中的发展路径。"
     - "工业智能体以工业大模型和工业世界模型为认知底座，具备感知理解、知识记忆、规划决策、通信交互、自主执行和演化学习等核心能力，可服务研发设计、生产制造、试验测试、经营管理与运维服务等产品全生命周期业务。"
   link: "https://xingongye.cn/cms/Intelligent_manufacturing/1713.html"
-  image: "/images/news-industrial-agent.png"
+  image: "/images/news-industrial-agent.jpg"
   image_alt: "工业智能体从大模型、工具增强到多智能体自主协作的演化图"
 
 - date: 2025-07-01
@@ -58,7 +58,7 @@
     - "面向工业具身智能训练场景构建成本高、数据获取困难等问题，李伯虎院士、任磊教授团队提出“数字族谱”概念，并设计基于数字族谱 DNA（DG-DNA）的多代演化生成机制。"
     - "该方法能够生成从多样化零部件到多类型产品的产品数字族谱，以及覆盖不同设备和环境配置的生产空间数字族谱，为工业具身智能世界模型提供高质量训练场景与数据，增强模型的对象泛化与空间适应能力。"
   link: "https://research.buaa.edu.cn/en/publications/%E6%95%B0%E5%AD%97%E6%97%8F%E8%B0%B1-%E9%A9%B1%E5%8A%A8%E5%B7%A5%E4%B8%9A%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B/"
-  image: "/images/news-digital-genealogy.png"
+  image: "/images/news-digital-genealogy.jpg"
   image_alt: "论文图 1：数字族谱的演化关系"
 
 - date: 2025-09-01

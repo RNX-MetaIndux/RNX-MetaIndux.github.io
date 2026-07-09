@@ -1,4 +1,4 @@
-{% assign image = "images/background.png" %}
+{% assign image = "images/background.jpg" %}
 {% assign logo = "images/logowhite.svg" %}
 
 <header
@@ -8,7 +8,7 @@
 >
   <a href="{{ "/" | relative_url }}" class="home" aria-label="Home">
     <span class="logo">
-      <img src="{{ logo | relative_url | uri_escape }}?v={{ site.time | date: "%s" }}" alt="RNX-MetaIndux">
+      <img src="{{ logo | relative_url | uri_escape }}" alt="RNX-MetaIndux">
     </span>
   </a>
 
