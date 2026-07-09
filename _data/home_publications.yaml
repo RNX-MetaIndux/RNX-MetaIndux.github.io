@@ -4,8 +4,14 @@
   venue: "中国科学杂志社"
   link: "https://xingongye.cn/cms/Intelligent_manufacturing/1713.html"
 
-- year: 2025
+- year: 2026
+  type: Preprint
+  title: "TS-MLLM: A Multi-Modal Large Language Model-based Framework for Industrial Time-Series Big Data Analysis"
+  venue: "arXiv:2603.07572"
+  link: "https://doi.org/10.48550/arXiv.2603.07572"
+
+- year: 2026
   type: Journal
-  title: "Industrial Foundation Model"
-  venue: "IEEE Transactions on Cybernetics 55(5): 2286-2301"
-  link: "https://doi.org/10.1109/TCYB.2025.3527632"
+  title: "IEI-TIA: Industrial Embodied Intelligence Trustworthy Interpretable Agent for Robotic Long-Horizon and Repetitive Tasks"
+  venue: "IEEE Transactions on Automation Science and Engineering"
+  link: "https://doi.org/10.1109/TASE.2026.3687369"
