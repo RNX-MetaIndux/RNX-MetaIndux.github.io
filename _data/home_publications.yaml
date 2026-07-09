@@ -1,0 +1,11 @@
+- year: 2026
+  type: Article
+  title: "工业智能体：体系架构、关键技术与未来展望"
+  venue: "中国科学杂志社"
+  link: "https://xingongye.cn/cms/Intelligent_manufacturing/1713.html"
+
+- year: 2025
+  type: Journal
+  title: "Industrial Foundation Model"
+  venue: "IEEE Transactions on Cybernetics 55(5): 2286-2301"
+  link: "https://doi.org/10.1109/TCYB.2025.3527632"

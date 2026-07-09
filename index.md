@@ -118,7 +118,7 @@ description: RNX-MetaIndux research group homepage
 
       <section class="home-panel home-publications">
         <h2>Latest Publications</h2>
-        {% for publication in site.data.publications limit: 3 %}
+        {% for publication in site.data.home_publications %}
         <article>
           <span>{{ publication.year }} · {{ publication.type }}</span>
           <h3><a href="{{ publication.link }}">{{ publication.title }}</a></h3>
