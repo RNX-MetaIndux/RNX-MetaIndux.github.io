@@ -98,7 +98,7 @@ description: RNX-MetaIndux research group homepage
         <span class="home-admissions-label">JOIN US</span>
         <h2>实验室招生 <span class="home-heading-en" lang="en">Admissions</span></h2>
         <p>
-          <strong>每年招收硕士生、直博生</strong>
+          <strong>每年招收硕士生、博士生、直博生</strong>
         </p>
         <p>
           招生单位：北航自动化学院、北航软件学院、中关村实验室

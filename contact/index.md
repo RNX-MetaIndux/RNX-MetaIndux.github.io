@@ -36,7 +36,7 @@ nav:
   <section class="contact-admissions">
     <span>JOIN US</span>
     <h2>实验室招生</h2>
-    <p class="contact-admissions-lead">每年招收硕士生、直博生</p>
+    <p class="contact-admissions-lead">每年招收硕士生、博士生、直博生</p>
     <p>{{ site.data.contact.admissions.summary }}</p>
     <p>招生咨询：<a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a></p>
   </section>
