@@ -1,7 +1,11 @@
 # site properties and page defaults
 title: RNX-MetaIndux
 subtitle: 
-description: Industrial foundation models, industrial AI, embodied intelligence, and intelligent manufacturing.
+description: 北京航空航天大学任磊教授 RNX-MetaIndux 团队，研究工业大模型、工业人工智能、工业智能体、具身智能与智能制造。
+url: https://rnx-metaindux.github.io
+baseurl: ""
+lang: zh-CN
+locale: zh_CN
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
@@ -32,6 +36,7 @@ defaults:
       type: "posts"
     values:
       layout: post
+      lang: en
 
 collections:
   # generate page for each member
@@ -69,6 +74,9 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+  - docs
+  - scripts
+  - tmp
 
 # configure jekyll spaceship
 jekyll-spaceship:

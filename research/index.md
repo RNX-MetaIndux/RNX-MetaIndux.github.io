@@ -1,6 +1,7 @@
 ---
 title: Research
-description: Publications by the RNX-MetaIndux team, maintained in the committed citation dataset.
+seo_title: 研究成果与学术论文
+description: 北京航空航天大学任磊教授 RNX-MetaIndux 团队的论文与研究成果，涵盖工业大模型、工业智能体、工业时序智能与智能制造。
 nav:
   order: 1
   tooltip: Publications and research topics
@@ -114,7 +115,7 @@ nav:
             <p class="publication-authors">{{ publication.authors }}</p>
           {% endif %}
 
-          <p class="publication-venue">{{ publication.publisher | default: publication.venue }}</p>
+          <p class="publication-venue">{{ publication.venue | default: publication.publisher }}</p>
 
           {% if publication.tags %}
           <div class="publication-tags tags">
@@ -147,5 +148,5 @@ nav:
 
   <div class="pagination" data-pagination-controls="research-publications" aria-label="Research pagination"></div>
 
-  <p class="publication-note">Publication metadata is maintained in the committed citation dataset. Topic labels are assigned from publication metadata and can be refined manually.</p>
+  <p class="publication-note">近期论文核对：2026-09-12。标注为 Preprint 的条目为预印本，正式出版信息以论文原文和出版方记录为准。</p>
 </div>

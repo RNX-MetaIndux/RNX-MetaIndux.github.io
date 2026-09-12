@@ -1,0 +1,44 @@
+# Evidence for manually curated updates to citations/publications/home/featured data.
+# The citation workflow is disabled; this file is a maintenance log, not a complete bibliography.
+- checked_on: "2026-09-12"
+  doi: "10.48550/arXiv.2608.26780"
+  title: "AI Control Scientist: LLM-driven Agentic System for Automated Control Design"
+  change: "Added as a preprint with the arXiv author order and submission date, 2026-08-27."
+  sources:
+    - "https://arxiv.org/abs/2608.26780"
+    - "https://arxiv.org/html/2608.26780v1"
+  identity_check: "All four authors match existing team members: Haiteng Wang, Weihao Li, Jing Zhang, and Lei Ren. The manuscript does not list affiliations; attribution uses this full coauthor combination and the industrial control research topic."
+
+- checked_on: "2026-09-12"
+  doi: "10.48550/arXiv.2608.10941"
+  title: "Physics-informed Diffusion Generative Model for Time-Series Data Synthesis in Dynamic Systems"
+  change: "Added as a preprint with the arXiv author order and submission date, 2026-08-11."
+  sources:
+    - "https://arxiv.org/abs/2608.10941"
+    - "https://arxiv.org/html/2608.10941v1"
+  identity_check: "The manuscript identifies Haiteng Wang, Yunfei Zhu, Yikang Li, Jiabao Dong, and Lei Ren as Beihang University authors and gives their buaa.edu.cn email addresses."
+
+- checked_on: "2026-09-12"
+  doi: "10.48550/arXiv.2607.14510"
+  title: "VLT: A Vision-Language-Time Series Multimodal Foundation Model for Industrial Intelligence"
+  change: "Added as a preprint with the arXiv author order and submission date, 2026-07-16. Submission to IEEE is not treated as acceptance."
+  sources:
+    - "https://arxiv.org/abs/2607.14510"
+    - "https://arxiv.org/html/2607.14510v1"
+  identity_check: "The manuscript identifies Haiteng Wang, Jingheng Yan, and Lei Ren as Beihang University authors and gives their buaa.edu.cn email addresses."
+
+- checked_on: "2026-09-12"
+  doi: "10.1016/j.eng.2025.03.023"
+  title: "Foundation Models for the Process Industry: Challenges and Opportunities"
+  change: "Replaced the featured article placeholder ENG1861 with the published volume and pages, Engineering 52: 53-59. Added the already-featured article to the complete searchable bibliography and its fallback; the date records first online publication."
+  sources:
+    - "https://www.engineering.org.cn/engi/EN/10.1016/j.eng.2025.03.023"
+    - "https://www.engineering.org.cn/engi/CN/PDF/10.1016/j.eng.2025.03.023"
+  identity_check: "The publisher lists Lei Ren, Haiteng Wang, Yuqing Wang, and Bohu Li at Beihang University, with matching corresponding-author email addresses."
+
+- checked_on: "2026-09-12"
+  doi: "10.48550/arXiv.2603.07572"
+  title: "TS-MLLM: A Multi-Modal Large Language Model-based Framework for Industrial Time-Series Big Data Analysis"
+  change: "Corrected the generated January 1 placeholder to the actual arXiv submission date, 2026-03-08; preserved the preprint classification."
+  sources:
+    - "https://arxiv.org/abs/2603.07572"

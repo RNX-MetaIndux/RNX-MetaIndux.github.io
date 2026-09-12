@@ -1,6 +1,7 @@
 ---
 title: Home
-description: RNX-MetaIndux research group homepage
+seo_title: 北京航空航天大学任磊教授团队
+description: 北京航空航天大学任磊教授 RNX-MetaIndux 团队主页，介绍工业大模型、工业智能体、工业人工智能与智能制造研究，以及团队成员、论文与招生信息。
 ---
 
 <div class="home-shell">
@@ -73,6 +74,18 @@ description: RNX-MetaIndux research group homepage
     </div>
 
     <aside class="home-sidebar" aria-label="Homepage sidebar">
+      <section class="home-panel">
+        <h2>团队成员 <span class="home-heading-en" lang="en">Team</span></h2>
+        <p>北京航空航天大学任磊教授 RNX-MetaIndux 团队，围绕工业人工智能、工业大模型与智能制造开展研究。</p>
+        <ul>
+          {% assign research_staff = site.members | where: "group", "researcher" | sort: "order" %}
+          {% for member in research_staff %}
+          <li><a href="{{ member.url | relative_url }}">{{ member.name }}</a> · {{ member.description }}</li>
+          {% endfor %}
+        </ul>
+        <a href="{{ '/team/' | relative_url }}">查看全部成员与个人主页</a>
+      </section>
+
       <section class="home-panel">
         <h2>联系我们 <span class="home-heading-en" lang="en">Contact</span></h2>
         <p>

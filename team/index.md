@@ -1,5 +1,7 @@
 ---
 title: Team
+seo_title: 团队成员与个人主页
+description: 北京航空航天大学 RNX-MetaIndux 团队成员，包括任磊、王海腾、祝云飞等研究人员与研究生的中英文姓名、学术主页和论文。
 nav:
   order: 3
   tooltip: About our team

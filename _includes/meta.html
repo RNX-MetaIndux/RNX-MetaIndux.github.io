@@ -1,104 +1,88 @@
-{% assign filename = page.path | split: "/" | last %}
-{% if page.name and page.name != filename %}
-  {% assign title = page.name %}
-{% elsif page.title %}
-  {% assign title = page.title %}
-{% else %}
-  {% assign title = nil %}
+{% assign seo_title = page.seo_title | default: page.title %}
+{% assign seo_description = page.description | default: site.description %}
+{% assign member_affiliation = page.affiliation %}
+{% if member_affiliation == 'Beihang University' %}
+  {% assign member_affiliation = '北京航空航天大学（Beihang University）' %}
 {% endif %}
-
-{% assign title = title | xml_escape %}
-
-{% assign fulltitle = "" | split: "," %}
-{% if title and title != "" %}
-  {% assign fulltitle = fulltitle | push: title %}
+{% if page.collection == 'members' %}
+  {% capture seo_title %}{{ page.name }}{% if page.aliases.first %}（{{ page.aliases.first }}）{% endif %} · {{ member_affiliation }}{% endcapture %}
+  {% capture seo_description %}{{ page.name }}{% if page.aliases.first %}（{{ page.aliases.first }}）{% endif %}，{{ member_affiliation }}{{ page.description }}，{{ site.title }} 团队成员。查看个人简介、学术主页与相关论文。{% endcapture %}
 {% endif %}
-{% if site.title and site.title != "" %}
-  {% assign fulltitle = fulltitle | push: site.title %}
-{% endif %}
-{% assign fulltitle = fulltitle | join: " | " %}
-
-{% assign subtitle = site.subtitle %}
-
-{% assign description = page.description | default: site.description %}
-{% if site.subtitle %}
-  {% capture description -%}
-    {{ site.subtitle }}. {{ description }}
-  {%- endcapture %}
-{% endif %}
-{% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
-{%- endcapture %}
-
-{% assign description = description | xml_escape %}
-
-{% assign png = "images/icon.png" | file_exists %}
-{% assign jpg = "images/icon.jpg" | file_exists %}
-{% assign icon = png | default: jpg | relative_url %}
-
-{% assign jpg = "images/share.jpg" | file_exists %}
-{% assign png = "images/share.png" | file_exists %}
-{% assign share = jpg | default: png | relative_url %}
-
+{% assign fulltitle = seo_title | append: ' | ' | append: site.title %}
+{% assign seo_description = seo_description | strip_html | normalize_whitespace | strip %}
+{% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
+{% assign site_url = '/' | absolute_url %}
+{% assign icon = 'images/icon.png' | absolute_url %}
+{% assign share = page.image | default: site.header | absolute_url | uri_escape %}
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema %}
 
-{% assign feed = "feed.xml" | absolute_url %}
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>{{ fulltitle }}</title>
-
-<link rel="icon" type="image/png" href="{{ icon }}?v={{ site.time | date: "%s" }}">
-<link rel="apple-touch-icon" href="{{ icon }}?v={{ site.time | date: "%s" }}">
-
-<meta name="title" content="{{ title }}">
-<meta name="description" content="{{ description }}">
-
-<meta property="og:title" content="{{ title }}">
-<meta property="og:site_title" content="{{ site.title | xml_escape }}">
-<meta property="og:description" content="{{ description }}">
-<meta property="og:url" content="{{ url }}">
+<title>{{ fulltitle | xml_escape }}</title>
+<link rel="canonical" href="{{ canonical_url | xml_escape }}">
+<link rel="icon" type="image/png" href="{{ icon }}">
+<link rel="apple-touch-icon" href="{{ icon }}">
+<meta name="description" content="{{ seo_description | xml_escape }}">
+<meta name="robots" content="{{ page.robots | default: 'index, follow, max-image-preview:large' | xml_escape }}">
+<meta property="og:title" content="{{ fulltitle | xml_escape }}">
+<meta property="og:site_name" content="{{ site.title | xml_escape }}">
+<meta property="og:description" content="{{ seo_description | xml_escape }}">
+<meta property="og:url" content="{{ canonical_url | xml_escape }}">
 <meta property="og:image" content="{{ share }}">
-<meta property="og:locale" content="en_US">
-
-<meta property="twitter:title" content="{{ title }}">
-<meta property="twitter:description" content="{{ description }}">
-<meta property="twitter:url" content="{{ url }}">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="{{ share }}">
-
-{% if page.author %}
-  <meta name="author" content="{{ page.author | xml_escape }}">
-  <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="{{ updated }}">
-  <meta property="article:published_time" content="{{ published }}">
-  <meta property="article:modified_time" content="{{ updated }}">
-  <meta name="revised" content="{{ updated }}">
+<meta property="og:locale" content="{% if page.lang == 'en' %}en_US{% else %}{{ site.locale | default: 'zh_CN' }}{% endif %}">
+<meta name="twitter:title" content="{{ fulltitle | xml_escape }}">
+<meta name="twitter:description" content="{{ seo_description | xml_escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ share }}">
+{% if page.collection == 'members' %}
+<meta property="og:type" content="profile">
+{% elsif page.author %}
+<meta name="author" content="{{ page.author | xml_escape }}">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ published }}">
+{% if updated != '' %}<meta property="article:modified_time" content="{{ updated }}">{% endif %}
 {% else %}
-  <meta property="og:type" content="website">
+<meta property="og:type" content="website">
 {% endif %}
 
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    {% if page.author %}
-      "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "{{ title }}" },
-      "datePublished": "{{ published }}",
-      "dateModified": "{{ updated }}",
-    {% else %}
-      "@type": "WebSite",
-    {% endif %}
-    "name": "{{ title }}",
-    "description": "{{ description }}",
-    "headline": "{{ title }}",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "{{ icon }}" }
-    },
-    "url": "{{ url }}"
-  }
+{
+  "@context": "https://schema.org",
+  {% if page.collection == 'members' %}
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ canonical_url | append: '#person' | jsonify }},
+    "name": {{ page.name | jsonify }},
+    "alternateName": {{ page.aliases | jsonify }},
+    "description": {{ seo_description | jsonify }},
+    "url": {{ canonical_url | jsonify }},
+    {% if page.image %}"image": {{ share | jsonify }},{% endif %}
+    "affiliation": { "@type": "Organization", "name": {{ member_affiliation | jsonify }} },
+    "memberOf": { "@type": "ResearchOrganization", "name": {{ site.title | jsonify }}, "url": {{ site_url | jsonify }} }
+  },
+  {% elsif page.url == '/' %}
+  "@type": "WebSite",
+  "publisher": {
+    "@type": "ResearchOrganization",
+    "name": {{ site.title | jsonify }},
+    "url": {{ site_url | jsonify }},
+    "logo": { "@type": "ImageObject", "url": {{ icon | jsonify }} }
+  },
+  {% elsif page.author %}
+  "@type": "BlogPosting",
+  "author": { "@type": "Person", "name": {{ page.author | jsonify }} },
+  "headline": {{ seo_title | jsonify }},
+  "datePublished": {{ published | jsonify }},
+  {% if updated != '' %}"dateModified": {{ updated | jsonify }},{% endif %}
+  {% else %}
+  "@type": "WebPage",
+  "isPartOf": { "@type": "WebSite", "name": {{ site.title | jsonify }}, "url": {{ site_url | jsonify }} },
+  {% endif %}
+  "name": {{ fulltitle | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "inLanguage": {{ page.lang | default: site.lang | jsonify }},
+  "url": {{ canonical_url | jsonify }}
+}
 </script>
-
-<link rel="alternate" type="application/rss+xml" href="{{ feed }}">
+<link rel="alternate" type="application/rss+xml" href="{{ 'feed.xml' | absolute_url }}">

@@ -2,11 +2,16 @@
 layout: default
 ---
 
-{% if page.profile_content %}
+<div class="member-heading">
+  <p><a href="{{ '/team/' | relative_url }}">团队成员 / Team</a></p>
+  <h1>{{ page.name }}{% if page.aliases.first %} <span lang="en">{{ page.aliases.first }}</span>{% endif %}</h1>
+  <p>{{ page.description }} · {% if page.affiliation == 'Beihang University' %}北京航空航天大学 / {% endif %}{{ page.affiliation }}</p>
+  <p><a href="{{ '/' | relative_url }}">{{ site.title }}</a> 团队成员</p>
+</div>
+
 {% capture floatcontent %}
-
 {% include portrait.html lookup=page.slug %}
-
+{% if page.links %}
 <div>
   {% for link in page.links %}
     {% assign key = link[0] %}
@@ -14,40 +19,41 @@ layout: default
     {% include button.html type=key link=value style="bare" %}<br>
   {% endfor %}
 </div>
-
+{% endif %}
 {% endcapture %}
-
 {% include float.html content=floatcontent %}
 
+{% assign biography = content | strip %}
+{% if biography != '' %}
 {{ content }}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
-
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
-  </a>
-</p>
-
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
-
-<!--
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
-  </a>
-</p>
--->
+{% else %}
+<div class="member-profile">
+  <h2>个人简介</h2>
+  <p>{{ page.name }}{% if page.aliases.first %}（<span lang="en">{{ page.aliases.first }}</span>）{% endif %}，{% if page.affiliation == 'Beihang University' %}北京航空航天大学（Beihang University）{% else %}{{ page.affiliation }}{% endif %}{{ page.description }}，{{ site.title }} 团队成员。</p>
+  <p>团队围绕工业人工智能、工业大模型、工业智能体、具身智能与智能制造开展研究。了解更多<a href="{{ '/research/' | relative_url }}">团队研究成果</a>与<a href="{{ '/team/' | relative_url }}">成员信息</a>。</p>
+</div>
 {% endif %}
+
+{% assign publications = site.data.citations %}
+{% if publications == empty %}{% assign publications = site.data.publications %}{% endif %}
+{% assign member_publications = publications | publications_by_member: page.name, page.aliases %}
+{% if member_publications.size > 0 %}
+<div class="member-profile member-publications">
+  <h2>相关论文 <span lang="en">Publications</span></h2>
+  <ol>
+    {% for publication in member_publications limit: 5 %}
+    <li>
+      <a href="{{ publication.link | xml_escape }}">{{ publication.title | xml_escape }}</a><br>
+      <span lang="en">{{ publication.authors | join: ', ' | xml_escape }}. {{ publication.publisher | default: publication.venue | xml_escape }}.</span>
+      {{ publication.year }}{% if publication.type == 'Preprint' %} · 预印本 / Preprint{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}
+
+{% assign aliases = page.aliases | default: page.name | join: ',' | split: ',' | array_filter %}
+{% capture paper_query %}{% for alias in aliases %}"{{ alias }}" {% endfor %}{% endcapture %}
+<p class="center member-paper-link">
+  <a href="{{ '/research/' | relative_url }}?search={{ paper_query | strip | uri_escape }}">在研究成果页检索 {{ page.name }} 的全部论文</a>
+</p>
