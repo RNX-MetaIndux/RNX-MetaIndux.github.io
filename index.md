@@ -78,6 +78,18 @@ description: 北航（北京航空航天大学）任磊教授 RNX-MetaIndux 团�
     </div>
 
     <aside class="home-sidebar" aria-label="Homepage sidebar">
+      <section class="home-panel home-admissions">
+        <span class="home-admissions-label">JOIN US</span>
+        <h2>实验室招生 <span class="home-heading-en" lang="en">Admissions</span></h2>
+        <p>
+          <strong>每年招收硕士生、博士生、直博生</strong>
+        </p>
+        <p>
+          招生单位：北航自动化学院、北航软件学院、中关村实验室
+        </p>
+        <a href="{{ "/contact/" | relative_url }}">查看招生与联系方式</a>
+      </section>
+
       <section class="home-panel">
         <h2>团队成员 <span class="home-heading-en" lang="en">Team</span></h2>
         <p>北京航空航天大学任磊教授 RNX-MetaIndux 团队，围绕工业人工智能、工业大模型与智能制造开展研究。</p>
@@ -109,18 +121,6 @@ description: 北航（北京航空航天大学）任磊教授 RNX-MetaIndux 团�
           <li>{{ laboratory }}</li>
           {% endfor %}
         </ul>
-      </section>
-
-      <section class="home-panel home-admissions">
-        <span class="home-admissions-label">JOIN US</span>
-        <h2>实验室招生 <span class="home-heading-en" lang="en">Admissions</span></h2>
-        <p>
-          <strong>每年招收硕士生、博士生、直博生</strong>
-        </p>
-        <p>
-          招生单位：北航自动化学院、北航软件学院、中关村实验室
-        </p>
-        <a href="{{ "/contact/" | relative_url }}">查看招生与联系方式</a>
       </section>
 
       <section class="home-panel">
