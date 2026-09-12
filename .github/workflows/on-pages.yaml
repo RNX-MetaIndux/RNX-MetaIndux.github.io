@@ -16,6 +16,38 @@ permissions:
   contents: write
 
 jobs:
+  indexnow:
+    # Notify only after GitHub Pages reports a successful live deployment.
+    if: github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout submission tools
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install Ruby packages
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Checkout the successfully deployed site and its previous version
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          path: _site
+          fetch-depth: 2
+
+      - name: Notify Bing about changed pages
+        id: notify
+        run: bundle exec ruby scripts/submit-indexnow.rb
+
+      - name: "Bing receipt HTTP ${{ steps.notify.outputs.http_status }} - ${{ steps.notify.outputs.url_count }} URLs (${{ steps.notify.outputs.status }})"
+        run: echo "Receipt recorded. Crawling, indexing and ranking are separate search engine decisions."
+
   update-url:
     # only run on user instance of template, not template itself
     if: github.repository != 'greenelab/lab-website-template'

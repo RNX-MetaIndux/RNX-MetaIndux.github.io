@@ -65,6 +65,10 @@ end
 check.call(File.read(File.join(destination, 'robots.txt')).include?("Sitemap: #{origin}/sitemap.xml"), 'Missing robots sitemap URL')
 check.call(!locations.include?(origin + '/404.html'), '404 must not appear in sitemap')
 check.call(!File.exist?(File.join(destination, 'tmp')), 'Temporary research files must not be published')
+if config['indexnow']
+  key_file = config.fetch('indexnow').fetch('key_file')
+  check.call(File.read(File.join(destination, key_file), encoding: 'UTF-8').strip == key_file.delete_suffix('.txt'), 'Published IndexNow ownership proof is invalid')
+end
 
 details = YAML.load_file(File.join(root, '_data/publication_details.yaml'))
 citations = YAML.load_file(File.join(root, '_data/citations.yaml'))

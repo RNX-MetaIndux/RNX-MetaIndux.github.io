@@ -50,7 +50,9 @@ jobs:
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
 
       - name: Check member pages and search metadata
-        run: bundle exec ruby scripts/check-site.rb
+        run: |
+          bundle exec ruby scripts/check-site.rb
+          bundle exec ruby scripts/check-indexnow.rb
 
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.5.0

@@ -9,9 +9,42 @@
 `_includes/meta.html` 为每页输出独立 canonical、描述和 JSON-LD；成员采用
 ProfilePage / Person。`jekyll-sitemap` 自动生成 sitemap，robots.txt 提供其地址。
 
+## 必应：IndexNow 主动通知
+
+本站已接入必应支持的 IndexNow。根目录的验证文本文件证明本站控制权，
+它不等同于 Bing Webmaster Tools 的账号凭据，不需要先登录站长账号才能提交 URL。
+
+GitHub Pages 成功部署后，`on-pages` 工作流会对比这次和上次实际发布的页面：
+首次启用时提交站点地图内的全部 URL，之后仅通知新增、内容变化或已删除的 URL。
+脚本会忽略每次构建自动变化的资源缓存版本，避免无内容更新时重复提交。
+提交前会核对线上验证文件。失败的部署不会触发提交。
+
+接口为 `https://www.bing.com/indexnow`，无需再向 `cn.bing.com` 重复发送。
+HTTP 200 表示收到通知；202 表示收到通知、验证尚未完成。
+两者均不表示已抓取、已收录或姓名查询排名已提高；400、403、422、429 等不计为成功。
+429 应根据服务返回的 Retry-After 等待，不要密集重发。
+
+查看 GitHub Actions 中 `on pages deploy` → `indexnow` 的运行结果与摘要。
+若本地需要核对待提交 URL 或在排除故障后手动提交一次：
+
+```sh
+bundle exec ruby scripts/submit-indexnow.rb --all --dry-run
+bundle exec ruby scripts/submit-indexnow.rb --all
+```
+
+实际提交回执存入 `tmp/indexnow-submission.json`，不包含 key，也不会发布到网站。
+`--all` 用于首次启用或人工排错，不应设置为每日无变化重复提交。
+
+要查看必应对某个 URL 的具体收录原因和查询表现，仍需在
+[Bing Webmaster Tools](https://www.bing.com/webmasters/)登录并验证站点。
+IndexNow 验证文件不会自动授予站长后台账号访问权限。
+
+官方依据：[必应接入说明](https://www.bing.com/indexnow/getstarted)、
+[IndexNow 协议与回执含义](https://www.indexnow.org/documentation)。
+
 ## 站长平台提交
 
-代码部署不会自动完成站长账号验证，也不能保证收录时间或姓名搜索排名。
+上述主动通知不会自动完成站长后台的账号验证，也不能保证收录时间或姓名搜索排名。
 网站所有者可在 Google Search Console、Bing Webmaster Tools、百度搜索资源平台中
 添加本站，完成各平台要求的所有权验证，再提交站点地图：
 

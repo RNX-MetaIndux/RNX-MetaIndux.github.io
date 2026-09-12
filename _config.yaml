@@ -83,3 +83,7 @@ jekyll-spaceship:
   mathjax-processor:
     src:
       - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
+
+# Public ownership proof for IndexNow; this is not a webmaster account credential.
+indexnow:
+  key_file: 12312e266c4f45f5a5cae08b88674f9b.txt
