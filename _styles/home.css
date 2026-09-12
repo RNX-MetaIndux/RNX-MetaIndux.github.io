@@ -36,6 +36,30 @@
   width: 100%;
 }
 
+.home-introduction {
+  margin-bottom: 24px;
+}
+
+.home-introduction h1 {
+  margin: 0 0 10px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.4;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.home-introduction h1 span {
+  display: block;
+  color: var(--home-muted);
+  font-size: 1.1rem;
+}
+
+.home-introduction p {
+  margin: 0;
+  text-align: left;
+}
+
 .home-hero {
   position: relative;
   isolation: isolate;
