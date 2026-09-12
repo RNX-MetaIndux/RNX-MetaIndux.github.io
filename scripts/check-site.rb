@@ -33,6 +33,9 @@ Dir.glob(File.join(root, '_members', '*.md')).each do |source|
   check.call(main.include?(member.fetch('description')) && main.include?(member.fetch('affiliation')), "#{slug}: missing visible identity")
   Array(member['aliases']).each { |alias_name| check.call(main.include?(alias_name), "#{slug}: missing English name") }
   check.call(title.include?(name) && description.include?(name) && description.include?(config.fetch('title')), "#{slug}: incomplete metadata")
+  if member['affiliation'] == 'Beihang University'
+    check.call(title.include?("北航#{name}") && main.include?('北航') && main.include?('北京航空航天大学'), "#{slug}: missing Beihang name association")
+  end
   check.call(canonical.size == 1 && canonical.first['href'] == expected_url, "#{slug}: incorrect canonical")
   check.call(document.at_css('meta[property="og:url"]')&.[]('content') == expected_url, "#{slug}: incorrect social URL")
   check.call(!document.at_css('meta[name="robots"]')&.[]('content').to_s.include?('noindex'), "#{slug}: indexing blocked")
@@ -63,5 +66,37 @@ check.call(File.read(File.join(destination, 'robots.txt')).include?("Sitemap: #{
 check.call(!locations.include?(origin + '/404.html'), '404 must not appear in sitemap')
 check.call(!File.exist?(File.join(destination, 'tmp')), 'Temporary research files must not be published')
 
+details = YAML.load_file(File.join(root, '_data/publication_details.yaml'))
+citations = YAML.load_file(File.join(root, '_data/citations.yaml'))
+research = read_page.call('research/index.html')
+homepage = read_page.call('index.html')
+check.call(homepage.css('main h1').size == 1 && homepage.at_css('main h1').text.include?('北航任磊'), 'Homepage must identify the research group')
+details.each do |detail|
+  slug = detail.fetch('slug')
+  citation = citations.find { |record| record['doi'].to_s.downcase == detail.fetch('doi').downcase }
+  route = "/research/#{slug}/"
+  expected_url = origin + route
+  document = read_page.call("research/#{slug}/index.html")
+  check.call(document.at_css('main h1')&.text == citation.fetch('title'), "#{slug}: incorrect paper title")
+  check.call(document.at_css('main')&.text.include?(detail.fetch('summary')), "#{slug}: missing research description")
+  check.call(document.at_css('link[rel="canonical"]')&.[]('href') == expected_url, "#{slug}: incorrect paper canonical")
+  check.call(document.at_css('meta[property="og:url"]')&.[]('content') == expected_url, "#{slug}: incorrect paper social URL")
+  check.call(document.at_css('meta[name="citation_doi"]')&.[]('content') == citation['doi'], "#{slug}: incorrect citation DOI")
+  check.call(document.css('meta[name="citation_author"]').map { |node| node['content'] } == citation['authors'], "#{slug}: incomplete or reordered authors")
+  check.call(locations.include?(expected_url), "#{slug}: paper absent from sitemap")
+  check.call(research.css('a[href]').any? { |link| link['href'] == config.fetch('baseurl', '') + route }, "#{slug}: paper absent from research links")
+  graph = JSON.parse(document.at_css('script[type="application/ld+json"]').text)
+  check.call(graph.dig('mainEntity', '@type') == 'ScholarlyArticle' && graph.dig('mainEntity', 'identifier', 'value') == citation['doi'], "#{slug}: invalid paper schema")
+  detail.fetch('sources').each do |source|
+    check.call(document.css('main a[href]').any? { |link| link['href'] == source.fetch('url') }, "#{slug}: missing source attribution")
+  end
+  document.css('main a[href^="/"]').each do |link|
+    path = URI::DEFAULT_PARSER.unescape(link['href']).delete_prefix(config.fetch('baseurl', '')).delete_prefix('/')
+    path += 'index.html' if path.empty? || path.end_with?('/')
+    check.call(File.file?(File.join(destination, path)), "#{slug}: broken internal link #{link['href']}")
+  end
+end
+
 abort(failures.join("\n")) unless failures.empty?
 puts "Verified #{titles.size} member pages: visible names, portraits, canonical URLs, JSON-LD, team links and sitemap."
+puts "Verified #{details.size} publication pages: sourced descriptions, complete authors, citation metadata and crawlable links."

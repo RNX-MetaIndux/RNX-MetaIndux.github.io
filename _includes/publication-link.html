@@ -1,0 +1,6 @@
+{%- if include.publication.detail_url -%}
+  {%- assign publication_href = include.publication.detail_url | relative_url -%}
+{%- else -%}
+  {%- assign publication_href = include.publication.link -%}
+{%- endif -%}
+<a href="{{ publication_href | xml_escape }}">{{ include.publication.title | xml_escape }}</a>

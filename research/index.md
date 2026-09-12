@@ -52,7 +52,7 @@ nav:
           <span>{{ publication.year }}</span>
         </div>
 
-        <h3><a href="{{ publication.link }}">{{ publication.title }}</a></h3>
+        <h3>{% include publication-link.html publication=publication %}</h3>
         {% if publication.title_en %}
         <p class="publication-title-en">{{ publication.title_en }}</p>
         {% endif %}
@@ -107,7 +107,7 @@ nav:
             {% endif %}
           </div>
 
-          <h3><a href="{{ publication.link }}">{{ publication.title }}</a></h3>
+          <h3>{% include publication-link.html publication=publication %}</h3>
 
           {% if publication.authors.first %}
             <p class="publication-authors">{{ publication.authors | join: ", " }}</p>

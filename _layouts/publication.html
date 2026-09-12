@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<article class="paper-page">
+  <div class="paper-breadcrumb" role="navigation" aria-label="当前位置">
+    <a href="{{ '/' | relative_url }}">团队首页</a> / <a href="{{ '/research/' | relative_url }}">研究成果与论文</a>
+  </div>
+  <div class="paper-heading">
+    <p class="paper-type">{{ page.publication.year }} · {% if page.publication.type == 'Preprint' %}预印本 / Preprint{% else %}期刊论文 / Journal Article{% endif %}</p>
+    <h1 lang="en">{{ page.publication.title | xml_escape }}</h1>
+    <p class="paper-authors">
+      {% for author in page.publication_authors %}
+        {% if author.member_url %}
+        <a href="{{ author.member_url | relative_url }}"><span lang="en">{{ author.name | xml_escape }}</span>（{{ author.member_name }}）</a>
+        {% else %}<span lang="en">{{ author.name | xml_escape }}</span>{% endif %}{% unless forloop.last %}；{% endunless %}
+      {% endfor %}
+    </p>
+    <p lang="en">{{ page.publication.venue | default: page.publication.publisher | xml_escape }}</p>
+    {% if page.detail.publication_date %}<p>{{ page.detail.publication_date_label | default: '首次发布' }}：<time datetime="{{ page.detail.publication_date }}">{{ page.detail.publication_date }}</time></p>{% endif %}
+    <p class="paper-doi">DOI：<a href="https://doi.org/{{ page.publication.doi }}">{{ page.publication.doi }}</a></p>
+  </div>
+
+  <section class="paper-section">
+    <h2>研究介绍</h2>
+    <p>{{ page.detail.summary | xml_escape }}</p>
+    <h2>研究要点</h2>
+    <ul>
+      {% for point in page.detail.key_points %}<li>{{ point | xml_escape }}</li>{% endfor %}
+    </ul>
+  </section>
+
+  <section class="paper-section">
+    <h2>论文原文与来源</h2>
+    {% if page.publication.type == 'Preprint' %}
+    <p>本文目前列为预印本，尚不代表已获期刊或会议接收。最新版本与发表状态请以原文记录为准。</p>
+    {% endif %}
+    <ul>
+      {% for source in page.detail.sources %}
+      <li><a href="{{ source.url | xml_escape }}">{{ source.label | xml_escape }}</a></li>
+      {% endfor %}
+    </ul>
+    <p class="paper-note">本页为团队论文的中文研究介绍，依据所列原始论文整理。</p>
+  </section>
+
+  <p><a href="{{ '/research/' | relative_url }}">查看团队全部论文</a> · <a href="{{ '/team/' | relative_url }}">了解团队成员</a></p>
+</article>

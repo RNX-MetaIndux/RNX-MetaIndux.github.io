@@ -1,10 +1,14 @@
 ---
 title: Home
-seo_title: 北京航空航天大学任磊教授团队
-description: 北京航空航天大学任磊教授 RNX-MetaIndux 团队主页，介绍工业大模型、工业智能体、工业人工智能与智能制造研究，以及团队成员、论文与招生信息。
+seo_title: 北航任磊教授团队 · 工业大模型与工业智能体
+description: 北航（北京航空航天大学）任磊教授 RNX-MetaIndux 团队主页，介绍工业大模型、工业智能体、工业人工智能与智能制造研究，以及团队成员、论文与招生信息。
 ---
 
 <div class="home-shell">
+  <div class="home-introduction">
+    <h1>北航任磊教授团队 <span lang="en">RNX-MetaIndux</span></h1>
+    <p>北京航空航天大学 · 工业大模型、工业智能体与智能制造</p>
+  </div>
   <figure class="home-hero">
     <img src="{{ "/images/home-hero-cncc.jpg" | relative_url }}" alt="CNCC 2025 工业大模型产业应用研讨会现场 / CNCC 2025 Industrial Foundation Model Industry Application Symposium">
     <figcaption>Industrial Foundation Model | MetaIndux</figcaption>
@@ -13,12 +17,12 @@ description: 北京航空航天大学任磊教授 RNX-MetaIndux 团队主页，�
   <div class="home-layout">
     <div class="home-main">
       <article class="home-article">
-      <h1>
+      <h2>
         <a href="https://adg.csdn.net/69523ae75b9f5f31781b3e46.html">
           北航李伯虎院士任磊教授团队 | 工业大模型IFMsys架构，打造智能制造新范式
         </a>
         <a class="home-title-en" lang="en" href="https://adg.csdn.net/69523ae75b9f5f31781b3e46.html">Academician Bohu Li and Professor Lei Ren's Team: IFMsys Architecture for a New Paradigm of Intelligent Manufacturing</a>
-      </h1>
+      </h2>
 
       <p>
         工业大模型并非通用大语言模型在工业场景中的简单迁移。面向高可信输出、多模态协同、多场景泛化和复杂流程关联等关键挑战，任磊教授团队提出工业大模型系统架构 IFMsys，并构建原型系统 MetaIndux。
@@ -134,7 +138,7 @@ description: 北京航空航天大学任磊教授 RNX-MetaIndux 团队主页，�
         {% for publication in site.data.home_publications %}
         <article>
           <span>{{ publication.year }} · {{ publication.type }}</span>
-          <h3><a href="{{ publication.link }}">{{ publication.title }}</a></h3>
+          <h3>{% include publication-link.html publication=publication %}</h3>
           <p>{{ publication.venue }}</p>
         </article>
         {% endfor %}

@@ -2,10 +2,10 @@
 {% assign seo_description = page.description | default: site.description %}
 {% assign member_affiliation = page.affiliation %}
 {% if member_affiliation == 'Beihang University' %}
-  {% assign member_affiliation = '北京航空航天大学（Beihang University）' %}
+  {% assign member_affiliation = '北航（北京航空航天大学 / Beihang University）' %}
 {% endif %}
 {% if page.collection == 'members' %}
-  {% capture seo_title %}{{ page.name }}{% if page.aliases.first %}（{{ page.aliases.first }}）{% endif %} · {{ member_affiliation }}{% endcapture %}
+  {% capture seo_title %}{% if page.affiliation == 'Beihang University' %}北航{% endif %}{{ page.name }}{% if page.aliases.first %}（{{ page.aliases.first }}）{% endif %} · 个人主页与论文{% endcapture %}
   {% capture seo_description %}{{ page.name }}{% if page.aliases.first %}（{{ page.aliases.first }}）{% endif %}，{{ member_affiliation }}{{ page.description }}，{{ site.title }} 团队成员。查看个人简介、学术主页与相关论文。{% endcapture %}
 {% endif %}
 {% assign fulltitle = seo_title | append: ' | ' | append: site.title %}
@@ -34,6 +34,14 @@
 <meta name="twitter:description" content="{{ seo_description | xml_escape }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ share }}">
+{% if page.scholarly_article %}
+<meta name="citation_title" content="{{ page.publication.title | xml_escape }}">
+{% for author in page.publication_authors %}
+<meta name="citation_author" content="{{ author.name | xml_escape }}">
+{% endfor %}
+<meta name="citation_publication_date" content="{{ page.detail.publication_date | default: page.publication.year }}">
+<meta name="citation_doi" content="{{ page.publication.doi | xml_escape }}">
+{% endif %}
 {% if page.collection == 'members' %}
 <meta property="og:type" content="profile">
 {% elsif page.author %}
@@ -48,7 +56,28 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  {% if page.collection == 'members' %}
+  {% if page.scholarly_article %}
+  "@type": "WebPage",
+  "mainEntity": {
+    "@type": "ScholarlyArticle",
+    "name": {{ page.publication.title | jsonify }},
+    "headline": {{ page.publication.title | jsonify }},
+    "description": {{ page.detail.summary | jsonify }},
+    "url": {{ canonical_url | jsonify }},
+    "sameAs": {{ page.publication.link | jsonify }},
+    "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": {{ page.publication.doi | jsonify }} },
+    {% if page.detail.publication_date %}"datePublished": {{ page.detail.publication_date | jsonify }},{% endif %}
+    "author": [
+      {% for author in page.publication_authors %}
+      {
+        "@type": "Person",
+        "name": {{ author.name | jsonify }}
+        {% if author.member_url %}, "url": {{ author.member_url | absolute_url | jsonify }}, "alternateName": {{ author.member_name | jsonify }}{% endif %}
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  {% elsif page.collection == 'members' %}
   "@type": "ProfilePage",
   "mainEntity": {
     "@type": "Person",

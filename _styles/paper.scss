@@ -1,0 +1,72 @@
+---
+---
+
+.paper-page {
+  width: min(100%, 960px);
+  margin: 0 auto;
+  text-align: left;
+}
+
+.paper-breadcrumb {
+  margin-bottom: 24px;
+  font-size: 1rem;
+}
+
+.paper-heading {
+  display: block;
+  padding: 0 0 24px;
+  color: var(--text);
+  background: none;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.paper-heading h1 {
+  margin: 12px 0 20px;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.paper-page p,
+.paper-page li {
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.paper-heading p {
+  margin: 12px 0 0;
+}
+
+.paper-type,
+.paper-note {
+  color: var(--gray);
+}
+
+.paper-doi {
+  overflow-wrap: anywhere;
+}
+
+.paper-page .paper-section {
+  padding: 26px 0;
+  background: none;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.paper-section h2 {
+  margin: 0 0 16px;
+  font-size: 1.35rem;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.paper-section h2:not(:first-child) {
+  margin-top: 28px;
+}
+
+.paper-section ul {
+  padding-left: 1.25rem;
+}

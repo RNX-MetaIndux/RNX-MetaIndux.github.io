@@ -5,7 +5,7 @@ layout: default
 <div class="member-heading">
   <p><a href="{{ '/team/' | relative_url }}">团队成员 / Team</a></p>
   <h1>{{ page.name }}{% if page.aliases.first %} <span lang="en">{{ page.aliases.first }}</span>{% endif %}</h1>
-  <p>{{ page.description }} · {% if page.affiliation == 'Beihang University' %}北京航空航天大学 / {% endif %}{{ page.affiliation }}</p>
+  <p>{{ page.description }} · {% if page.affiliation == 'Beihang University' %}北航（北京航空航天大学） / {% endif %}{{ page.affiliation }}</p>
   <p><a href="{{ '/' | relative_url }}">{{ site.title }}</a> 团队成员</p>
 </div>
 
@@ -43,7 +43,7 @@ layout: default
   <ol>
     {% for publication in member_publications limit: 5 %}
     <li>
-      <a href="{{ publication.link | xml_escape }}">{{ publication.title | xml_escape }}</a><br>
+      {% include publication-link.html publication=publication %}<br>
       <span lang="en">{{ publication.authors | join: ', ' | xml_escape }}. {{ publication.publisher | default: publication.venue | xml_escape }}.</span>
       {{ publication.year }}{% if publication.type == 'Preprint' %} · 预印本 / Preprint{% endif %}
     </li>

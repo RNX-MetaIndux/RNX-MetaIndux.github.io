@@ -39,6 +39,43 @@ webmaster_verifications:
 有权编辑的学校个人主页或学术主页也可以增加本站成员页链接，帮助发现并区分同名作者。
 首页 Search 是 Google 站内查询，结果依赖 Google 的收录。
 
+## 姓名与论文标题搜索
+
+北航成员页的标题包含“北航 + 中文姓名”，正文同时保留学校全称与英文姓名。
+首页以“北航任磊教授团队”为主标题。
+
+6 篇重点论文有独立的介绍页面，包含完整题名、作者、中文研究介绍、原文来源与 DOI，
+从首页、研究列表和相应成员页进入。结构化数据与 citation 标签方便识别书目信息，
+不代表 Google Scholar 已收录；Scholar 对摘要/全文有额外要求。
+
+| 查询或论文 | 优先提交 URL |
+| --- | --- |
+| 北航任磊 | https://rnx-metaindux.github.io/members/lei-ren.html |
+| 北航王海腾 | https://rnx-metaindux.github.io/members/haiteng-wang.html |
+| Industrial Foundation Model | https://rnx-metaindux.github.io/research/industrial-foundation-model/ |
+| Foundation Models for the Process Industry | https://rnx-metaindux.github.io/research/foundation-models-process-industry/ |
+| AI Control Scientist | https://rnx-metaindux.github.io/research/ai-control-scientist/ |
+| PhysDGM | https://rnx-metaindux.github.io/research/physdgm/ |
+| VLT | https://rnx-metaindux.github.io/research/vlt/ |
+| TS-MLLM | https://rnx-metaindux.github.io/research/ts-mllm/ |
+
+在 [Google Search Console](https://search.google.com/search-console) 中添加网址前缀资源
+`https://rnx-metaindux.github.io/`，验证后提交 sitemap，并通过 URL 检查查看索引状态。
+在[百度搜索资源平台](https://ziyuan.baidu.com/)验证站点后，检查抓取诊断及普通收录入口。
+若抓取失败，先看诊断中的连接与响应信息；不能仅凭 `github.io` 域名断定平台屏蔽。
+
+对于排名与身份区分，另一个实际步骤是由有权限的作者/学校管理员，在任磊等人的
+北航教师主页增加“RNX-MetaIndux 团队主页”链接，成员自己的学术资料也可链接本站个人页。
+这些是指向本站的真实外部链接；本站链接回学校不能替代这个步骤。
+本仓库不会自动修改学校网站或未经授权的其他账号。
+
+建议在平台中保留提交日期、索引状态、查询词、展示次数、点击次数和平均位置，
+观察真实变化。提交抓取与页面优化均不能承诺首页排名或固定生效时间。
+
+新增论文介绍时维护 `_data/publication_details.yaml`：使用已在 `citations.yaml` 中核实的 DOI，
+固定 slug，填写有来源的 summary、key_points、sources。仅提供确切的发表日期；
+`editorial_note` 供维护者记录证据，不在网页展示。
+
 ## 本地与发布检查
 
 ```sh
