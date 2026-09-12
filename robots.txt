@@ -1,1 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /preview/
+
 Sitemap: https://rnx-metaindux.github.io/sitemap.xml
